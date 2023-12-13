@@ -1,3 +1,5 @@
+![Additions and Changes from 1.6.4](ChangelogPhoto.png)
+
 # <center>- Variants - 1.6.4 -</center>
 ### <center>A Variants Release Changelog made on *08/12/2023*</center>
 
@@ -39,7 +41,7 @@ This release of Variants includes two commit. So, to differentiate, they will be
 - **(C2)** Painting Leaves now drop Painting Saplings instead of oak saplings, and Honey Balls instead of apples.
 
 ## Bug Fixes
-- **(C1)** [VS-1](https://github.com/Fabricio20106/Variants/issues/1): Bottle Funcionality paramenters are passed incorrectly in ```DrinkableContainerItem``` class.
+- **(C1)** [VS-1](https://github.com/Fabricio20106/Variants/issues/1): Bottle Funcionality parameters are passed incorrectly in ```DrinkableContainerItem``` class.
 - **(C2)** Potted plants that inherit ```flower_pot_cross_alt``` no longer have a hole where the plant is.
 
 ## Tags

@@ -1,3 +1,5 @@
+![Additions and Changes from 3.0.15](ChangelogPhoto.png)
+
 # <center>- Variants - 3.0.15 -</center>
 ### <center>A Variants Release Changelog made on *08/12/2023*</center>
 
@@ -43,3 +45,4 @@ This release of Variants is almost identical to release 1.6.15, but updated to 1
 ## Known Issues
 - Golden Cauldrons transmute into regular Cauldrons when any fluid is put inside.
 - Glow Black Beds and Diamond Bells render as a Light Blue Bed and a regular Bell respectively.
+- Glow Black Stained Glass Panes appear opaque in the inventory.

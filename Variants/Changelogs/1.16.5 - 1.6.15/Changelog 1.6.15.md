@@ -1,3 +1,5 @@
+![Additions and Changes from 1.6.15](ChangelogPhoto.png)
+
 # <center>- Variants - 1.6.15 -</center>
 ### <center>A Variants Release Changelog made on *06/12/2023*</center>
 
