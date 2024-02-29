@@ -14,14 +14,14 @@
     - This is a shulker shell that cycles through all other shulker shell colors.
     - Has epic rarity, doesn't burn and does not show up in the creative menu.
     - They have a rainbow name with "custom" font: "▷ ꜱʜᴜʟᴋᴇʀ ꜱᴘeᴄᴛʀᴜᴍ ɪᴄᴏɴ ◁".
-- The name of Infinity Sweater Tab Icons is now **#31CCDD**.
+- The name color of Infinity Sweater Tab Icons is now **#31CCDD**.
     ![Infinity Sweater Tab Icon Name](ISTIName.png)
     - They also now have a default durability of 80.
     - Their name is now "▷ ɪɴꜰɪɴɪᴛʏ ꜱᴡᴇᴀᴛᴇʀꜱ ᴛᴀʙ ɪᴄᴏɴ ◁".
 
 ## Changes
-- Elder Sea Lanterns no longer use emissive rendering *(don't know what this does)*.
-- Blocks of Raw Debris now use "COLOR_BROWN" on maps instead of "COLOR_BLACK".
+- Elder Sea Lanterns no longer use emissive rendering *(still don't know what it did)*.
+- Blocks of Raw Debris now use **"COLOR_BROWN"** on maps instead of **"COLOR_BLACK"**.
 - Updated config descriptions for ```generateFlowerPatches```, ```generateQuartzOre```, ```generateEndQuartzOre``` and ```enableInfinitySweatersTab```.
 - When Soul Lava comes in contact with a water source, **it will now create Blackstone instead of Cobblestone**.
 - End Cities can now generate in Enderwood Forests.
@@ -30,14 +30,14 @@
 - Swapped the "[...] and gives Glowing" description from Gunpowder Poisoning to Glowstone Poisoning.
 - Changed a single miscolored pixel on the Cyan Shulker Shell.
 - All recipes that used items from other mods now have a "mod loaded" condition.
-- Golden Beacon can now be crafted using the ```#melony:nether_stars``` instead of only Nether Stars.
+- Golden Beacons can now be crafted using any ```#melony:nether_stars```, instead of only Nether Stars.
 - Effect providers for JEED now work (changed mod id to "variants").
-- Magentic Crystal Shears now use the ```#forge:gems/magentic``` item tag.
+- Magentic Crystal Shears are now crafted using ```#forge:gems/magentic``` item tag.
 - ```It's Never Coming``` advancement is now a goal.
 - ```The Shulker Spectrum``` advancement is now a challenge.
 - ```A Sticky Sweet``` advancement is no longer hidden.
-- ```It's Now a Machine Gun...``` advancement is now available, and its parent is now "You're Hacking!".
-    - It's also now obtainable using a Quick Charge V Enchanted Knowledge Book.
+- ```It's Now a Machine Gun...``` advancement is now available, and its parent is now ```You're Hacking!```.
+    - It's also now obtainable with a Quick Charge V Enchanted Knowledge Book.
 - Powder Snow Bottles now require 4 glass bottles to be crafted, and now yield 4 powder snow bottles.
     - Can also be crafted using Creeper Powder Snow Buckets now. <sup>*(from Creeper Edits)*</sup>
 

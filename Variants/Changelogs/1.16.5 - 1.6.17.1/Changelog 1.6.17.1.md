@@ -7,12 +7,12 @@ Release 1.6.17.1 was release as a hotfix update for last releases' occuring cras
 
 ## Additions
 - Added "Variants" and "Recycling Textures" advancements.
-    - "Variants" requires the player to get a Glow Black Tulip, a Painting Log or Painting Sapling.
-    - "Recycling Textures" requires the player to get Painting Planks.
-        - This advancement does now show up due to a random comma.
+    - **"Variants"** requires the player to get a Glow Black Tulip, a Painting Log or Painting Sapling.
+    - **"Recycling Textures"** requires the player to get Painting Planks.
+        - This advancement does now show up due to a random comma in the JSON file.
         - This advancement lacks a Brazilian Portuguese translation in this release.
-    - The background of the advancements tab is a Dark Elder Prismarine.
-- Added a recipe for Enderwood Boats.
+    - The advancements background uses the Dark Elder Prismarine texture.
+- Enderwood Boats are now craftable.
 
 ## Changes
 - Enderwood Boat item now has a model.

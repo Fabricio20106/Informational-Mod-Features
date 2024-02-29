@@ -8,18 +8,15 @@ This release of Variants includes two commit. So, to differentiate, they will be
 ## Additions
 - **(C1)** Added Copper Shears.
 - **(C1)** Wool Sweaters can now have custom name appended to them.
+    - **(C2)** All (vanilla) colors of Wool Sweater now appear in the creative tab.
 - **(C1)** Honey Balls can now be crafted from four honey bottles.
 - **(C2)** Added Painting Saplings (+ potted).
-- **(C2)** All (vanilla) colors of Wool Sweater now appear in the creative tab.
 - **(C2)** Added full Brazilian Portuguese translation.
 
 ## Changes
 - **(C1)** Many internal class renames.
-- **(C1)** Golden Carrots (crop) now appear after potted glow black tulips in the creative tab.
+- **(C1)** Golden Carrots (crop) now appear after Potted Glow Black Tulips in the creative tab.
 - **(C1)** Changed compatibility item descriptions from "messages.variants.<tooltip\>" to "tooltip.variants.<tooltip\>".
-- **(C1)** Renamed *Crystal Shears* to *Magentic Crystal Shears*.
-- **(C1)** Renamed *Light Magenta Shears* to *Magentic Shears*.
-- **(C1)** Renamed all AI shears from *X AI Shears* to *X's AI Shears*.
 - **(C1)** Slightly changed the description of Debug Bows.
 - **(C1)** Slightly changed the color of Inno Wool Sweaters.
 - **(C1)** Updated textures of all shears, including vanilla's.
@@ -40,16 +37,21 @@ This release of Variants includes two commit. So, to differentiate, they will be
 - **(C2)** Diamond Shears now appear after Copper Shears in the creative tab.
 - **(C2)** Painting Leaves now drop Painting Saplings instead of oak saplings, and Honey Balls instead of apples.
 
+### Translation Changes (English)
+- **(C1)** Renamed *Crystal Shears* to *Magentic Crystal Shears*.
+- **(C1)** Renamed *Light Magenta Shears* to *Magentic Shears*.
+- **(C1)** Renamed all AI shears from *X AI Shears* to *X's AI Shears*.
+
 ## Bug Fixes
 - **(C1)** [VS-1](https://github.com/Fabricio20106/Variants/issues/1): Bottle Funcionality parameters are passed incorrectly in ```DrinkableContainerItem``` class.
-- **(C2)** Potted plants that inherit ```flower_pot_cross_alt``` no longer have a hole where the plant is.
+- **(C2)** Potted plants that inherit ```flower_pot_cross_alt``` no longer have a hole below the flower pot dirt.
 
 ## Tags
 - **(C1)** Added Copper Shears to ```#forge:shears``` item tag.
 - **(C2)** Added ```#forge:gems/elder_prismarine``` item tag.
-    - Contains ```variants:elder_prismarine_crystals```.
+    - Contains Elder Prismarine Crystals.
 - **(C2)** Added ```#forge:rods/soul_blaze``` item tag.
-    - Contains ```variants:soul_rod```.
+    - Contains Soul Blaze Rods.
 - **(C2)** Added ```#minecraft:saplings``` block and item tags.
-    - Contains ```variants:painting_sapling```.
+    - Contains Painting Saplings.
 - **(C2)** Added Potted Painting Saplings to ```#minecraft:flower_pots``` block tag.

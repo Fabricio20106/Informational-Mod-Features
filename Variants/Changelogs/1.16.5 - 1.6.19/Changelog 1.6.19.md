@@ -6,12 +6,12 @@
 ## Additions
 - Added the Enderwood Forest.
     - An outer End biome that has huge enderwood fungi, ender roots, fungus, and sprouts.
-    - This biome replaces all "End Midlands" biomes when generating.
-    - The water color on this biome is purple like Bedrock's.
-    - Currently, it cannot be stopped from generating, but may not generate in existing worlds.
-- Added a new ```enchantmentTypesOnTooltip``` config, which controls whether the "(Breakable Items)" or "(Weapons)" suffix on enchantments appear or not.
+    - Replaces all "End Midlands" biomes.
+    - The water color here matches the Bedrock End water color (#62529E).
+    - Currently, it cannot be stopped from generating, but may not generate in existing worlds due to Variants overriding the default End biome source.
+- Added a new ```enchantmentTypesOnTooltip``` config, which controls whether the "(Breakable Items)" or "(Weapons)" suffix on enchantments appears or not.
 - Added descriptions for Variants' effects. This is for Just Enough Effect Descriptions (JEED).
-- Added effect providers for Variants' effects on JEED, but these don't work because they use the Mob Taker's mod id instead of Variants'.
+- Added effect providers for Variants' effects for JEED, but these don't work because they use the Mob Taker's mod id instead of Variants'.
 - Added **31** new advancements.
     - ```Antecipated Updates```: Get some Glow Black Dyes from its tulips.
     - ```It's Never* Coming```: Find an Enderwood Forest in the End.
@@ -50,8 +50,8 @@
 
 ## Changes
 - Chorus Flowers and Chorus Plants can now be placed on Ender Nylium.
-- When an enchantment has no vanilla items, it will now show up as ```(Other)``` instead of ```(How Did We Get Here?)```.
-- Changed *"When on Horse"* tooltip to *"When equipped"*, to be consistent with 24w04a's addition of the horse armor (and wolf armor) armor tooltips.
+- When an enchantment isn't applied to a vanilla category, it will now show up as ```(Other)``` instead of ```(How Did We Get Here?)```.
+- Changed *"When on Horse"* tooltip to *"When equipped"*, to be consistent with [24w04a](https://minecraft.wiki/w/Java_Edition_24w04a)'s addition of the horse armor (and wolf armor) armor tooltips.
 
 ### Translation Changes (Brazilian Portuguese)
 - Renamed *"No cavalo"* tooltip to *"No corpo"*, to be consistent with 24w04a.

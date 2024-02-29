@@ -6,12 +6,14 @@
 ## Additions
 - Added Enderwood Signs.
 - Added Painting, Crimson and Warped Boats.
-- Added Fish (Old Cod), including Raw Fish, Cooked Fish, Fish Bucket and Fish Spawn Egg.
-- Added config to control whether Fish should spawn naturally (```fishSpawning```).
+- Added Fish (Old Cod), which includes Raw Fish, Cooked Fish, Buckets of Fish and Fish Spawn Eggs.
+  - Has a config to disable fish spawning: ```fishSpawning```.
 
 ## Changes
-- Soul Lava now has an overlay texture (but it's not actually used).
+- Soul Lava now has an overlay texture (not actually used).
 - Added block state definitions and block models for Soul Lava.
-- Ender Nylium can now be tilled (turned into farmland).
-- Painting wood set, Enderwood wood set, Ender vegetation and Glow Black Wool and Carpet can now burn.
+- Ender Nylium can now be tilled.
+- Painting wood set, Enderwood wood set, Ender vegetation, Glow Black Wool and Glow Black Carpets can now burn.
+
+### Translation Changes (Brazilian Portuguese)
 - Added Brazilian Portuguese translations for last build's items.

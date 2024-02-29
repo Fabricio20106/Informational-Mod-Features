@@ -4,13 +4,6 @@
 ### <center>A Variants Release Changelog made on *19/11/2023*</center>
 
 ## Additions
-- Added ```#variants:beacons``` item tag.
-  - Contains ```minecraft:beacon``` and ```variants:gold_beacon```.
-- Added ```#variants:cauldrons``` block and item tags.
-  - Contains ```minecraft:cauldron``` and ```variants:gold_cauldron```.
-- Added ```#forge:armors/boots``` item tag.
-  - Contains ```variants:empty_armor_slot_boots```.
-  - This is used by Back Math on the Book Pack recipe.
 - Spyglasses are now "usable" -- they still don't zoom in or show the correct holding pose.
 - Many items from Variants are now available from Villagers, some of which weren't obtainable before (see table below).
 
@@ -18,6 +11,15 @@
 - Changed block textures of Painting Log/Wood, Stripped Painting Log/Wood and Glow Black Wool.
 - Changed item textures of Oak/Spruce/Birch/Jungle/Acacia/Dark Oak/Painting/Crimson/Warped Sticks and Raw Debris.
 - Dog music disc file is now smaller.
+
+## Tags
+- Added ```#variants:beacons``` item tag.
+  - Contains Beacons and Golden Beacons.
+- Added ```#variants:cauldrons``` block and item tags.
+  - Contains Cauldrons and Golden Cauldrons.
+- Added ```#forge:armors/boots``` item tag.
+  - Contains Empty Armor Slot Boots.
+  - This is used by Back Math on the Book Pack recipe.
 
 ## Technical Changes
 - Added a translation for ```null```.

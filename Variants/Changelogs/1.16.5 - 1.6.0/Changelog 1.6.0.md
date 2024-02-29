@@ -9,7 +9,7 @@ This is the first version of the ```forge-1.16.5``` branch, 1.6.0. This update i
     - **Credits**: Another Mods -> Other Mods.
     - **Author**: Fabricio20106 -> JuneTheWoods.
     - **Description**: "i have no word to say here" -> Variants adds various variants of vanilla items or blocks, ranging from Copper armor and tools to potted sugar cane.
-- Changed ```pack.mcmeta``` description to "Mod data for Variants.".
+- Changed ```pack.mcmeta``` description to "Mod data for Variants."
 
 ## Internal Changes
 - Renamed most methods and fields to their 1.16.5/MojMaps name.

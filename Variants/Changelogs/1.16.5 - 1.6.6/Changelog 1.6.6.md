@@ -5,7 +5,7 @@
 
 ## Additions
 - Horse Armors now display how many armor points they give to Horses.
-- Shears, Shields & Flint and Steels are now enchantable at Enchantment Tables.
+- Shears, Shields and Flint and Steels are now enchantable at Enchantment Tables.
 
 ## Changes
 - Updated the description of Firework Rockets & Stars.

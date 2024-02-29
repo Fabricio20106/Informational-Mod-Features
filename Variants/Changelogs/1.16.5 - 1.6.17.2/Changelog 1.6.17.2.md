@@ -4,9 +4,9 @@
 ### <center>A Variants Release Changelog made on *28/12/2023*</center>
 
 ## Changes
-- Bucket of Fish and Soul Lava Bucket now appear after Fish Spawn Egg in the creative tab.
-- "Recyling Textures" advancement now shows up the advancement tab.
-- Variants' patchouli book "Variated Instructions" now appear in "variants.main" tab (**if** it shows up).
+- Buckets of Fish and Soul Lava Buckets now appear after Fish Spawn Eggs in the creative tab.
+- "Recyling Textures" advancement now shows up the advancements tab.
+- Variants' patchouli book "Variated Instructions" <sup>*[renamed to "Varied Instructions on 1.6.20.2"]*</sup> now appear in Variants' main tab (**if** it shows up).
 
 ### Translation Changes (Brazilian Portuguese)
 - Added translation for advancement "Recycling Textures".

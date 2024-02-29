@@ -7,14 +7,14 @@
 - Added Quartz Armor, Horse Armor and Tools.
 - Added Emerald Armor.
 - Added Copper Chestplates.
-- Added Bowls of all wood variants (Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Painting, Crimson, Warped and Enderwood).
-- Added a new "Glitch" item model for Wool Sweaters.
-    - This is actually just a test for custom wool sweater models.
-- Added End Stone tool set.
+- Added bowls of all wood types: Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Painting, Crimson, Warped and Enderwood.
+- Added a new *"Glitch"* item model for Wool Sweaters.
+    - This is a test to add customizable sweater variants.
+- Added an End Stone tool set.
 - Added End Fungi Stews, made with Ender Fungi.
 
 ## Changes
-- Wool Sweaters with ```armor_design``` tag set can now have custom item models.
-    - Armor models will follow this change, but will maybe be hardcoded.
-- Changed textures of Rails, Powered Rails, Detector Rails and Activator Rails.
-- Changed texture of Iron Nuggets.
+- Wool Sweaters now have an ```armor_design``` integer tag that defines its design. 
+    - Armor models will eventually have their model changed as well, but due to my current knowledge, I couldn't find a way to change the armor models dynamically.
+- Updated textures of Rails, Powered Rails, Detector Rails and Activator Rails.
+- Updated texture of Iron Nuggets.

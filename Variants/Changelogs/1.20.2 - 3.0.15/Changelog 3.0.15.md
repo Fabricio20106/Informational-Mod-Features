@@ -7,6 +7,14 @@ This release of Variants is almost identical to release 1.6.15, but updated to 1
 
 ## Additions
 - Added Chest Boats, but they currently do not have textures or items to spawn them.
+
+## Changes
+- All Variants' armor can now be trimmed.
+    - Though Wool Sweaters don't render the overlay (because complexity).
+
+## Tags
+- Moved Glow Black Carpets from ```#minecraft:carpets``` block/item tags to ```#minecraft:wool_carpets```.
+- Added ```#minecraft:cauldrons``` block tag to ```#variants:cauldrons```.
 - Added all Variants' swords to ```#minecraft:swords``` item tag.
 - Added all Variants' pickaxes to ```#minecraft:pickaxes``` item tag.
 - Added all Variants' shovels to ```#minecraft:shovels``` item tag.
@@ -27,20 +35,14 @@ This release of Variants is almost identical to release 1.6.15, but updated to 1
 - Added Quartz Ore to ```#forge:ores_in_ground/stone``` item tag and to ```#forge:ores_rates/singular```.
 - Added Deepslate Quartz Ore to ```#forge:ores_in_ground/deepslate``` item tag and to ```#forge:ores_rates/singular```.
 - Added End Quartz Ore to ```#forge:ores_in_ground/end_stone``` item tag (new tag) and to ```#forge:ores_rates/singular```.
-- Added ```#minecraft:cauldrons``` block tag to ```#variants:cauldrons```.
-
-## Changes
-- Moved Glow Black Carpet from ```#minecraft:carpets``` item tag to ```#minecraft:wool_carpets```.
-- All Variants' armor can now be trimmed.
-    - Though Wool Sweaters don't render the overlay (because complexity).
 
 ## Temporary Removals
-- Soul Lava (includes buckets).
-- All world generation.
-- Natural Fish spawning.
-- Variations of Enchanted Knowledge Books in the creative tab.
-- Mixins.
-- Access Transformers (Axe stripping, tilling, flammability).
+- Soul Lava (includes buckets);
+- All world generation;
+- Natural Fish spawning;
+- Variations of Enchanted Knowledge Books in the creative tab;
+- Mixins;
+- Access Transformers (stripping, tilling, flammability, etc.).
 
 ## Known Issues
 - Golden Cauldrons transmute into regular Cauldrons when any fluid is put inside.

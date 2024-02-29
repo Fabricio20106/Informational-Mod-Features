@@ -9,18 +9,20 @@
 - Honey Balls can now be crafted from Honey Blocks.
 - Honey Blocks can now be crafted with Honey Balls.
 - Added recipe for Bells *(similar to the Diamond Bell recipe)*.
-- Added ```#variants:shields``` item tag.
-    - Contains ```minecraft:shield``` and ```variants:empty_armor_slot_shield```.
 - Many items from Variants are now compostable:
-    - ```variants:painting_sapling```, ```variants:painting_leaves``` and ```variants:glow_berry_bush``` have a 30% chance to fill a Composter.
-    - ```variants:warped_wart```, ```variants:glow_black_tulip```, ```variants:golden_carrots``` and ```minecraft:golden_carrot``` have a 65% chance to fill a Composter.
+    - Painting Saplings, Painting Leaves and Glow Berry Bushes have a 30% chance to fill a Composter.
+    - Warped Wart, Glow Black Tulips, Golden Carrots (crop) and Golden Carrots (item) have a 65% chance to fill a Composter.
 
 ## Changes
-- Plasteel Shears now appear before the Diaemerald Shears in the creative menu.
+- Plasteel Shears now appear before Diaemerald Shears in the creative menu.
 - Cauldrons can now be waterlogged.
 - Enchanted Knowledge Books are now crafted at Smithing Tables (to keep the enchantments).
 - Glow Black Beds now appear in the creative menu.
-- Re-added recipe for Glow Black Beds.
-- Added ```variants:alice_ai_shears``` to the ```#minecraft:piglin_loved``` item tag.
-- Added ```variants:enchanted_knowledge_book``` to the ```#variants:books``` item tag.
-- **(Bug Fix)** The model of Painting Fences in the inventory used the old Painting Planks texture.
+- Added recipe for Glow Black Beds.
+- The model of Painting Fences in the inventory now uses the new painting plank texture.
+
+## Tags
+- Added ```#variants:shields``` item tag.
+    - Contains Shields and Empty Armor Slot Shields.
+- Added Alice's AI Shears to the ```#minecraft:piglin_loved``` item tag.
+- Added Enchanted Knowledge Books to the ```#variants:books``` item tag.

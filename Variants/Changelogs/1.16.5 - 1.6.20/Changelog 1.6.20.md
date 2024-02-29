@@ -7,17 +7,17 @@
 - Added Exponential Stews for: Beetroot, Rabbit, Suspicious, Fungi, End Fungi, Aljan Fungi *(Back Math)*, Water, Milk, Lava, Soul Lava and Powder Snow.
   - Water, Milk, Lava and Soul Lava give 4 nutrition and 5 saturation.
   - Powder Snow has its nutrition values taken from Apples.
+  - The NBT structure for storing the effects is different from Suspicious Stew.
+  - Comes with a config ```populateExponentialBowlsInTabs``` to disable all bowls from appearing in the creative menu.
 - Added "recipe advancements" for all exponential stews *(side effect of data generating recipes)*.
 - Added Suspicious Stew Buckets.
   - Includes a custom recipe type for its recipe (```variants:suspicious_stew_bucket_special_recipe```).
-  - Its NBT structure for storing the effects is different from Suspicious Stew.
-  - Comes with a config ```populateExponentialBowlsInTabs``` to disable all bowls from appearing in the creative menu.
 - End Quartz Ore now acts like Netherrack besides nylium -- the Ender Nylium can now spread to the ore.
-  - This was also implemented for End Stone, but due to unintended side effects and bugs, it was removed. <sup>*(basically, all generated End Stone was gone, and it was even removed from the creative menu)*</sup>
+  - This was also implemented for End Stone, but due to unintended side effects and bugs, it was removed. <sup>*(basically, all End Stone was removed, even leaving a hole in the creative menu)*</sup>
 
 ## Changes
-- Ender Nylium Quartz Ore's map color is now "COLOR_PURPLE".
-- Ender Nylium and Farmland's map color is now "COLOR_PURPLE".
+- Ender Nylium Quartz Ore's map color is now **"COLOR_PURPLE"**.
+- Ender Nylium and Farmland's map color is now **"COLOR_PURPLE"**.
 - Registered Variants' modified End biome source (```variants:enderwood_end```).
 - Milk Bottles can now cure you from effects.
 - Splash Sophie Potions now give you 3 saturation, instead of the old 18.
