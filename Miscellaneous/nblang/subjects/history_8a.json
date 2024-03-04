@@ -1,0 +1,54 @@
+{
+  "subject": "history",
+  "notebooks": [
+    "personal_assets:tilibra_black_10m"
+  ],
+  "teacher": "hercilia:jucelia",
+  "substitute_teacher": "hercilia:danilo",
+  "classroom": "hercilia:default_8a",
+  "tests": [],
+  "top_notes": [
+    {
+      "date": "16_2_24",
+      "note": "\"Revoluçãos\"",
+      "page": 1
+    },
+    {
+      "date": "16_2_24",
+      "note": "-> INFINITY SWEATERS Y ICON <-",
+      "page": 1
+    }
+  ],
+  "contents": [
+    {
+      "type": "nblang:rules",
+      "title": {
+        "text": "Combinados: \sHistória",
+        "formats": [
+          {
+            "sequence": "\s",
+            "action": "nblang:highlight",
+            "color": "nblang:purple_hlfc"
+          }
+        ]
+      },
+      "contents": [
+        {
+          "text": "-> Separar \s2 matérias para \shistória",
+          "formats": [
+            {
+              "sequence": "\s",
+              "action": "nblang:switch_pen",
+              "color": "nblang:pink_pen"
+            },
+            {
+              "sequence": "\s",
+              "action": "nblang:underline",
+              "color": "nblang:pink_pen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
