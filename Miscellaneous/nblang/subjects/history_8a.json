@@ -23,10 +23,10 @@
     {
       "type": "nblang:rules",
       "title": {
-        "text": "Combinados: \sHistória",
+        "text": "Combinados: §sHistória",
         "formats": [
           {
-            "sequence": "\s",
+            "sequence": "§s",
             "action": "nblang:highlight",
             "color": "nblang:purple_hlfc"
           }
@@ -34,15 +34,15 @@
       },
       "contents": [
         {
-          "text": "-> Separar \s2 matérias para \shistória",
+          "text": "-> Separar §s2 matérias para §shistória",
           "formats": [
             {
-              "sequence": "\s",
+              "sequence": "§s",
               "action": "nblang:switch_pen",
               "color": "nblang:pink_pen"
             },
             {
-              "sequence": "\s",
+              "sequence": "§s",
               "action": "nblang:underline",
               "color": "nblang:pink_pen"
             }
