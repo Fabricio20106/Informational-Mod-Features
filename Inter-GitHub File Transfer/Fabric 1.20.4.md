@@ -1,0 +1,24 @@
+# Fabric 1.20.4 Mod List
+
+- Appli Skin
+- Architectury
+- Better F3
+- Better Statistics Screen
+- Chat Heads
+- Cloth Config
+- Collective
+- Durability Tooltip
+- Entity Culling
+- Fabric API
+- Falling Leaves
+- Iris
+- Keep My Soil Tilled
+- Litematica
+- MaLiLib
+- Mini HUD
+- Mod Menu
+- Roughly Enough Items
+- Sodium
+- Stack Refill
+- SuperMartjin642's Config Lib
+- Visuality

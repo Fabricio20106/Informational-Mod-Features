@@ -1,0 +1,26 @@
+J10S Mod Experience Resource Pack:
+
+- (Vanilla) Command Block            --> Impulse Command Block
+- (OT) Drawn Command Block           --> Drawn Impulse Command Block
+- (Vanilla) Extreme Hills            --> Windswept Hills
+- (Vanilla) Tall Birch Forest        --> Old Growth Birch Forest
+- (Vanilla) Giant Tree Taiga         --> Old Growth Pine Taiga
+- (Vanilla) Giant Tree Taiga Hills   --> Old Growth Pine Taiga Hills
+- (Vanilla) Giant Spruce Taiga       --> Old Growth Spruce Taiga
+- (Vanilla) Giant Spruce Taiga Hills --> Old Growth Spruce Taiga Hills
+- (Vanilla) Snowy Tundra             --> Snowy Plains
+- (Vanilla) Jungle Edge              --> Sparse Jungle
+- (Vanilla) Stone Shore              --> Stony Shore
+- (Vanilla) Mountains                --> Windswept Hills
+- (Vanilla) Mountain Edge            --> Windswept Hill Edge
+- (Vanilla) Wooded Mountains         --> Windswept Forest
+- (Vanilla) Gravelly Mountains       --> Windswept Gravelly Hills
+- (Vanilla) Shattered Savanna        --> Windswept Savanna
+- (Vanilla) Wooded Badlands Plateau  --> Wooded Badlands
+- (Vanilla) Modified Jungle          --> Jungle Mountains
+- (Vanilla) Modified Jungle Edge     --> Sparse Jungle Mountains
+
+- (JER) JEI Tab Icons --> Update Textures
+
+J10S Mod Experience Data Pack:
+- (F10E) Teleportation Staff w/ Nether Stars ---> w/ Mid-Term

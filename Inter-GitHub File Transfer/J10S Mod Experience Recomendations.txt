@@ -1,0 +1,98 @@
+J10S Mod Experience Recomendations:
+
+- Modpack: Make the F10 Elements Teleportation Staff crafted with the Mid-Term.
+- Modpack: Update the vanilla loot tables to have my mods' items.
+- Modpack: Add recipes for the default Curios items.
+- Modpack: Make Powered Rails crafted using copper.
+- Modpack: Update vanilla advancements to have my mods' biomes (I mean, all biomes)
+   - Adventuring Time (Vanilla):
+	- All Oceans (and Sunflower Plains);
+	- Back Math: Original Back Fields, Modified Back Fields, Angelic Woods;
+	- The Mato: Ipe Forest, The Woods;
+	- Rimcraft: Temperate Forest;
+	- Project Alcook: Dead Forest.
+   - Adventurer of the Seven Voids (Back Math):
+	- Variants: Enderwood Forest.
+   - A Furious Cocktail (Vanilla):
+	- Vanilla: Blindness
+   - How Did We Get Here? (Vanilla):
+	- Vanilla: Saturation;
+	- Back Math: Mood, Patience, Disgust;
+	- Mob Taker: Enderbreath, Watery, Voided;
+	- Variants: All Poisonings.
+   - Monster Hunter & Monsters Hunted (Vanilla):
+	- Project Alcook: TNT Holder Skeleton;
+	- Back Math: Angry Sophie, Insomnia Sophie, Archer Insomnia Sophie, Insomnia Zombie, Zombie Fabricio, Aljamic Bones, Sleepish Skeleton, Amaracameler, Janticle (if possible);
+- Add a "j10sme:nether_stars" tag to unify recipes that use nether stars. [done~]
+- Edits: Rename the "edits:books" tag to "j10sme:books". [done]
+- Mod Idea: A mod that adds various biomes, wood sets, rocks, and a few ores called "The Mato". [mod started]
+
+Mod Fixes / Additions:
+- Random Stuff: Fix rock slab recipe in crafting table. [done]
+- Random Stuff: Add rock to #minecraft:base_stone_overworld block tag and #forge:stone block & item tags. [done]
+- Random Stuff: Add potted plants to the unobtainables tab. [done]
+- Edits: Add Bete Elytra to "#forge:elytra" and "curios:back" tags. [done]
+- Edits: Fix "j10sme:books" tag to correct item "ftbquests:quest_book" to "ftbquests:book". [done]
+- Edits: Add shadegold related items and blocks to "#minecraft:piglin_loved" and "#minecraft:guarded_by_piglins" tags. [done]
+- Edits: Add shadegold ingot, purple iron ingot, light ingot, brunodite ingot, emeriond and pinish gems to "#minecraft:beacon_payment_items" tag. [done]
+- F10 Elements: Add first ingot, bright first ingot, dark first ingot, inno ingot, golden inno ingot, nether ingot, first diamond and bard emerald to "#minecraft:beacon_payment_items tag.
+- In Real Life: Add parkisteel and scholar steel ingots to "#minecraft:beacon_payment_items" tag. [done]
+05/12/2023:
+- Mob Taker: Add Enderbreath Campfires. [done]
+23/01/2024:
+- Mob Taker: Add "Requires <x mod> to be available" description on compat items. [done]
+- General: Add effect descriptions for all my effects:
+	- Patience: Deals damage like Harming but twice as fast. [done]
+	- Disgust: Supposed to give Hunger every time the player eats. [done]
+	- Mood: Removed all neutral and harmful effects. Breaks with effect like Slowness. [done]
+	- Most Poisonings: Deals 2 damage/sec because you are eating <powder>. [done]
+	- Glowstone Poisoning: Deals 2 damage/sec and gives you Glowing. [done]
+	- Enderbreath: Deals 6 damage every second, just like Dragon's Breath. [done]
+	- Voided: Deals 4 damage twice per second, just like the Void. [done]
+	- Watery: Deals 1 damage twice per second, just like Snow Golems in rain/water. [done]
+- General: Add what items give what effects (for JEED) [done for Mob Taker, Variants & Back Math]
+- Back Math: Make Red Yellow Glass emit a custom beacon beam color. [done]
+24/01/2024:
+- Others: Add otherside and Relic Music Discs. [done]
+- Others: Retexture Blockades, A Sky Full of Stars, Traces, Underwater Tracks, Creative Tracks and End Tracks Music Discs. [done]
+- Back Math: Make mobs not retaliate against Creepers.
+- Back Math: Add a "NoPanic" tag to Shy Fabricios so they don't run away from mobs.
+03/02/2024:
+- Back Math: Add a "<Queen Lucy Pet name> is standing/sitting." toolbar description to tell if they're sat down or standing up. [done]
+- Variants: Change "How Did We Get Here?" description on enchantments to a "Other", to account for Toys not having a vanilla category. [done]
+- Variants: Separate the "> Enchantment X (Breakable Weapons)" into separate configs for each: "> Enchantment X" and " (Breakable Weapons)". [done]
+- Variants: Add Ender Nylium Quartz Ore. [done]
+- Variants: Add Ender Nylium to "#minecraft:dragon_immune" block tag, and remove it from "#minecraft:enderman_holdable". [done]
+- General: Backport the Jukebox updates to 1.16 (particles, redstone, etc.).
+- Back Math: Add Raw Devil, Angelic and Mid-Term to #forge:raw_materials item tag. [done]
+- Variants: Make Chorus Flowers & Plants placeable on Ender Nylium. [done]
+- Variants: Switch the Chiseled Purpur Block colors to match the purpur block. [done]
+08/02/2024:
+- General: New Gamerules:
+	- <fluid>SourceConvertion: Whether <fluid> can be infinitely renewed;
+	- I have absolutely no idea of what should be a gamerule, a tag or a config.
+10/02/2024:
+- Back Math: Make Mid-Term gear crafted from Netherite gear. [done]
+- Back Math: Retexture the juices.
+- Back Math: Aljamic Sand is not in "#minecraft:sand" item tag. [done]
+- Back Math: Backport "#backmath:mid_term_materials" and "#backmath:oimt_materials" item tags for recipes. [done]
+- Back Math: Retexture the Spareys. [done]
+- Others: Remove the Dragon Fireball, and add it to Mob Taker as "Enderbreath Fireball".
+- Others: Retexture the elytras (+ models) & the Fast Armor.
+- General: Somehow add chest loot tables to the "Dungeon Chests" category on JER.
+- General: Add my modded plants to Botany Pots.
+- Variants: Add a version checker just to test how it works.
+11/02/2024:
+- Variants: Add a "Poisoning Cocktail" that gives all poisoning effects.
+- Back Math: Add an "Unsuspicious Tea" that gives you Mood, Patience & Disgust.
+17/02/2024:
+- Project Alcook: Toys, when shift-clicked, should go automatically to the offhand.
+- Variants: Make Chorus Trees generate in Enderwood Forests. [done]
+- Variants: Change the ">" color on enchantments to light blue (or "rare" rarity). [done]
+- Others: Add Phoenix Gem Block to "#backmath:infiniburn_aljan" block tag. [done]
+23/02/2024:
+- Back Math: Update the Hillary Lantern textures. [done]
+24/02/2024:
+- Rimcraft: Add Potted Poplar Saplings.
+- Back Math: Aljame Birch Saplings are not in the "#minecraft:saplings" item and block tags. [done]
+- Back Math: Fix the transparency on Red Yellow Glasses.

@@ -1,0 +1,66 @@
+J10S Mod Experience Bugs:
+26/08/2023:
+- Sweet Berry Cake recipe doesn't include sugar. [done]
+- Light Nuggets have no recipe, and can't be crafted into Light Ingots. [done]
+- Be able to craft Beacons with Lucium Stars. [done]
+27/08/2023:
+- Add Bete Elytras to the "forge:elytra" and "curios:back" item tags. [done]
+24/10/2023:
+- Mobs are able to suffocate inside Back Math leaves.
+- Make the Styled Oak Leaves use the biome's leaf color instead of the grass color. [done]
+- Change the color of the Inno Wool Sweatchest to be clearer which color it is. [done]
+Survival Test with Sophie:
+- Balance ore generation (parkisteel, baby yoda [disabled], magentic crystal).
+04/12/2023:
+- Golden Caundrons render transparent inside water. [Iris issue maybe]
+- Horse Armor descriptions don't work. [why? well, now they do]
+- Cauldrons generate waterlogged naturally in Villages (Leatherworker House, for example) [done]
+- Add Fish (Old Cod) to the fishing loot tables. [done]
+- Add water lakes to the Ipe Forest (no lava lakes for obvious reasons). [done]
+- Balance Sophie Tower chest loot table.
+- Space Sophie Tower out more (they're too common). [done]
+- Balance back fields' tree generation -- Modified Back Fields is a little too cramped with trees + the jabuticaba ones.
+- Items enchanted with curses should be named "Cursed <item>" instead of "Enchanted <item>"
+05/12/2023:
+- Shy Fabricios run from each other. [fixed]
+- Add all elytras to "#forge:elytra" and "#curios:back" item tags. [done]
+  -> Fast Elytra, Blaze Elytra, Bat Wings, Bee Wings, Ender Dragon Wings, Red Parrot Wings and Vex Wings.
+- Add item textures for: Bamboo Bow & Crossbow, Blaze Bow & Crossbow, Ender Crossbow and Diamond Crossbow. [done]
+- Add unique item textures for: "First Date" and "Omae wa Mu" Music Discs [done] and Archer Insomnia Sophie Spawn Eggs. [done]
+- Add status effect textures for: Enderbreath, Voided and Watery. [done]
+- Add entity textures for: Bat Wings, Bee Wings and Red Parrot Wings.
+23/01/2024:
+- "Hold <Shift> for description" on teas is broken. [done]
+- Fix Amaids and Dark Alexes from crashing the game when viewed/spawned in.
+- "Adventurer of the Seven Voids" is granted when entering any End biome. [done]
+- Firing a Charred Bow crashes the game (line 79, at releaseUsing)
+   - IllegalAccessError: Tried to access method net.minecraft.item.BowItem.releaseUsing(ItemStack, World, LivingEntity, int)
+24/01/2024:
+- Wood/Hyphaes don't rotate properly (from The Mato, at least).
+25/01/2024:
+- Rename the Bamboo Bow to Bambow. [nope]
+- Make Other's music discs mono.
+- Make Project Alcooks' discs mono.
+03/02/2024:
+- Inno Flowers from Others can generate with the "enableDiscontinuedItems" toggle off.
+- The QSP Daycare advancement is granted by taming any Queen Lucy Pet. [done]
+   - Rename the advancement to QLP Daycare. [done]
+- Add Ender Nylium and Farmland to "#backmath:ender_dragon_fried_egg_flower_plantable_on" block tag. [done]
+10/02/2024:
+- Flowering Azalea Trees don't generate as often as regular Azalea Trees.
+- Ender Leashes can phase through blocks and teleport mobs inside caves.
+- Back Math mobs still use the old method for registering entity attributes. Use EntityAttributeCreationEvent instead. [cannot be fixed]
+- Block of Raw Nether cannot drop because loot table points to "raw_nether_block" instead of "raw_purple_block". [fixed]
+- Vegetably Singularity (Variants) cannot be crafted because Soul Carrots are missing.
+- Bat Wings cannot be crafted because recipe points to "bat_wings" instead of "bat_wing".
+- Cannot load tag "#forge:cores" because references to it are missing (*/inno and */nether).
+- Aljan Dungeons are not registered properly. [nope]
+- Loot table for Devil Urns still exist.
+
+Cool Seed in J10SME (Test World 7): -1631670494141347816
+
+Upcoming Biomes:
+- Paintingwood Forest (Variants)
+- All The Mato biomes (minus the Ipe Forest and The Woods)
+- Temperate Swamp (Rimcraft)
+- Sakura Grove (Decorativelary)

@@ -1,0 +1,6 @@
+J10S Mod Experience Features:
+
+- Update all mods in the modpack.
+  - Update textures;
+  - Add new items & blocks.
+- Add other miscellaneous features with a special mod or KubeJS.
