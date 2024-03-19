@@ -11,7 +11,7 @@
 - Milk Bottles can now be crafted from Creeper Milk Buckets (from Creeper Edits).
 
 ### Wool Armor Designs
-<sup>*Documentation: [Wool Armor Docs](/Variants/Docs/Wool Armor.md)*</sup>
+<sup>*Documentation: [Wool Armor Docs](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Docs/Wool%20Armor.md)*</sup>
 
 Wool Armor Designs is a feature fully added in this version. This allows you to fully customize wool armor models with just a NBT tag called `armor_design`.
 
