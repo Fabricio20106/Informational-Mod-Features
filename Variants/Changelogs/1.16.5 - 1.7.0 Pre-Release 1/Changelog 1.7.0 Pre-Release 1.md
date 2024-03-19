@@ -32,7 +32,7 @@
 - Variants' Boats can bow be dispensed by Dispensers onto water, like with vanilla boats.
 - Splash and Lingering Bottles o' Experience can now be dispensed by Dispensers.
 - Mushroom Stew Buckets now have a container item: Buckets.
-- Empty Amor Slot Shields can now be repaired with any ```#forge:ingots/iron```.
+- Empty Armor Slot Shields can now be repaired with any ```#forge:ingots/iron```.
 - Shields, Shears and Flint and Steel no longer have their mod id set to *"variants"*.
 - The " > " sign on enchantment descriptions is now translatable.
   - This arrow is now colored aqua instead of gold.

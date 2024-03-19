@@ -7,7 +7,7 @@
 - Added the Enderwood Forest.
     - An outer End biome that has huge enderwood fungi, ender roots, fungus, and sprouts.
     - Replaces all "End Midlands" biomes.
-    - The water color here matches the Bedrock End water color (#62529E).
+    - The water color here matches the Bedrock End water color `#62529E`.
     - Currently, it cannot be stopped from generating, but may not generate in existing worlds due to Variants overriding the default End biome source.
 - Added a new ```enchantmentTypesOnTooltip``` config, which controls whether the "(Breakable Items)" or "(Weapons)" suffix on enchantments appears or not.
 - Added descriptions for Variants' effects. This is for Just Enough Effect Descriptions (JEED).

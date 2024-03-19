@@ -31,24 +31,54 @@ When creating a custom exponential stew, you will also need to call this method 
 VSClientHelpers.makeExpoStew(Item expoStew)
 ```
 
+### Crafting This Stew
+
+When making an exponential stew, you will probably have to make quite a few recipes by hand. Well, Variants adds an **ExponentialStewRecipeBuilder** that makes it easy to add new exponential stew recipes.
+
+ExponentialStewRecipeBuilder is a copy of **ShapelessRecipeBuilder** that takes in an *ItemStack* instead of an *Item* for the result. This allows us to add the necessary NBT data to the output of this recipe.
+
+This is an example implementation of this class to make a recipe:
+```java
+package com.melony.examples.data.recipe;
+
+public class ExampleRecipeProviders extends RecipeProvider {
+  public static Map<Item, String> BOWL_TO_NAME = new ImmutableMap.Builder<Item, String>().put(...).build();
+
+  public ExampleRecipeProviders(DataGenerator generator) {
+      super(generator);
+  }
+
+  @Override
+  protected void buildShapelessRecipes(Consumer<IFinishedRecipe> consumer) {
+      for (Item bowl : BOWL_TO_NAME.keySet()) {
+          CompoundNBT bowlTypeTag = new ItemStack(ExampleItems.EXPONENTIAL_EXAMPLE_STEW.get()).getOrCreateTagElement("bowl_type");
+          bowlTypeTag.putString("bowl_name", "variants:" + BOWL_TO_NAME.get(bowl) + "_bowl");
+          bowlTypeTag.putInt("bowl_id", BOWL_NAME_TO_ID.get(BOWL_TO_NAME.get(bowl)));
+
+          ExponentialStewRecipeBuilder.shapeless(new ItemStack(ExampleItems.EXPONENTIAL_EXAMPLE_STEW.get())).requires(ExampleItems.ITEM_A.get()).requires(ExampleItems.ITEM_B.get()).requires(bowl).group("example_stew").unlockedBy("has_bowl", has(bowl)).save(consumer, "example:bowls/example/" + BOWL_TO_NAME.get(bowl));
+      }
+  }
+}
+```
+
 ## Expo. Stew Behavior Classes
 When registering an exponential stew, an instance of an [`IStewBehavior`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/item/custom/stew/IStewBehavior.java) will be required. This interface has a method called ```executeBehavior(ItemStack, World, LivingEntity)```, which will be automatically implemented when you extend it. For example, here's an example implementation of this class:
 ```java
-package com.example.stew;
+package com.melony.examples.stew;
 
 import com.junethewoods.variants.item.custom.stew.IStewBehavior;
 
 public class ExampleStewBehavior implements IStewBehavior {
     @Override
     public void executeBehavior(ItemStack stack, World world, LivingEntity livEntity) {
-        *your custom stew behavior here*
+        // Your custom stew behavior here.
     }
 }
 ```
 
 • ```executeBehavior()``` is called upon fishing to eat this stew, and with its parameters, it can basically do anything from setting you on fire to making you explode.
 
-• ```getEffects()``` returns an *EffectInstance* for any effects that you may want to apply. This is how ```EffectStewBehavior``` applies its effects.
+• ```getEffects()``` is an optional method that returns an *EffectInstance* for any effects that you may want to apply. This is how ```EffectStewBehavior``` applies its effects.
 
 When making a stew provide an effect, that effect and its duration will be stored in the item's NBT data[^1].
 
@@ -73,6 +103,6 @@ There aren't many methods to use in this class, here are these anyway:
 ## Footnotes
 [^1]: VS-3: [Custom NBT effects on Water Bowls are overridden by the item](https://github.com/Fabricio20106/Variants/issues/3)
 
-[^2]: [VSItemModelModels at method `expoStew`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/data/models/VSItemModelModels.java#L66)
+[^2]: [VSItemModelModels at method `expoStew`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/data/models/VSItemModelModels.java#L65)
 
 [^3]: [VSClientHelpers at method `makeExpoStew`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/util/VSClientHelpers.java#L130)
