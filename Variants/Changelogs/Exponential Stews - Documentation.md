@@ -12,22 +12,45 @@
   - *(Integer)* ```duration```: An integer value that stores, in ticks, how long this effect lasts for.
 
 ## Expo. Stew: Creating Your Own
-To make your own exponential stew, you will need to call [```VSItemModelModels.expoStew(String, String)```](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/data/models/VSItemModelModels.java#L66), passing in the item name in registry, and what type of stew this is (for example, "mushroom" for mushroom stew).
+To make your own exponential stew, you will need to call this method on **FMLClientSetupEvent**. `name` is the id of the exponential stew in question, *"exponential_mushroom_stew"* for example, and `stewType` is what type of stew this is, such as *"mushroom"* for mushroom stew[^2].
 
-This method will automatically generate all files for you, **but in Variants' namespace**. This will be fixed in a later release, however. <sup>*(maybe fixed in 1.6.20.1)*</sup>
+```java
+VSItemModelModels.expoStew(String name, String stewType)
+```
 
-Alternatively, you can use a pre-existing stew, and use resource packs to modify the models or add new ones.
+> [!IMPORTANT]
+> When generating the stew models using the data generators provided by Variants, **it may generate them on Variants' namespace**.
+> 
+> This may have been fixed in 1.6.20.1, but without thorough testing I wouldn't be too sure.
 
-When creating a custom exponential stew, you will also need to call [```VSClientHelpers.makeCustomBowls(Item)```](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/util/VSClientHelpers.java#L130) on the common load, passing in your stew to make sure the model overrides will load correctly.
+Alternatively, you can use a pre-existing stew, and use resource packs to modify the models or add new ones, and use NBT editing to, for example, change the name of the stew.
+
+When creating a custom exponential stew, you will also need to call this method on the common load, passing in your stew to make sure the model overrides will load correctly[^3].
+
+```java
+VSClientHelpers.makeExpoStew(Item expoStew)
+```
 
 ## Expo. Stew Behavior Classes
-When registering an exponential stew, an instance of an [```IStewBehavior```](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/item/custom/stew/IStewBehavior.java) will be required. This interface has a method called ```executeBehavior(ItemStack, World, LivingEntity)```, which will be automatically implemented when you extend it.
+When registering an exponential stew, an instance of an [`IStewBehavior`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/item/custom/stew/IStewBehavior.java) will be required. This interface has a method called ```executeBehavior(ItemStack, World, LivingEntity)```, which will be automatically implemented when you extend it. For example, here's an example implementation of this class:
+```java
+package com.example.stew;
 
-```executeBehavior()``` is called upon fishing to eat this stew, and with its parameters, it can basically do anything from setting you on fire to making you explode.
+import com.junethewoods.variants.item.custom.stew.IStewBehavior;
 
-There is also a ```getEffects()``` method that returns an *EffectInstance* for any effects that you may want to apply. This is used by ```EffectStewBehavior``` to apply its effects.
+public class ExampleStewBehavior implements IStewBehavior {
+    @Override
+    public void executeBehavior(ItemStack stack, World world, LivingEntity livEntity) {
+        *your custom stew behavior here*
+    }
+}
+```
 
-When making a stew provide an effect, that effect and its duration will be stored in the item's NBT data.
+• ```executeBehavior()``` is called upon fishing to eat this stew, and with its parameters, it can basically do anything from setting you on fire to making you explode.
+
+• ```getEffects()``` returns an *EffectInstance* for any effects that you may want to apply. This is how ```EffectStewBehavior``` applies its effects.
+
+When making a stew provide an effect, that effect and its duration will be stored in the item's NBT data[^1].
 
 Variants includes some default behaviors for its stews, these being:
 - [```DefaultStewBehavior()```](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/item/custom/stew/custom/DefaultStewBehavior.java): Does Nothing;
@@ -46,3 +69,10 @@ There aren't many methods to use in this class, here are these anyway:
   - This method is also available on ```BucketFoodItem``` so its special recipe can set the effect.
 - ```getBowlType(ItemStack)```: Returns the bowl item for this stew. Will return a vanilla Bowl if the NBT isn't present.
   - ```(ItemStack stack)```: The stack the ```bowl_type``` NBT will be checked for the bowl item.
+
+## Footnotes
+[^1]: VS-3: [Custom NBT effects on Water Bowls are overridden by the item](https://github.com/Fabricio20106/Variants/issues/3)
+
+[^2]: [VSItemModelModels at method `expoStew`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/data/models/VSItemModelModels.java#L66)
+
+[^3]: [VSClientHelpers at method `makeExpoStew`](https://github.com/Fabricio20106/Variants/blob/forge-1.16.5/src/main/java/com/junethewoods/variants/util/VSClientHelpers.java#L130)
