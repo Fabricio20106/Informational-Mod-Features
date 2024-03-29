@@ -1,0 +1,29 @@
+{
+  "_comment": "Prototype of how wool armor colors could be added through JSON files.",
+  "item": "variants:wool_sweatchest",
+  "count": 1,
+  "tags": [
+    "Any NBT tags can go here.",
+    {
+      "_comment": "White Wool Sweater",
+      "color_name": "color.minecraft.white",
+      "display": {
+        "color": 16383998
+      }
+    },
+    {
+      "_comment": "Orange Wool Sweater",
+      "color_name": "color.minecraft.orange",
+      "display": {
+        "color": 16351261
+      }
+    },
+    {
+      "_comment": "Null Wool Sweater (with hide_vs_tooltips tag)",
+      "armor_design": 1,
+      "hide_vs_tooltips": {
+        "hide_armor_design": false
+      }
+    }
+  ]
+}
