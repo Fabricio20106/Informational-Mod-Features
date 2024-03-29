@@ -1,0 +1,76 @@
+{
+  "_comment": "A (theoretical) way to register an item through JSON.",
+  "type": {
+    "name": "variants:exponential_stew",
+    "parameters": {
+      "stew_behavior": "variants:effect_stew",
+      "parameters": {
+        "id": "minecraft:water_breathing",
+        "duration": 100
+      }
+    }
+  },
+  "properties": [
+    {
+      "type": "minecraft:max_stack_size",
+      "value": 1
+    },
+    {
+      "type": "minecraft:rarity",
+      "value": "rare"
+    },
+    {
+      "type": "minecraft:container_item",
+      "value": "nblang:example_bowl"
+    },
+    {
+      "type": "minecraft:food",
+      "value": {
+        "nutrition": 1,
+        "saturation_modifier": 1
+      }
+    },
+    {
+      "type": "minecraft:creative_tab",
+      "value": "nblang.main"
+    },
+    {
+      "type": "forge:item_stack_block_entity_renderer",
+      "value": "nblang:variants_isber_provider"
+    },
+    {
+      "type": "minecraft:durability",
+      "value": 80
+    },
+    {
+      "type": "minecraft:default_durability",
+      "value": 80
+    },
+    {
+      "type": "minecraft:fire_resistant",
+      "value": false
+    }
+  ],
+  "tags": [
+    {
+      "type": "minecraft:lore",
+      "value": []
+    },
+    {
+      "type": "minecraft:enchantments",
+      "value": {
+        "lvl": 0
+      }
+    },
+    {
+      "type": "minecraft:repair_cost",
+      "value": 0
+    },
+    {
+      "type": "minecraft:attribute_modifiers",
+      "value": {
+        "modifiers": []
+      }
+    }
+  ]
+}
