@@ -83,6 +83,6 @@ This method can be used by calling `WoolArmorItem.pickRandomColor()`, and passin
 The problem of adding a color to the map using this method, it that **it will mess up the original order of the colors in the creative menu**. A better method will be considered in the future, potentially using Pairs or Lists.
 
 ### How to Use
-This method can be called on the **FMLClientSetupEvent**, and it takes in a translation string for this color (eg. `"color.example.indigo"`), and an integer for the color (eg. `#551c79`).
+This method can be called on the **FMLClientSetupEvent**, and it takes in a translation string for this color (eg. `"color.example.indigo"`), and an integer for the color (eg. `#551c79` / `0x551c79`).
 
 </details>
