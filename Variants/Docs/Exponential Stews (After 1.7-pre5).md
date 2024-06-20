@@ -26,8 +26,8 @@ This is the behavior used by Exponential Water Bowls. It saves and applies effec
 
 Only the `id` and `duration` effect properties are saved to the existing stews, but only `id` is truly necessary to make the effect work.
 
-- **Registry Name**: `variants:effect`
-- **Name**: Effect (`stew_behavior.variants.effect`)
+- **Registry Name**: `variants:apply_mob_effects`
+- **Name**: Effect (`stew_behavior.variants.apply_mob_effects`)
 - **Properties**:
   - *(List)* `effects`: The root tag for effects for this behavior.
     - A single effect compound tag.
@@ -44,20 +44,20 @@ Only the `id` and `duration` effect properties are saved to the existing stews, 
 
 This is the behavior used by Exponential Milk Bowls. It uses a curative item to clear effects on the mob that drinks/eats it.
 
-- **Registry Name**: `variants:milk`
-- **Name**: Milk (`stew_behavior.variants.milk`)
+- **Registry Name**: `variants:clear_mob_effects`
+- **Name**: Milk (`stew_behavior.variants.clear_mob_effects`)
 - **Properties**:
   - `curative_item`: An *ItemStack* root tag that stores information about the curative item.
     - *(String)* `id`: A resource location for the item name. Defaults to `minecraft:milk_bucket`.
     - *(Byte)* `Count`: A byte that stored the stack size of this item. Defaults to `1`.
     - *(Compound)* `tag`: An optional compound that stores all the item's tags. Doesn't show up by default.
 
-### Set On Fire (`SetOnFireBehavior`):
+### Ignite (`IgniteBehavior`):
 
 This is the behavior used by Exponential Lava and Soul Lava Bowls. It uses an integer to use as a duration in ticks to set the mob on fire for.
 
-- **Registry Name**: `variants:lava`
-- **Name**: Lava (`stew_behavior.variants.lava`)
+- **Registry Name**: `variants:ignite`
+- **Name**: Lava (`stew_behavior.variants.ignite`)
 - **Properties**:
   - *(Integer)* `ticks_on_fire`: An integer that defines how long the mob will be set on fire for. Defaults to `100` for Lava and to `200` for Soul Lava.
 
