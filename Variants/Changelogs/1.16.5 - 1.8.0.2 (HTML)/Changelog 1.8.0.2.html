@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <style>
+    h1 {font-family: 'Minecraft Five'; color: white; font-size: 45px}
+    h2 {font-family: 'Minecraft Five'; margin-left: 100px; color: white; font-size: 30px; padding-left: 30px; padding-right: 30px;}
+    h3 {font-family: 'Minecraft Seven'; margin-left: 100px; color: white; font-size: 25px; padding-left: 30px; padding-right: 30px;}
+    li {font-family: 'Segoe UI'; margin-left: 100px; color: white; font-size: 18px; padding-left: 15px; padding-right: 15px}
+    th {font-family: 'Segoe UI'; color: white; font-size: 18px; padding-left: 15px; padding-right: 15px}
+    td {font-family: 'Segoe UI'; color: white; font-size: 18px; padding-left: 15px; padding-right: 15px}
+    p {font-family: 'Segoe UI'; color: white; font-size: 18px; padding-left: 15px; padding-right: 15px}
+    a {font-family: 'Segoe UI'; color:rgb(73, 236, 157); background-color: rgb(9, 9, 9); font-size: 18px; padding-left: 30px; padding-right: 30px}
+    code {background-color: rgb(15, 29, 18); color:rgb(73, 236, 157); overflow-x: auto;}
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Variants 1.8.0.2 | Melony Studios</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body style="background-color: rgb(9, 9, 9);">
+  <picture> <center> <img style="width:auto;height:auto;margin:15px;" src="ChangelogPhoto.png"> </center> </picture>
+  <center> <h1>- Variants - 1.8.0.2 -</h1> </center>
+  <p><b>Written By:</b> <img src="isabella-face.png"> JuneTheWoods</p>
+  <p><b>Written On:</b> August 14th, 2024</p>
+
+  <div>
+    <h2>Additions</h2>
+    <ul>
+      <li>Added an <code>explosionRadiusUpperLimit</code> config.</li>
+      <ul>
+        <li>This controls what the maximum explosion radius for an <i>Explode</i> stew behavior is.</li>
+        <li>Defaults to <code>128</code>.</li>
+      </ul>
+      <li>Added a <code>soundPitchUpperLimit</code> config.</li>
+      <ul>
+        <li>This controls what the maximum pitch for a <i>Play Sound</i> behavior is.</li>
+        <li>Defaults to <code>2</code>.</li>
+      </ul>
+      <li>Both of these configs are inside a <code>stewBehaviors</code> block, and their maximum value is <code>Float.MAX_VALUE</code>.</li>
+      <li>Added an <i>Add Experience</i> stew behavior.</li>
+      <ul>
+        <li>This behavior takes in an <code>amount</code> integer field, and an optional <code>level</code> boolean field.</li>
+        <li>The <code>level</code> field controls whether it will give you experience points or levels.</li>
+        <li>This behavior is properly saved to JSON in the exponential stew recipes.</li>
+      </ul>
+    </ul>
+  </div>
+  <article>
+    <h3>Technical Additions</h2>
+    <ul>
+      <li>Bowl types are now data-driven. <sup><i>[not yet, but working on it]</i></sup></li>
+      <ul>
+        <li>This is an example of the JSON format for the bowl types: Pretend there's JSON code here.</li>
+        <li>Bowl types are stored inside <code>data/<i>namespace</i>/bowl_type</code>.</li>
+        <li>Includes an extra <code>diamond</code> bowl type for testing purposes.</li>
+        <li>Currently, the only thing that works is the data generator and the JSON loading system.</li>
+      </ul>
+    </ul>
+  </article>
+  <article>
+    <h3>Translation Additions</h2>
+    <ul>
+      <li>The error message of the <code>convertToString()</code> method inside the <i>SetStewBehavior</i> class is now translated.</li>
+    </ul>
+  </article>
+  <article>
+    <h2>Changes</h2>
+    <ul>
+      <li>Stew behaviors can now add their own tooltips to the exponential stew item.</li>
+      <ul>
+        <li>Currently, the only behavior that uses this is the <i>Apply Effects</i>, which adds the effects (and their attributes) to the tooltip, like the food effects.</li>
+        <li>These tooltips can be hidden using the <code>hide_behavior_tooltips</code> hiding tag.</li>
+      </ul>
+      <li>The <code>no_counter</code> tag in exponential stews and in the <code>getEffectsFromNBT()</code> method now defaults to <code>false</code>.</li>
+      <li>Tags shows when holding Alt will now have line breaks between each tag.</li>
+      <ul>
+        <li>Sometimes it may not work and will just display a line break character.</li>
+      </ul>
+      <li>Lava Bottles and Soul Lava Bottles can now draw their burn time from a <code>seconds_on_fire</code> integer tag.</li>
+      <li>Milk Bottles can now draw their curative item from a <code>curative_item</code> compound tag.</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Technical Changes</h2>
+    <ul>
+      <li>Both <code>sounds.json</code> files are now data-generated.</li>
+      <ul>
+        <li>This means the empty sound events <code>variants:entity.fish.ambient</code> and <code>variants:stew_behavior.play_sound.default</code> are no longer included.</li>
+      </ul>
+      <li>Renamed the <code>resourceLoc</code> method inside the main <i>Variants</i> class to <code>variants</code>.</li>
+      <li>Block flags used in Variants' classes are now defined in the <i>Constants.BlockFlags</i> class.</li>
+      <li>World events used in Variants' classes are now referenced from <i>Constants.WorldEvents</i> class (the Forge constants class).</li>
+      <li>Removed the <code>backmath:mid_term_armor_instability</code> damage source as an example for the <code>/damage</code> command.</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Translation Changes (Brazilian Portuguese)</h2>
+    <ul>
+      <li>The enderwood forest name in the <i>It's Never Coming*</i> advancement has been corrected to "Floresta Enderwood".</li>
+      <li>All enderwood items have been renamed from <i>"item" de madeira do End</i> to <i>"item" do End</i>.</li>
+      <li>Removed an extra comma on the <i>Apply Effects</i> description.</li>
+    </ul>
+  </article>
+  <article>
+    <h2>Tags</h2>
+    <ul>
+      <li>Removed Prismarine, Prismarine Bricks, Dark Prismarine and Sea Lanterns from <code>#variants:conduit_frame_blocks</code> block tag.</li>
+      <li>Added <code>#variants:cannot_run_without_nbt</code> stew behavior tag.</li>
+      <ul>
+        <li>Does not contain anything.</li>
+        <li>Stew behaviors in this tag cannot run when either the <code>behavior</code> or <code>properties</code> tags are null.</li>
+      </ul>
+    </ul>
+  </article>
+  <center><h1>Variants Versions</h1></center>
+  <div style="overflow-x: auto">
+    <table style="color: rgb(15, 29, 18)">
+      <tr>
+        <th>Main Version</th>
+        <th>Versions</th>
+      </tr>
+      <tr>
+        <td>1.6.X</td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.1/Changelog%201.6.1.md">1.6.1</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.4/Changelog%201.6.4.md">1.6.4</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.5/Changelog%201.6.5.md">1.6.5</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.6/Changelog%201.6.6.md">1.6.6</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.7/Changelog%201.6.7.md">1.6.7</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.8/Changelog%201.6.8.md">1.6.9</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.9/Changelog%201.6.9.md">1.6.9</a> </td>
+      </tr>
+      <tr>
+        <td>1.6.1X</td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.10/Changelog%201.6.10.md">1.6.10</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.11/Changelog%201.6.11.md">1.6.11</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.12/Changelog%201.6.12.md">1.6.12</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.13/Changelog%201.6.13.md">1.6.13</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.13.1%20%26%202/Changelog%201.6.13.1%20%26%202.md">1.6.13.1 & 2</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.14/Changelog%201.6.14.md">1.6.14</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.15/Changelog%201.6.15.md">1.6.15</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.15.1/Changelog%201.6.15.1.md">1.6.15.1</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.16/Changelog%201.6.16.md">1.6.16</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.17/Changelog%201.6.17.md">1.6.17</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.17.1/Changelog%201.6.17.1.md">1.6.17.1</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.17.2/Changelog%201.6.17.2.md">1.6.17.2</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.18/Changelog%201.6.18.md">1.6.18</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.19/Changelog%201.6.19.md">1.6.19</a> </td>
+      </tr>
+      <tr>
+        <td>1.6.2X</td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.20/Changelog%201.6.20.md">1.6.20</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.20.1/Changelog%201.6.20.1.md">1.6.20.1</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.20.2/Changelog%201.6.20.2.md">1.6.20.2</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.6.20.3/Changelog%201.6.20.3.md">1.6.20.3</a> </td>
+      </tr>
+      <tr>
+        <td>1.7.0 Pre-Releases</td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%201/Changelog%201.7.0%20Pre-Release%201.md">1.7.0-pre1</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%202/Changelog%201.7.0%20Pre-Release%202.md">1.7.0-pre2</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%203/Changelog%201.7.0%20Pre-Release%203.md">1.7.0-pre3</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%204/Changelog%201.7.0%20Pre-Release%204.md">1.7.0-pre4</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20I%20and%20II).md">1.7.0-pre5-pt1-2</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20III).md">1.7.0-pre5-pt3</a> </td>
+      </tr>
+      <tr>
+        <td>1.7.0 Release Candidates</td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%201/Changelog%201.7.0%20Release%20Candidate%201.md">1.7.0-rc1</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%202/Changelog%201.7.0%20Release%20Candidate%202.md">1.7.0-rc2</a> </td>
+        <td> <a href="https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%203/Changelog%201.7.0%20Release%20Candidate%203.md">1.7.0-rc3</a> </td>
+      </tr>
+    </table>
+  </div>
+</body>
+<footer style="background-color: rgb(43, 165, 106);">
+  <h3 style="font-family: 'Segoe UI'">Melony Studios | Variants</h3>
+</footer>
+</html>
