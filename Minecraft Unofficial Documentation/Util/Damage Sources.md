@@ -6,7 +6,7 @@ On the vanilla game, the aspects of how damage is applied are dealt by various m
 
 Damage sources added by the vanilla game and my own mods can be applied using the `/damage` command, backported by Variants, as long as it is included as a data-driven source.
 
-## JSON Format (Exponential Stews)
+## NBT Format (Exponential Stews)
 > This feature is exclusive to the 1.16 version of *Variants*.
 
 Damage sources are stored either as a compound or a string inside the `properties` tag, which itself is inside the `behavior` tag of exponential stews.
@@ -26,16 +26,30 @@ Damage sources are stored either as a compound or a string inside the `propertie
     - *(Boolean)* `bypasses_invulnerability`: Whether the damage goes through the `Invulnerability` tag.
     - *(Boolean)* `bypasses_magic`: Whether the damage goes through the Resistance effect.
 
-For example, here is an example implementation for the `out_of_world` damage source:
+For example, here is an example implementation for the `out_of_world` damage source in a stew behavior's NBT:
 
 ```json
   {
     source: {
       message_id: "outOfWorld", // Using the vanilla name for this damage source.
-      food_exhaustion: 0.1F,
+      scaling: "never",
+      food_exhaustion: 0F,
       bypasses_armor: 1b,
       bypasses_invulnerability: 1b
     }
+  }
+```
+
+And this is an example implementation of the same damage source, but as a JSON file:
+
+```json
+  {
+    "message_id": "outOfWorld",
+    "death_message_type": "default",
+    "scaling": "never",
+    "food_exhaustion": 0.0,
+    "bypasses_armor": true,
+    "bypasses_invulnerability": true
   }
 ```
 
