@@ -9,10 +9,10 @@ This is a changelog for the Variants commit "[*changed mod to be 1.16.4; refacto
 - Added textures for Diamond Bells, Diamond Chains and Golden Chains.
 
 ## Changes
-- Downgraded mod to Minecraft 1.16.4, and Forge 35.1.37.
+- Downgraded mod to Minecraft **1.16.4**, and Forge **35.1.37**.
 - Golden Carrots now have a solid hitbox.
-- Golden Carrots now use the fully grown model instead of the not grown model.
-- Phantom Membrane Sweatchests are now repaired using ohantom membranes.
+- Golden Carrots on the inventory now use the fully grown model instead of the not grown model.
+- Phantom Membrane Sweatchests are now repaired using phantom membranes.
 - Rabbit Hide Sweatchests are now repaired using rabbit hide.
 - Wool Sweatchests are now repaired using any `#minecraft:wool`.
 - Emerald armor (not yet added) is now repaired using emeralds.
