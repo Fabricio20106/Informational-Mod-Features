@@ -11,6 +11,7 @@
 - Added Jantic Bolts.
   - These are the projectiles spawned by jantic railguns.
   - They have no gravity, emit (roughly) blue and pink particles and, like tridents, go through water with no problem.
+  - When shot towards the horizon, they'll slowly slow down due to air resistance, and will come to a halt mid-air.
   - Despawn when they go above Y 320 and below Y -64.
   - Can only be picked up on creative mode (if it stays on the ground without exploding somehow.)
   - Their explosion radius is 8.
