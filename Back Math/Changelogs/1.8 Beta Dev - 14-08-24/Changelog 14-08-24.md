@@ -32,7 +32,7 @@ Tool behaviors is a class that contains NBT-related methods for Back Math's item
 - Removed the `bag_loot` tag of bags. Now, the `loot_table` subtag is now on the top-level tag.
 - Most drinkable items now consume the item properly.
 - The "flame in seconds" tooltip on bows now show up as a potion-like duration.
-- Pink Gum Frying Pans now apply their effects from 10 seconds, from the previous 0.5 seconds.
+- Pink Gum Frying Pans now apply their effects for 10 seconds, from the previous 0.5 seconds.
 - Updated *BMRangedCrossbowAttackGoal* to work properly with all crossbows (including jantic railguns).
 - Revamped most of the item classes to clean up code.
   - Most item tooltips now appear after tooltips from *super*. This means some things from my mods now show up first.

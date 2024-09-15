@@ -10,12 +10,12 @@
     - Comes with a ```generateEndCavesAndRavines``` config to toggle it on and off.
 - Added Diamond and Emerald Shards.
 - Added a custom icon item for ```"The Shulker Spectrum"``` advancement.
-    ![Shulker Spectrum Icon Name](ShulkerSpectrumIconName.png)
+    - ![Shulker Spectrum Icon Name](ShulkerSpectrumIconName.png)
     - This is a shulker shell that cycles through all other shulker shell colors.
     - Has epic rarity, doesn't burn and does not show up in the creative menu.
     - They have a rainbow name with "custom" font: "▷ ꜱʜᴜʟᴋᴇʀ ꜱᴘeᴄᴛʀᴜᴍ ɪᴄᴏɴ ◁".
 - The name color of Infinity Sweater Tab Icons is now `#31CCDD`.
-    ![Infinity Sweater Tab Icon Name](ISTIName.png)
+    - ![Infinity Sweater Tab Icon Name](ISTIName.png)
     - They also now have a default durability of 80.
     - Their name is now "▷ ɪɴꜰɪɴɪᴛʏ ꜱᴡᴇᴀᴛᴇʀꜱ ᴛᴀʙ ɪᴄᴏɴ ◁".
 
