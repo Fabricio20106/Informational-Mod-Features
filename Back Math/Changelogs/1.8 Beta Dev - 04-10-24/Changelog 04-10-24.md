@@ -4,7 +4,7 @@
 ### <center>A Back Math Update Changelog made on *05/10/2024*</center>
 
 ## Known Bugs
-- Archer Lucias have no texture. This is fixed in the next commit.
+- Archer Lucias have no texture. This is fixed in the next commit, which was released in the next day.
 
 ## Additions
 ### Entities
@@ -12,11 +12,14 @@
   - Collector Fabricios mostly roam around, killing whatever hostile mobs and collecting any wild crops they may find.
     - They always target the mob that hit them last, including the player. This makes them considered neutral mobs.
     - They have a slightly extended reach when attacking mobs.
+    - They may get stuck trying to break blocks close to them, so they'll either forget about it after a while or get pushed by another mob.
     - Currently, they have no filter for who they'll attack, so they even attack player in creative or spectator.
   - They have 36 inventory slots. When they die, their entire inventory is dropped.
     - Their inventory is saved using Variants' stack saving.
+    - The inventory may get glitched when eating, so it sometimes can have more items than they actually collected.
   - They have a player-like food system. They only eat whenever their nutrition is below 6 or sometimes when they're in combat.
   - They can form groups of up to 4 collectors.
+    - This is chosen at random at startup, like cod and salmon.
   - Can automatically open and close doors, like villagers or piglins.
   - They have a 75% chance of spawning with armor, and wear it from helmet to boots (as per [MC-182478](https://bugs.mojang.com/browse/MC-182478)). They also always have an aljameed blade.
     - Their armor can be jantskin, archer fabricio, aljameed, moonering and jantiquified moonering.
@@ -36,31 +39,33 @@
   > <div style="text-align: right">
   >
   > \- `pack.mcmeta` Description</div>
-  - This pack updates most textures in the Aljan. It also enables and disables the fog density and color.
-  - Adds an eye layer for sleepish skeletons, so their eyes now glow.
+  - This pack updates most textures in the Aljan. It also changes the fog in the Aljan, altering its density, and its color at night.
+  - Adds an emissive eye layer for sleepish skeletons.
     - They use an empty texture when the pack is disabled.
 
 ## Changes
 ### Blocks
 - Aljamic grass blocks and avondalic nylium now have proper side textures when snowy.
   - Snowy models now use `block/cube_bottom_top` instead of `backmath:block/template_grass_block`.
+  - Dedicated snowy side textures for avondalic nylium may get added in the future. 
 
 ### Items
 - Effect jams now show the vanilla tooltip instead of an updated tooltip.
   - This is so it matches potion tooltips when Variants is loaded.
-- Music discs that have SophiCreeper as author now show it as "SophiCreeper" instead of "Sophicreeper".
+- Music discs whose author was "Sophicreeper" is now written as "SophiCreeper".
 - Slightly updated the archer lucia armor texture.
 
 ### Entities
 - Malaikas no longer spawn in the Aljan by default.
   - Their spawning is disabled when the Aljan texture update pack is enabled.
 - Updated the textures of the *empresary 2*, *pajama*, *original* and *modified* variants of wanderer sophies.
-  - The first one was fully updated, and the others were only to update the sleeves to slim.
-- Most most that targeted shy fabricios now target collector fabricios as well.
-- Shy fabricios now also look at collector fabricios.
-- Aljamic bones now have their helmet and sword back, although without a loot table.
-- Amaracamelers now target collector fabricios, and can also attack them and shy fabricios now.
+  - Empresary 2 was fully updated, and the other was to fix issues with their overlay.
+- Most mobs that target shy fabricios now target collector fabricios as well.
+- Shy fabricios now look at collector fabricios.
+- Aljamic bones once again have their helmet and sword, although without a loot table.
+- Amaracamelers now target collector fabricios, and can now attack them and shy fabricios.
 - Amaracamelers now check for spawning in amaracamel sticks instead of swamps.
+  - However, they still don't spawn.
 
 ### Sounds
 - Added `entity.fabricio.burp` sound event.
@@ -68,7 +73,7 @@
 
 ### World Generation
 - The Aljan dimension type now uses the proper dimension effects.
-- Changed the temperature of aljan woods to **-0.5**, and the foliage color to #**E9F9F9**.
+- Changed the temperature of Aljan woods to **-0.5**, and the foliage color to #**E9F9F9**.
   - This means aljan woods is now snow-covered.
 
 ### Miscellaneous
@@ -113,7 +118,7 @@
   - Blocks in this tag can be harvested by Collector Fabricios.
 - Added `#backmath:aljamic_member_targets` entity type tag.
   - Contains insomnia zombies, zombie fabricios, aljamic bones, sleepish skeletons, janticles, amaracamelers, malaikas, angry sophies, warrior sophies, insomnia sophies, archer insomnia sophies, archer lucias and Queen Lucy.
-  - Entities in this tag are automatically targeted by Aljamic Empire members (only Collector Fabricios currently).
+  - Entities in this tag are automatically targeted by Aljamic Empire members (only collector fabricios currently).
 - Added `#backmath:amaracameler_targets` entity type tags.
   - Contains iron golems, collector and shy fabricios.
   - Entities in this tag can take damage from amaracamelers.

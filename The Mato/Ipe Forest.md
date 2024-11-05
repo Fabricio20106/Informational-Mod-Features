@@ -86,16 +86,22 @@ These music tracks can play while the player is in an Ipe Forest.
 |[1.16.5 - 0.2](https://github.com/Fabricio20106/The-Mato/commit/c232290a51aab1fb2be58a5a2390eaa4ea99ff7b) | Added purple, pink and red ipe trees to the ipe forest |
 |[1.16.5 - 0.2.1](https://github.com/Fabricio20106/The-Mato/commit/ba01ed820e72f327875aa346fc1a4e2f60b0bc88) | Slightly changed the distribution of trees in the ipe forest. Now, yellow ipes are chosen if the roll for other trees fails |
 |[1.16.5 - 0.2.2](https://github.com/Fabricio20106/The-Mato/commit/3ff0d228e6f679e80712440a4c618e8f3193b09d) | Added roses, cyan roses and paeonias, which generate in ipe forests |
-|[1.16.5 - 0.3.0](https://github.com/Fabricio20106/The-Mato/commit/44881935164194957af1cbe74194d0a8c4c7a15a) | Water lakes can now generate in ipe forests. \|\| Changed the rarity of ipe forests from 15 to 20 |
-|[1.16.5 - 0.3.1](https://github.com/Fabricio20106/The-Mato/commit/97f32451547f2a1c93ed20adb3fda78d32be9257) | Changed the rarity of ipe forests from 20 to 35 |
-|[1.16.5 - 0.3.2](https://github.com/Fabricio20106/The-Mato/commit/8cfa864d72619941727c75260d06ee8e7ce15c38) | Changed rarity back to 20, from 35 \|\| Added ipe forests to "Lush" biome category |
+|[1.16.5 - 0.3.0](https://github.com/Fabricio20106/The-Mato/commit/44881935164194957af1cbe74194d0a8c4c7a15a) | Water lakes can now generate in ipe forests. \|\| Increased the rarity of ipe forests from 15 to 20 |
+|[1.16.5 - 0.3.1](https://github.com/Fabricio20106/The-Mato/commit/97f32451547f2a1c93ed20adb3fda78d32be9257) | Increased the rarity of ipe forests from 20 to 35 |
+|[1.16.5 - 0.3.2](https://github.com/Fabricio20106/The-Mato/commit/8cfa864d72619941727c75260d06ee8e7ce15c38) | Decreased rarity to 25, from 35 \|\| Added ipe forests to "Lush" biome category |
 
 ## Issues
 Issues relating to "Ipe Forest" are maintained on [The Mato's bug tracker](https://github.com/Fabricio20106/The-Mato/issues). Issues should be reported and viewed there. 
 
 ## Gallery
 ### Screenshots
-<img src="Showcase Pictures/Ipe Forest.png" width="500">
+> <center> <img src="Showcase Pictures/Ipe Forest.png" width="500"> </center>
+>
+> <center> The image of an ipe forest used as the background picture for The Mato's logo. </center>
+----
+> <center> <img src="Showcase Pictures/PFP Background.png" width="500"> </center>
+>
+> <center> The image of an ipe forest with shaders used as my (isabellawoods) profile picture background. A meadow can be seen on the left side as well. </center>
 
 ### Development images
 
@@ -106,3 +112,43 @@ Issues relating to "Ipe Forest" are maintained on [The Mato's bug tracker](https
 ## External links
 
 ## Navigation
+### <center>- My Mods' Biomes -</center>
+
+- *The Mato*: **Ipe Forest** ||
+[The Woods](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/The%20Woods.md) ||
+Honey Forest ||
+[Meadow](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Meadow.md) ||
+[Grove](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Grove.md) ||
+[Snowy Slopes](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Snowy%20Slopes.md) ||
+[Jagged Peaks](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Jagged%20Peaks.md) ||
+[Stony Peaks](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Stony%20Peaks.md) ||
+Stony Shores || Amazon Rainforest || Pantanal || Caatinga || Atlantic Thicket || Pampas || Cerrado
+
+- *Back Math*: *Overworld*: [Back Fields](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Back%20Field.md) ([Original](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Original%20Back%20Fields.md) || [Modified](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Modified%20Back%20Fields.md)) || [Angelic Woods](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Angelic%20Woods.md)
+
+- *Back Math*: *The Aljan*:
+[Aljan Woods](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljan%20Woods.md) ||
+[Aljamic Highlands](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljamic%20Highlands.md) ||
+[Aljamic Orchard](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljamic%20Orchard.md) ||
+[Capped Hills](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Capped%20Hills.md) ||
+[Insomnian Woods](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Insomnian%20Woods.md) ||
+[Avondalic Grove](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Avondalic%20Grove.md) ||
+[Amaracamel Sticks](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Amaracamel%20Sticks.md) ||
+[Sleepish Ocean](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Sleepish%20Ocean.md)
+([Deep](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Deep%20Sleepish%Ocean.md) ||
+[D E E P E R](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Deeper%20Sleepish%20Ocena.md))
+
+- *Variants*:
+[Paintingwood Forest](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Biomes/Paintingwood%20Forest.md) ||
+[Enderwood Forest](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Biomes/Enderwood%20Forest.md) ||
+[Azure Fields](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Biomes/Azure%20Fields.md)
+
+- *Rimcraft*:
+[Temperate Forest](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Rimcraft/Biomes/Temperate%20Forest.md) ||
+[Temperate Swamp](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Rimcraft/Biomes/Temperate%20Swamp.md) ||
+Tropical Rainforest || Tropical Swamp || Arid Shrubland || Desert || Extreme Desert || Boreal Forest || Tundra || Cold Bog || Ice Sheet || Sea Ice
+
+- *Project Alcook*:
+[Dead Forest](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Project%20Alcook/Biomes/Dead%20Forest.md)
+
+- *Sam's Workshop*: Darkness

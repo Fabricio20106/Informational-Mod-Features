@@ -45,21 +45,21 @@
 - Collector fabricios' swords are now chosen based on their armor.
   - If they have no armor, an aljanstone knife is chosen.
 - Collector fabricios no longer target invulnerable entities or creative/spectator players.
-- Insomnia zombies and zombie fabricioss no longer target shy fabricios separately (twice).
+- Insomnia zombies and zombie fabricios no longer target shy fabricios separately (twice).
 - Sleepish Skeletons no longer target shy fabricios separately.
 
 ## Technical
 ### Additions
 - Added **5** new configs:
   - **"enableAljanLargeCaves"**: Enables/disables generation of large caves in the Aljan. Defaults to `true`;
-  - **"aljamicMembersArmorChance"**: the chance of Aljamic Empire members (currently only collector fabricios) spawn with armor. Defaults to `0.75` ou 75%;
+  - **"aljamicMembersArmorChance"**: the chance of Aljamic Empire members (currently only collector fabricios) spawning with armor. Defaults to `0.75` ou 75%;
   - **"enableAljanFog"**: Enables/disables the fog in the Aljan. Defaults to `true`;
   - **"aljanFogDensity"**: How dense the fog in the Aljan should be. Defaults to `0.02`;
   - **"changeAljanFogColorAtNight"**: Whether to transition the fog in the Aljan to purple during the nighttime. Defaults to `true`.
 
 ### Changes
 - Added `asset_id` string field for **wanderer sophie** and **queen lucy pet variant** definitions.
-  - This is now used to validade new variants, instead of the old Forge registry-based method.
+  - This is now used to validate new variants, instead of the old Forge registry-based method.
   - This means the temporary *"efe"* variant now works.
   - Data-driven variants currently don't spawn naturally.
 - Collector fabricios now separately reads the `CanPickUpLoot` tag.
