@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.12](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.12 -</center>
-### <center>A Variants Release Changelog made on *23/11/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.12 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *23/11/2023*</div>
 
 ## Additions
 - Added Quartz Armor, Horse Armor and Tools.
@@ -14,7 +14,7 @@
 - Added End Fungi Stews, made with Ender Fungi.
 
 ## Changes
-- Wool Sweaters now have an ```armor_design``` integer tag that defines its design. 
+- Wool Sweaters now have an `armor_design` integer tag that defines its design. 
     - Armor models will eventually have their model changed as well, but due to my current knowledge, I couldn't find a way to change the armor models dynamically.
 - Updated textures of Rails, Powered Rails, Detector Rails and Activator Rails.
 - Updated texture of Iron Nuggets.

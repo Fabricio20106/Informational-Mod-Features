@@ -1,5 +1,5 @@
-# <center>- Variants - June 17th Update -</center>
-### <center>A Variants Release Changelog made on *17/08/2024*</center>
+# <div style="text-align: center;">- Variants - June 17th Update -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
 This is a changelog for the Variants commit "[*some new craftings*](https://github.com/Fabricio20106/Variants/commit/6eb6aae7f57d67517ab5dbc6b80b1efa638d702e)", commited on June 17th, 2021.
 
 ## Additions

@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.4](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.4 -</center>
-### <center>A Variants Release Changelog made on *08/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.4 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *08/12/2023*</div>
 
 This release of Variants includes two commit. So, to differentiate, they will be named **(C1)** and **(C2)** respectively.
 

@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.6](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.6 -</center>
-### <center>A Variants Release Changelog made on *14/11/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.6 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *14/11/2023*</div>
 
 ## Additions
 - Horse Armors now display how many armor points they give to Horses.

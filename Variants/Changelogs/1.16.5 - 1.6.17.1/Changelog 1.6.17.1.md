@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.17.1](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.17.1 -</center>
-### <center>A Variants Release Changelog made on *28/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.17.1 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *28/12/2023*</div>
 
 Release 1.6.17.1 was release as a hotfix update for last releases' occuring crash, and bugs found due to lack of testing.
 
@@ -18,4 +18,4 @@ Release 1.6.17.1 was release as a hotfix update for last releases' occuring cras
 - Enderwood Boat item now has a model.
 
 ## Tags
-- Added Enderwood Boats to ```#minecraft:boats``` item tag.
+- Added Enderwood Boats to `#minecraft:boats` item tag.

@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.7](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.7 -</center>
-### <center>A Variants Release Changelog made on *18/11/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.7 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *18/11/2023*</div>
 
 ## Additions
 - Quick Charge enchantment can now go up to level 5.
@@ -19,4 +19,4 @@
 
 ## Changes
 - Firework Rocket and Firework Stars now have their item stack set to "Variants'" mod id.
-- Renamed tag ```DebugProperty``` in Debug Bows to ```debug_property```.
+- Renamed tag `DebugProperty` in Debug Bows to `debug_property`.

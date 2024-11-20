@@ -1,13 +1,13 @@
-![Additions and Changes from 1.6.13](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.13 -</center>
-### <center>A Variants Release Changelog made on *26/11/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.13 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *26/11/2023*</div>
 
 ## Additions
 - Added Enderwood Signs.
 - Added Painting, Crimson and Warped Boats.
 - Added Fish (Old Cod), which includes Raw Fish, Cooked Fish, Buckets of Fish and Fish Spawn Eggs.
-  - Has a config to disable fish spawning: ```fishSpawning```.
+  - Has a config to disable fish spawning: `fishSpawning`.
 
 ## Changes
 - Soul Lava now has an overlay texture (not actually used).

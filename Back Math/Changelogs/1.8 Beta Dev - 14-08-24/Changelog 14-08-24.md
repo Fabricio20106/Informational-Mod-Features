@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Back Math - August 14th Update -</center>
-### <center>A Variants Release Changelog made on *17/08/2024*</center>
+# <div style="text-align: center;">- Back Math - August 14th Update -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
 
 ## Additions
 - Added the Jantic Railgun.

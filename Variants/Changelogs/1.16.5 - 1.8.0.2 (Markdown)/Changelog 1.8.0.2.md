@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center><p style="font-family:'Minecraft Five'">- Variants - 1.8.0.2 -</p></center>
-### <center>A Variants Release Changelog made on *August 14th and 17th, 2024*</center>
+# <div style="text-align: center;"><p style="font-family:'Minecraft Five'">- Variants - 1.8.0.2 -</p></div>
+### <div style="text-align: center;">A Variants Release Changelog made on *August 14th and 17th, 2024*</div>
 
 ## <p style="font-family:'Minecraft Five'">Additions</p>
 - Added an `explosionRadiusUpperLimit` config.

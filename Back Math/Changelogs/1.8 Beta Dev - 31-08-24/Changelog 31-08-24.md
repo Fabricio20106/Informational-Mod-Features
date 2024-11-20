@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Back Math - August 31st Update -</center>
-### <center>A Back Math Update Changelog made on *07/09/2024*</center>
+# <div style="text-align: center;">- Back Math - August 31st Update -</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *07/09/2024*</div>
 
 ## Changes
 ### Blocks

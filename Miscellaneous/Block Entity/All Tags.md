@@ -73,7 +73,8 @@
 
 ## Structure Block (`structure_block`)
 - Metadata (`metadata`): String.
-- Mirroring (`mirror`): One of `NONE`, `LEFT_RIGHT` or `FRONT_BACK` ("None", "Left-right" or "Front-back").
+- Mirroring (`mirror`): One of `NONE`, `LEFT_RIGHT` or `FRONT_BACK`.
+  - *"None"*, *"Left-right"* or *"Front-back"*.
 - Ignore Entities (`ignoreEntities`): Boolean.
 - Powered (`powered`): Boolean.
 - Seed (`seed`): Long.

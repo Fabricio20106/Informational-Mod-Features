@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.17.2](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.17.2 -</center>
-### <center>A Variants Release Changelog made on *28/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.17.2 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *28/12/2023*</div>
 
 ## Changes
 - Buckets of Fish and Soul Lava Buckets now appear after Fish Spawn Eggs in the creative tab.
@@ -12,16 +12,16 @@
 - Added translation for advancement "Recycling Textures".
 
 ## Tags
-- Added Enderwood Bookshelves to ```#forge:bookshelves``` item tag.
-- Changed the mod id of these block tags to ```melony```:
-    - ```#forge:deepslate_replaceables```;
-    - ```#variants:conduit_frame_blocks```;
-    - ```#variants:farmland```.
-- Changed the mod id of these item tags to ```melony```:
-    - ```#variants:books```;
-    - ```#variants:bookshelves```;
-    - ```#variants:bowls```;
-    - ```#variants:bowls/wooden```;
-    - ```#variants:bowls/obtainable_through_fishing```;
-    - ```#variants:catlike_tame_items```;
-    - ```#variants:shields```.
+- Added Enderwood Bookshelves to `#forge:bookshelves` item tag.
+- Changed the mod id of these block tags to `melony`:
+    - `#forge:deepslate_replaceables`;
+    - `#variants:conduit_frame_blocks`;
+    - `#variants:farmland`.
+- Changed the mod id of these item tags to `melony`:
+    - `#variants:books`;
+    - `#variants:bookshelves`;
+    - `#variants:bowls`;
+    - `#variants:bowls/wooden`;
+    - `#variants:bowls/obtainable_through_fishing`;
+    - `#variants:catlike_tame_items`;
+    - `#variants:shields`.

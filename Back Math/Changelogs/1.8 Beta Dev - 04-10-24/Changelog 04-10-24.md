@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Back Math - October 4th Update -</center>
-### <center>A Back Math Update Changelog made on *05/10/2024*</center>
+# <div style="text-align: center;">- Back Math - October 4th Update -</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *05/10/2024*</div>
 
 ## Known Bugs
 - Archer Lucias have no texture. This is fixed in the next commit, which was released in the next day.
@@ -32,7 +32,7 @@
 
 ### Miscellaneous
 - Added a work-in-progress Aljan texture update resource pack.
-  > <center> <img src=https://raw.githubusercontent.com/Fabricio20106/Back-Math/refs/heads/main/src/main/resources/assets/backmath/resourcepacks/aljan_texture_update/pack.png width="128"> </center>
+  > <div style="text-align: center;"> <img src=https://raw.githubusercontent.com/Fabricio20106/Back-Math/refs/heads/main/src/main/resources/assets/backmath/resourcepacks/aljan_texture_update/pack.png width="128"> </div>
   >
   > *"Texture update for the Aljan. [Made on 29-9-24]"*
   >
@@ -62,6 +62,7 @@
   - Empresary 2 was fully updated, and the other was to fix issues with their overlay.
 - Most mobs that target shy fabricios now target collector fabricios as well.
 - Shy fabricios now look at collector fabricios.
+- Shy fabricios can now open and close doors.
 - Aljamic bones once again have their helmet and sword, although without a loot table.
 - Amaracamelers now target collector fabricios, and can now attack them and shy fabricios.
 - Amaracamelers now check for spawning in amaracamel sticks instead of swamps.
@@ -128,15 +129,15 @@
 - Added zoglins to `#backmath:qlp_targets/tamed`.
 
 ## Gallery
-> <center> <img src=Screenshots/aljan_sky_daytime.png width="300"> </center>
+> <div style="text-align: center;"> <img src=Screenshots/aljan_sky_daytime.png width="300"> </div>
 >
-> <center> The updated Aljan sky during daytime. </center>
+> <div style="text-align: center;"> The updated Aljan sky during daytime. </div>
 ----
-> <center> <img src=Screenshots/aljan_sky_nighttime.png width="300"> </center>
+> <div style="text-align: center;"> <img src=Screenshots/aljan_sky_nighttime.png width="300"> </div>
 >
-> <center> The updated Aljan sky during nighttime. </center>
+> <div style="text-align: center;"> The updated Aljan sky during nighttime. </div>
 ----
-> <center> <img src=Screenshots/aljan_pack_in_menu.png width="300"> </center>
-> <center>
+> <div style="text-align: center;"> <img src=Screenshots/aljan_pack_in_menu.png width="300"> </div>
+> <div style="text-align: center;">
 >
-> The *Aljan Texture Update* pack on the resource pack selection screen. </center>
+> The *Aljan Texture Update* pack on the resource pack selection screen. </div>

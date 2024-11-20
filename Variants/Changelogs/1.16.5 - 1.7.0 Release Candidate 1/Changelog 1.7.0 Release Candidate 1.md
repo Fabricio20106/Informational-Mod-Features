@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.7.0 Release Candidate 1 -</center>
-### <center>A Variants Release Changelog made on *01/07/2024*</center>
+# <div style="text-align: center;">- Variants - 1.7.0 Release Candidate 1 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *01/07/2024*</div>
 
 ## Additions
 - All armors and Elytra can now be swapped by right-clicking (same as in recent versions).

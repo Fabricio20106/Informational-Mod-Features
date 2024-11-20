@@ -1,5 +1,5 @@
-# <center>- Variants - Initial Commit -</center>
-### <center>A Variants Release Changelog made on *17/08/2024*</center>
+# <div style="text-align: center;">- Variants - Initial Commit -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
 This is a changelog for the Variants commit "[*Initial Commit*](https://github.com/Fabricio20106/Variants/commit/f67007f4d01c12da1f3bdd14f697751e911d0520)", commited on June 12th, 2021.
 
 ## Additions

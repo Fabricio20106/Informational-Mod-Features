@@ -1,7 +1,7 @@
-![Additions and Changes from 3.0.15](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 3.0.15 -</center>
-### <center>A Variants Release Changelog made on *08/12/2023*</center>
+# <div style="text-align: center;">- Variants - 3.0.15 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *08/12/2023*</div>
 
 This release of Variants is almost identical to release 1.6.15, but updated to 1.20.2 and to NeoForge 20.2.
 

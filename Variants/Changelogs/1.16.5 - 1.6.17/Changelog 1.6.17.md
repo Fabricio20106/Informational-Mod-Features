@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.17](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.17 -</center>
-### <center>A Variants Release Changelog made on *28/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.17 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *28/12/2023*</div>
 
 Some of the bugs in this version (and the crash as well) are due to IntelliJ breaking when I was going to test the features. These errors are fixed in the next version, 1.6.17.1.
 
@@ -19,11 +19,11 @@ Some of the bugs in this version (and the crash as well) are due to IntelliJ bre
 - Removed "Enchantments:" description on enchanted items. 
 
 ## Bug Fixes
-- Fixed instances of ```DrinkableContainerItem``` not returning the bottle/consuming the item properly.
+- Fixed instances of `DrinkableContainerItem` not returning the bottle/consuming the item properly.
 - Fixed Lava Bottles setting the mob on fire for 100 seconds
     - Lava Bottles now set fire for 5 seconds, and Soul Lava Bottles now set fire for 10 seconds.
 
 ### Known Bugs
 - Enderwood Boat item model is missing.
 - Enderwood Boats are not craftable.
-- Enderwood Boats are not in the ```#minecraft:boats``` item tag.
+- Enderwood Boats are not in the `#minecraft:boats` item tag.

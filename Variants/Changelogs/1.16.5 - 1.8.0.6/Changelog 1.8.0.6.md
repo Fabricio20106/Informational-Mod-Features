@@ -1,17 +1,9 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.8.0.6 -</center>
-### <center>A Variants Release Changelog made on *04/11/2024*</center>
-
-- **NOTE**: Replace changelog photo when crops are added. ~isa
+# <div style="text-align: center;">- Variants - 1.8.0.6 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *04/11/2024*</div>
 
 ## Additions
-### Blocks
-- Added crimson wheat, soul carrots, warped potatoes and melting beets. [actually implement these, me]
-  - All of these can be found throughout the Nether, either in chests or planted.
-  - Warped potatoes drop withered warped potatoes.
-  - Soul carrots emit soul particles when they're fully grown.
-
 ### Sounds
 - Added **3** new sound events:
   - `entity.thrown_bottle.throw`;
@@ -91,8 +83,8 @@
 | *ExponentialStewItem*`.hasBehaviorInNBT()` | *ConsumableItem*`.hasBehaviorInNBT()` |
 | *ExponentialStewItem*`.canRunBehavior()` | *ConsumableItem*`.canRunBehavior()` |
 | *Equippable*`.swapWithEquipmentSlot()` | *Equippable*`.equipOrSwapItem()` |
-- ...and many others from consume behavior classes.
 
+- ...and many others from consume behavior classes.
 - *ConsumeBehavior*`.hasBehaviorIDInNBT()` is now static.
 - All instances of the "stewStack" parameter are now named "stack".
 - Renamed the "stew" package to "consumable".
@@ -108,7 +100,7 @@
 ### Additions
 - Added `#variants:nether_crops_plantable_on` block tag.
   - Contains `#melony:farmland` and `#variants:nether_wart_plantable_on`.
-  - Blocks in this tag can be used as bases for Nether crops. 
+  - Blocks in this tag can be used as bases for Nether crops.
 
 ### Removals
 - Removed aljamic farmland from `#melony:natural_farmland`, as it's now added by Back Math.

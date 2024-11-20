@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.8.0.3 -</center>
-### <center>A Variants Release Changelog made on *01/09/2024*</center>
+# <div style="text-align: center;">- Variants - 1.8.0.3 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *01/09/2024*</div>
 
 ## Additions
 - Added a new Magic Protection enchantment.

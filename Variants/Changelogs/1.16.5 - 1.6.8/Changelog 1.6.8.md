@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.8](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.8 -</center>
-### <center>A Variants Release Changelog made on *14/11/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.8 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *14/11/2023*</div>
 
 ## Additions
 - Glow Black Beds and Diamond Bells now render their 3D model properly.
@@ -22,7 +22,7 @@
 - The model of Painting Fences in the inventory now uses the new painting plank texture.
 
 ## Tags
-- Added ```#variants:shields``` item tag.
+- Added `#variants:shields` item tag.
     - Contains Shields and Empty Armor Slot Shields.
-- Added Alice's AI Shears to the ```#minecraft:piglin_loved``` item tag.
-- Added Enchanted Knowledge Books to the ```#variants:books``` item tag.
+- Added Alice's AI Shears to the `#minecraft:piglin_loved` item tag.
+- Added Enchanted Knowledge Books to the `#variants:books` item tag.

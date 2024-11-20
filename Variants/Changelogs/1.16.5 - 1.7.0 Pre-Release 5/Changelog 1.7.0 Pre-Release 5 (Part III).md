@@ -1,12 +1,12 @@
-<center> <img src=ChangelogPhotoPartIII.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhotoPartIII.png width="1500"> </div>
 
-# <center>- Variants - 1.7.0 Pre-Release 5 -</center>
-### <center>A Variants Release Changelog made on *02/07/2024*</center>
+# <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 5 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *02/07/2024*</div>
 
 *This changelog only covers the changes made in part III of this update. For the parts I and II, see [Changelog 1.7.0 Pre-Release 5 (Part I and II)](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20I%20and%20II).md)*
 
 ### Known Issues
-- Items in the player's hand don't render. This was fixed in [1.7.0 Release Candidate 1](https://github.com/Fabricio20106/Variants/commit/6b1c390ec5366555a5a551fd54343d514e4eca22#diff-ffa060178ea3d7387cf2cbc5d7aeefac5cd56ea8f71b90f724a7b189e312328a).
+- Items in the player's hand don't render. This was fixed in [1.7.0 Release Candidate 1](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%201/Changelog%201.7.0%20Release%20Candidate%201.md).
 
 ## Additions
 - Exponential Water, Lava, Soul Lava, Milk and Powder Snow Bowls are now craftable using 4 bottles of the respective fluid.

@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.5](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.5 -</center>
-### <center>A Variants Release Changelog made on *08/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.5 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *08/12/2023*</div>
 
 For this release, there were various commits. So, to know in which commit each feature got added, here's a small list for what was added in each commit:
 - **(C1)**: "Elder Prismarine & New Tags"

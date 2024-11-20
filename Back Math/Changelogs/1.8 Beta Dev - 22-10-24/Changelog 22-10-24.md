@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Back Math - October 22nd Update -</center>
-### <center>A Back Math Update Changelog made on *03/11/2024*</center>
+# <div style="text-align: center;">- Back Math - October 22nd Update -</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *03/11/2024*</div>
 
 ## Additions
 ### Items
@@ -109,12 +109,12 @@ NoSuchMethodError: melonystudios.variants.util.VSUtils.minecraft(Ljava/lang/Stri
 - Added snow layers to `#backmath:aljan_teleporter_replaceables` block tag.
 
 ## Gallery
-> <center> <img src=Screenshots/all_ws_variants.png width="1000"> </center>
-> <center>
+> <div style="text-align: center;"> <img src=Screenshots/all_ws_variants.png width="1000"> </div>
+> <div style="text-align: center;">
 >
-> All wanderer sophie variants, except *"green hoodie"*. </center>
+> All wanderer sophie variants, except *"green hoodie"*. </div>
 
-> <center> <img src=Screenshots/queen_lucy.png width="100"> <img src=Screenshots/queen_lucy_relic.png width="100"> <img src=Screenshots/warrior_sophie.png width="100"> </center>
-> <center>
+> <div style="text-align: center;"> <img src=Screenshots/queen_lucy.png width="100"> <img src=Screenshots/queen_lucy_relic.png width="100"> <img src=Screenshots/warrior_sophie.png width="100"> </div>
+> <div style="text-align: center;">
 >
-> The updated textures for queen lucy, queen lucy relics, and warrior sophies. </center>
+> The updated textures for queen lucy, queen lucy relics, and warrior sophies. </div>

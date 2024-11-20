@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.7.0 Release Candidate 3 -</center>
-### <center>A Variants Release Changelog made on *22/07/2024*</center>
+# <div style="text-align: center;">- Variants - 1.7.0 Release Candidate 3 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *22/07/2024*</div>
 
 ## Additions
 - Backported the `/damage` command.

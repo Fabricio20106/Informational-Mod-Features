@@ -1,7 +1,7 @@
-![Additions and Changes from 1.7.0 Pre-Release 3](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.7.0 Pre-Release 3 -</center>
-### <center>A Variants Release Changelog made on *11/04/2024*</center>
+# <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 3 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *11/04/2024*</div>
 
 ## Additions
 - Added Crimson and Warped Farmland.

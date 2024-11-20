@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.15.1](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.15.1 -</center>
-### <center>A Variants Release Changelog made on *13/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.15.1 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *13/12/2023*</div>
 
 ## Changes
 - Splash and Lingering Glass Bottles now appear before all other bottles in the creative menu.
@@ -15,9 +15,9 @@
 
 ## Internal Changes
 - Minimum and maximum experience drops for ores are now defined in their constructor.
-- Renamed ```HexBeamStainedGlass(Pane)Block``` to ```CustomBeamGlass(Pane)Block```.
+- Renamed `HexBeamStainedGlass(Pane)Block` to `CustomBeamGlass(Pane)Block`.
 - Renamed all instances of "creeper powder" to "explosive blend".
-    - This includes the damage source ```poisoning.creeper_powder```, which has been renamed to ```poisoning.explosive_blend```.
-- Renamed tab ```variants_blocks``` (Variants: Blocks) to ```variants.blocks```.
-- Renamed tab ```variants``` (Variants) to ```variants.main```.
-- Renamed tab ```weaponryTab``` (Variants: Weapons) to ```variants.weapons```.
+    - This includes the damage source `poisoning.creeper_powder`, which has been renamed to `poisoning.explosive_blend`.
+- Renamed tab `variants_blocks` (Variants: Blocks) to `variants.blocks`.
+- Renamed tab `variants` (Variants) to `variants.main`.
+- Renamed tab `weaponryTab` (Variants: Weapons) to `variants.weapons`.

@@ -1,7 +1,7 @@
-![Additions and Changes from 1.7.0 Pre-Release 4](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.7.0 Pre-Release 4 -</center>
-### <center>A Variants Release Changelog made on *30/05/2024*</center>
+# <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 4 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *30/05/2024*</div>
 
 ## Additions
 - Added Debug Arrows

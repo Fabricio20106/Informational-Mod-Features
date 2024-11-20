@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.16](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.16 -</center>
-### <center>A Variants Release Changelog made on *13/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.16 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *13/12/2023*</div>
 
 ## Additions
 - Added Stew/Soup Buckets.
@@ -24,19 +24,19 @@
 - Various models have been moved to data generation.
 - Updated the descriptions of enchantments (can be disabled through configs).
     - Enchantments now display the category that this enchantment can be applied to.
-- Nether Wart can now be planted on any block tagged as ```#variants:nether_wart_plantable_on```.
+- Nether Wart can now be planted on any block tagged as `#variants:nether_wart_plantable_on`.
 - Variants' weapons tab icon is now a random color Wool Sweater (picked randomly every world load).
 - Wither Skeletons' bone drop has been replaced by Wither Bones.
 - Nether Wart can now be pollinated by Bees.
 
 ## Tags
-- Renamed block tag ```#variants:warped_wart_plantable_on``` to ```#variants:nether_wart_plantable_on```.
-- Added ```#forge:crops``` item tag.
-    - Contains ```#forge:crops/golden_carrot```, ```#forge:crops/warped_wart``` and ```#forge:crops/ender_wart```. (contents are self-explanatory)
-- Added ```#variants:bowl_foods``` item tag.
-    - Contains ```#variants:bowl_foods/mushroom```, ```#variants:bowl_foods/beetroot```, ```#variants:bowl_foods/rabbit```, ```#variants:bowl_foods/fungi```, ```#variants:bowl_foods/end_fungi``` and  ```#variants:bowl_foods/aljan_fungi``` item tags.
-- Added Deepslate from Vanilla, Caves & Cliffs: Backport and Quark to ```#forge:deepslate_replaceables``` block tag.
-- Added Nether and Ender Wart to ```#minecraft:crops``` block tag.
-- Added Aljamic Farmland (Back Math) to ```#variants:farmland``` block tag.
-- Added Book of Regular/Advanced Molds (Back Math), Guide Book (Patchouli) and Quest Book (FTB Quests) to ```#variants:books``` item tag.
-- Added Devil, Angelic, Mid-Term, Aljameed and Moonering Shields (Back Math) to ```#variants:shields``` item tag.
+- Renamed block tag `#variants:warped_wart_plantable_on` to `#variants:nether_wart_plantable_on`.
+- Added `#forge:crops` item tag.
+    - Contains `#forge:crops/golden_carrot`, `#forge:crops/warped_wart` and `#forge:crops/ender_wart`. (contents are self-explanatory)
+- Added `#variants:bowl_foods` item tag.
+    - Contains `#variants:bowl_foods/mushroom`, `#variants:bowl_foods/beetroot`, `#variants:bowl_foods/rabbit`, `#variants:bowl_foods/fungi`, `#variants:bowl_foods/end_fungi` and  `#variants:bowl_foods/aljan_fungi` item tags.
+- Added Deepslate from Vanilla, Caves & Cliffs: Backport and Quark to `#forge:deepslate_replaceables` block tag.
+- Added Nether and Ender Wart to `#minecraft:crops` block tag.
+- Added Aljamic Farmland (Back Math) to `#variants:farmland` block tag.
+- Added Book of Regular/Advanced Molds (Back Math), Guide Book (Patchouli) and Quest Book (FTB Quests) to `#variants:books` item tag.
+- Added Devil, Angelic, Mid-Term, Aljameed and Moonering Shields (Back Math) to `#variants:shields` item tag.

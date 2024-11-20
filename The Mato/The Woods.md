@@ -1,7 +1,7 @@
-# <p style="font-family:'Minecraft Five'">Ipe Forest</p>
-> *This article is about the ipe forest. For the tree types, see Ipe (disambiguation)*
+# <p style="font-family:'Minecraft Five'">The Woods</p>
+> *This article is about the biome. For the character, see JuneTheWoods*
 
-<div style="text-align: center;"> <img src="Showcase Pictures/Ipe Forest/Ipe Forest.png" width="1500">
+<div style="text-align: center;"> <img src="Showcase Pictures/The Woods/The Woods.png" width="1500">
 
 | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|
@@ -9,22 +9,22 @@
 
 | | | | | | | | |
 |-|-|-|-|-|-|-|-|
-| **Grass color** | #3B9444 | **Foliage color** | #3B9444 | **Water color** | #3F76E4 | **Water fog color** | #050533 |
+| **Grass color** | #2DB171 | **Foliage color** | #2DB171 | **Water color** | #24E2FF | **Water fog color** | #17E5E0 |
 
 | | | | | | |
 |-|-|-|-|-|-|
-| **[Forge] Weight** | 25 | **[Forge] Biome type** | Cool | **[Forge] Dictionary entries** | Overworld, Forest, and Lush |
+| **[Forge] Weight** | 15 | **[Forge] Biome type** | Cool | **[Forge] Dictionary entries** | Overworld, Forest, and Dense |
 
 </div>
 
-The **ipe forest** is a forest biome added by The Mato which includes various color of ipe trees.
+**The woods** is a dark forest biome variant added by The Mato which is based on *JuneTheWoods*.
 
 ## Description
-Ipe forest biomes are a moderately sparse forest biome which features pink, purple, red and yellow ipe trees, which resemble fancy oak trees, and can vary in height. Various types of flowers can generate here, such as poppies, roses, cyan roses, paeonias, and more.
+The woods is a dense forest, like the dark forest, but with junium trees instead. Short grass generates frequently in this biome, together with roses, cyan roses and paeonias.
 
-Grass and ferns cover a good portion of this biome's floor.
+Futurely, this biome will also have flowers that give lime dye.
 
-Lava lakes cannot generate in this biome.
+Ruined portals can generate here.
 
 The following mobs can naturally spawn here:
 
@@ -47,7 +47,7 @@ The following mobs can naturally spawn here:
 
 ## Sounds
 ### Music
-These music tracks can play while the player is in an Ipe Forest.
+These music tracks can play while the player is in The Woods.
 | Filename in Minecraft | [Gameplay](https://minecraft.wiki/w/Gameplay)       | Soundtrack Title     | Soundtrack | Weight |
 |-----------------------|-----------------------------------------------------|----------------------|------------|--------|
 | `piano1.ogg`          | [The Overworld](https://minecraft.wiki/w/Overworld) | "Dry Hands"          |[*Minecraft - Volume Alpha*](https://minecraft.wiki/w/Minecraft_-_Volume_Alpha) No. 12 | 1 |
@@ -77,7 +77,7 @@ These music tracks can play while the player is in an Ipe Forest.
 ### ID
 | Name       | [Identifier](https://minecraft.wiki/w/Resource_location) | Translation key            |
 |------------|----------------------------------------------------------|----------------------------|
-| Ipe Forest | `themato:ipe_forest`                                     | `biome.themato.ipe_forest` |
+| The Woods  | `themato:the_woods`                                      | `biome.themato.the_woods`  |
 
 ## History
 | Version | Changes |
@@ -91,21 +91,26 @@ These music tracks can play while the player is in an Ipe Forest.
 |[1.16.5 - 0.3.2](https://github.com/Fabricio20106/The-Mato/commit/8cfa864d72619941727c75260d06ee8e7ce15c38) | Decreased rarity to 25, from 35 \|\| Added ipe forests to "Lush" biome category |
 
 ## Issues
-Issues relating to "Ipe Forest" are maintained on [The Mato's bug tracker](https://github.com/Fabricio20106/The-Mato/issues). Issues should be reported and viewed there. 
+Issues relating to "The Woods" are maintained on [The Mato's bug tracker](https://github.com/Fabricio20106/The-Mato/issues). Issues should be reported and viewed there. 
 
 ## Gallery
 ### Screenshots
-> <div style="text-align: center;"> <img src="Showcase Pictures/Ipe Forest/Ipe Forest.png" width="500"> </div>
+> <div style="text-align: center;"> <img src="Showcase Pictures/The Woods/The Woods.png" width="500"> </div>
 >
-> <div style="text-align: center;"> The image of an ipe forest used as the background picture for The Mato's logo. </div>
+> <div style="text-align: center;"> A medium-sized woods biome that generated between a swamp and a taiga. </div>
 ----
-> <div style="text-align: center;"> <img src="Showcase Pictures/Ipe Forest/PFP Background.png" width="500"> </div>
+> <div style="text-align: center;"> <img src="Showcase Pictures/The Woods/woods_and_meadow.png" width="500"> </div>
 >
-> <div style="text-align: center;"> The image of an ipe forest with shaders used as my (isabellawoods) profile picture background. A meadow can be seen on the left side as well. </div>
+> <div style="text-align: center;"> Another angle of the previous woods biome, showing a border to a meadow biome. </div>
+----
+> <div style="text-align: center;"> <img src="Showcase Pictures/The Woods/woods_water.png" width="500"> </div>
+>
+> <div style="text-align: center;"> The bright blue water of the woods biome, similar to a lukewarm ocean. </div>
 
 ### Development images
 
 ## See also
+- *JuneTheWoods*, the inspiration for this biome. 
 
 ## References
 
@@ -114,9 +119,10 @@ Issues relating to "Ipe Forest" are maintained on [The Mato's bug tracker](https
 ## Navigation
 ### <div style="text-align: center;">- My Mods' Biomes -</div>
 
-- *The Mato*: **Ipe Forest** ||
-[The Woods](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/The%20Woods.md) ||
+- *The Mato*:
+[Ipe Forest](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Ipe%20Forest.md) ||
 Honey Forest ||
+**The Woods** ||
 [Meadow](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Meadow.md) ||
 [Grove](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Grove.md) ||
 [Snowy Slopes](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/The%20Mato/Snowy%20Slopes.md) ||

@@ -1,10 +1,10 @@
-![Additions and Changes from 1.6.9](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.9 -</center>
-### <center>A Variants Release Changelog made on *19/11/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.9 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *19/11/2023*</div>
 
 ## Additions
-- Spyglasses are now "usable" -- they still don't zoom in or show the correct holding pose.
+- Spyglasses are now "usable", although they still don't zoom in or show the correct holding pose.
 - Many items from Variants are now available from Villagers, some of which weren't obtainable before (see table below).
 
 ## Changes
@@ -13,17 +13,17 @@
 - Dog music disc file is now smaller.
 
 ## Tags
-- Added ```#variants:beacons``` item tag.
+- Added `#variants:beacons` item tag.
   - Contains Beacons and Golden Beacons.
-- Added ```#variants:cauldrons``` block and item tags.
+- Added `#variants:cauldrons` block and item tags.
   - Contains Cauldrons and Golden Cauldrons.
-- Added ```#forge:armors/boots``` item tag.
+- Added `#forge:armors/boots` item tag.
   - Contains Empty Armor Slot Boots.
   - This is used by Back Math on the Book Pack recipe.
 
 ## Technical Changes
-- Added a translation for ```null```.
-- Added ```pickRandomColor(Item)``` method on WoolArmorItem, used by the Shepherd's Wool Sweater trade.
+- Added a translation for `null`.
+- Added *WoolArmorItem*`.pickRandomColor(Item)` method, used by the Shepherd's Wool Sweater trade.
 
 ## Villager Trade Tables for Variants' Items
 | Villager Level   | Profession       | Buys                    | Sells                                    |

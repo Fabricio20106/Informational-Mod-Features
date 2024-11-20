@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhotoPartIAndII.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhotoPartIAndII.png width="1500"> </div>
 
-# <center>- Variants - 1.7.0 Pre-Release 5 -</center>
-### <center>A Variants Release Changelog made on *08/06/2024*</center>
+# <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 5 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *08/06/2024*</div>
 
 *This changelog only covers the changes made in parts I and II of this update. For the part III, see [Changelog 1.7.0 Pre-Release 5 (Part III)](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20III).md)*
 

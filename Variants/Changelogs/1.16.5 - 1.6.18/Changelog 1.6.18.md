@@ -1,14 +1,14 @@
-![Additions and Changes from 1.6.18](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.18 -</center>
-### <center>A Variants Release Changelog made on *21/01/2024* (yes, the first changelog of 2024)</center>
+# <div style="text-align: center;">- Variants - 1.6.18 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *21/01/2024* (yes, the first changelog of 2024)</div>
 
 ## Additions
 - Added Potted Grass, Golden Carrots, Nether Wart, Warped Wart and Ender Wart.
 - Added item forms for Potted Ender Roots and Fungus.
-    - Includes recipes.
+  - Includes recipes.
 - Added different sound events for equipping Variants' armors.
-    - When these sound events were used by the equivalent armor materials, the game just crashed. As such, these are still unused as of *29/02/2024*.
+  - When these sound events were used by the equivalent armor materials, the game just crashed. As such, these are still unused as of *29/02/2024*.
 
 ## Changes
 - Fish (Old Cod) flopping, ambient, death and hurt sounds now have their own subtitles.
@@ -20,9 +20,9 @@
 - [VS-2](https://github.com/Fabricio20106/Variants/issues/2) - Music disc "dog" play globally.
 
 ## Tags
-- Added Enderwood Bookshelves to ```#forge:bookshelves``` item tag.
-- Added Potted Golden Carrots and Powered Ties to ```#minecraft:piglin_loved``` item tag.
-- Added ```#minecraft:lectern_books``` item tag to ```#melony:books```.
-- Added all new potted plants to ```#minecraft:flower_pots``` block tag.
-- Added ```#vaiants:flower_pots``` item tag.
-    - Contains all Variants flower pots.
+- Added Enderwood Bookshelves to `#forge:bookshelves` item tag.
+- Added Potted Golden Carrots and Powered Ties to `#minecraft:piglin_loved` item tag.
+- Added `#minecraft:lectern_books` item tag to `#melony:books`.
+- Added all new potted plants to `#minecraft:flower_pots` block tag.
+- Added `#vaiants:flower_pots` item tag.
+  - Contains all Variants flower pots.

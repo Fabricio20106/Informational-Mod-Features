@@ -1,7 +1,7 @@
-![Additions and Changes from 1.6.15](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.6.15 -</center>
-### <center>A Variants Release Changelog made on *06/12/2023*</center>
+# <div style="text-align: center;">- Variants - 1.6.15 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *06/12/2023*</div>
 
 ## Additions
 - Added Wither Bone, Wither Bone Meal and Wither Bone Blocks.
@@ -21,13 +21,13 @@
 - Slightly retextured the Painting Door item texture.
 
 ## Tags
-- Added ```#forge:bone_meals``` item tag.
+- Added `#forge:bone_meals` item tag.
     - Contains Bone Meal.
-- Added ```#forge:dusts/elder_prismarine``` item tag.
+- Added `#forge:dusts/elder_prismarine` item tag.
     - Contains Elder Prismarine Shards.
-- Added Wither Bones to ```#forge:bones``` item tag.
-- Added Sticks to ```#forge:rods/obtainable_through_fishing``` item tag.
-- Added ```#forge:rods/obtainable_through_fishing``` item tag to ```#forge:rods``` item tag.
+- Added Wither Bones to `#forge:bones` item tag.
+- Added Sticks to `#forge:rods/obtainable_through_fishing` item tag.
+- Added `#forge:rods/obtainable_through_fishing` item tag to `#forge:rods` item tag.
 
 ### Translation Changes (Brazilian Portuguese)
 - Added translations for the Debug Bow tooltips added on 1.6.14.

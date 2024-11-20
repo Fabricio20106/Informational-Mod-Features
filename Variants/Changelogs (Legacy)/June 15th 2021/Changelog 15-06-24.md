@@ -1,5 +1,5 @@
-# <center>- Variants - June 15th Update -</center>
-### <center>A Variants Release Changelog made on *17/08/2024*</center>
+# <div style="text-align: center;">- Variants - June 15th Update -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
 This is a changelog for the Variants commit "[*various sticks*](https://github.com/Fabricio20106/Variants/commit/3672d97b7efd0b84ac77d7bf6e58de61c123f4f6)", commited on June 15th, 2021.
 
 ## Additions

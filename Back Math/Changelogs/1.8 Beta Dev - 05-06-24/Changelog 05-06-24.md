@@ -1,7 +1,7 @@
-![Additions and Changes from June 5th Update for Bountifully Expansive](ChangelogPhoto.png)
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Back Math - June 5th Update -</center>
-### <center>A Back Math Update Changelog made on *22/06/2024*</center>
+# <div style="text-align: center;">- Back Math - June 5th Update -</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *22/06/2024*</div>
 
 ## Additions
 - Added Queen Lucy Pet variants as a registry.

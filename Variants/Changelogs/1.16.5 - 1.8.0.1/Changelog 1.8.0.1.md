@@ -1,7 +1,7 @@
-<center> <img src=ChangelogPhoto.png width="1500"> </center>
+<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
-# <center>- Variants - 1.8.0.1 -</center>
-### <center>A Variants Release Changelog made on *14/08/2024*</center>
+# <div style="text-align: center;">- Variants - 1.8.0.1 -</div>
+### <div style="text-align: center;">A Variants Release Changelog made on *14/08/2024*</div>
 
 ## Additions
 - Added a new `showFoodEffects` config.
