@@ -3,7 +3,7 @@
 # <div style="text-align: center;">- Variants - 1.6.4 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *08/12/2023*</div>
 
-This release of Variants includes two commit. So, to differentiate, they will be named **(C1)** and **(C2)** respectively.
+This release of Variants includes two commits. So, to differentiate, they will be named **(C1)** and **(C2)** respectively.
 
 ## Additions
 - **(C1)** Added Copper Shears.
@@ -32,7 +32,7 @@ This release of Variants includes two commit. So, to differentiate, they will be
 - **(C1)** Quartz Shears now have 500 durability.
 - **(C1)** Magentic Crystal Shears now have 861 durability.
 - **(C1)** Magentic Shears now have 861 durability.
-- **(C1)** Innovator's AI Shears recipe now accepts any ```#forge:cores/inno```.
+- **(C1)** Innovator's AI Shears recipe now accepts any `#forge:cores/inno`.
 - **(C2)** Golden Cauldrons can now be waterlogged.
 - **(C2)** Diamond Shears now appear after Copper Shears in the creative tab.
 - **(C2)** Painting Leaves now drop Painting Saplings instead of oak saplings, and Honey Balls instead of apples.
@@ -43,15 +43,15 @@ This release of Variants includes two commit. So, to differentiate, they will be
 - **(C1)** Renamed all AI shears from *X AI Shears* to *X's AI Shears*.
 
 ## Bug Fixes
-- **(C1)** [VS-1](https://github.com/Fabricio20106/Variants/issues/1): Bottle Funcionality parameters are passed incorrectly in ```DrinkableContainerItem``` class.
-- **(C2)** Potted plants that inherit ```flower_pot_cross_alt``` no longer have a hole below the flower pot dirt.
+- **(C1)** [VS-1](https://github.com/Fabricio20106/Variants/issues/1): Bottle Funcionality parameters are passed incorrectly in `DrinkableContainerItem` class.
+- **(C2)** Potted plants that inherit `flower_pot_cross_alt` no longer have a hole below the flower pot dirt.
 
 ## Tags
-- **(C1)** Added Copper Shears to ```#forge:shears``` item tag.
-- **(C2)** Added ```#forge:gems/elder_prismarine``` item tag.
-    - Contains Elder Prismarine Crystals.
-- **(C2)** Added ```#forge:rods/soul_blaze``` item tag.
-    - Contains Soul Blaze Rods.
-- **(C2)** Added ```#minecraft:saplings``` block and item tags.
-    - Contains Painting Saplings.
-- **(C2)** Added Potted Painting Saplings to ```#minecraft:flower_pots``` block tag.
+- **(C1)** Added copper shears to `#forge:shears` item tag.
+- **(C2)** Added `#forge:gems/elder_prismarine` item tag.
+    - Contains elder prismarine crystals.
+- **(C2)** Added `#forge:rods/soul_blaze` item tag.
+    - Contains soul blaze rods.
+- **(C2)** Added `#minecraft:saplings` block and item tags.
+    - Contains painting saplings.
+- **(C2)** Added potted painting saplings to `#minecraft:flower_pots` block tag.

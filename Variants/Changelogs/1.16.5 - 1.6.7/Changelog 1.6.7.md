@@ -4,7 +4,7 @@
 ### <div style="text-align: center;">A Variants Release Changelog made on *18/11/2023*</div>
 
 ## Additions
-- Quick Charge enchantment can now go up to level 5.
+### Configs
 - Added configuration files for Variants:
     - **(Mixin)**: Display the custom Firework Rocket and Star descriptions.
     - **(Mixin)**: Display how many armor points Horse Armor gives.
@@ -18,5 +18,9 @@
     - **(Items)**: If the game should add all default colors of Wool Sweater to the Variants creative tab.
 
 ## Changes
-- Firework Rocket and Firework Stars now have their item stack set to "Variants'" mod id.
-- Renamed tag `DebugProperty` in Debug Bows to `debug_property`.
+### Items
+- Firework rockets and stars are now assigned to Variants' namespace in tooltips.
+- Renamed tag `DebugProperty` in debug bows to `debug_property`.
+
+### Enchantments
+- Quick charge can now go up to level 5.

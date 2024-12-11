@@ -4,28 +4,13 @@
 ### <div style="text-align: center;">A Variants Release Changelog made on *19/11/2023*</div>
 
 ## Additions
+### Items
 - Spyglasses are now "usable", although they still don't zoom in or show the correct holding pose.
-- Many items from Variants are now available from Villagers, some of which weren't obtainable before (see table below).
 
-## Changes
-- Changed block textures of Painting Log/Wood, Stripped Painting Log/Wood and Glow Black Wool.
-- Changed item textures of Oak/Spruce/Birch/Jungle/Acacia/Dark Oak/Painting/Crimson/Warped Sticks and Raw Debris.
-- Dog music disc file is now smaller.
+### Entities
+- Many items from Variants are now sold by villagers, some of which weren't obtainable before:
 
-## Tags
-- Added `#variants:beacons` item tag.
-  - Contains Beacons and Golden Beacons.
-- Added `#variants:cauldrons` block and item tags.
-  - Contains Cauldrons and Golden Cauldrons.
-- Added `#forge:armors/boots` item tag.
-  - Contains Empty Armor Slot Boots.
-  - This is used by Back Math on the Book Pack recipe.
-
-## Technical Changes
-- Added a translation for `null`.
-- Added *WoolArmorItem*`.pickRandomColor(Item)` method, used by the Shepherd's Wool Sweater trade.
-
-## Villager Trade Tables for Variants' Items
+#### <div style="text-align: center;"> Villager trade tables for Variants' items </div>
 | Villager Level   | Profession       | Buys                    | Sells                                    |
 |------------------|------------------|-------------------------|------------------------------------------|
 | Apprentice (2)   | Armorer          | 36 Emeralds             | 1 Diamond Bell                           |
@@ -60,3 +45,24 @@
 | Wandering Trader | Wandering Trader | 1 Emerald               | 1 Glow Black Tulip                       |
 | Wandering Trader | Wandering Trader | 1 Emerald               | 3 Glow Black Dyes                        |
 | Wandering Trader | Wandering Trader | 5 Emeralds              | 1 Glow Berry Bush                        |
+
+## Changes
+- Updated textures of:
+  - Painting logs and wood, stripped painting logs and wood and glow black wool.
+  - All sticks and raw debris.
+- "dog" music disc file is now smaller.
+
+## Tags
+### Additions
+- Added `#variants:beacons` item tag.
+  - Contains beacons and golden beacons.
+- Added `#variants:cauldrons` block and item tags.
+  - Contains cauldrons and golden cauldrons.
+- Added `#forge:armors/boots` item tag.
+  - Contains empty armor slot boots.
+  - Items in this tag can be used to craft Back Math' boot pack, and can be dropped when breaking boot packs.
+
+## Technical
+### Additions
+- Added a translation for `null`: "Null".
+- Added *WoolArmorItem*`.pickRandomColor(Item)` method, used by the shepherd's wool sweater trade.
