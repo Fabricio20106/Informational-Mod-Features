@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "crystallizer_front",
+		"1": "crystallizer_side",
+		"2": "crystallizer_top",
+		"4": "backmath:block/angelic_block",
+		"5": "crystallizer_mold_marker",
+		"particle": "crystallizer_front"
+	},
+	"elements": [
+		{
+			"name": "crystallizer",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#2"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#4"}
+			}
+		},
+		{
+			"name": "mold_marker",
+			"from": [3, 16.5, 3],
+			"to": [13, 16.5, 13],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 0], "texture": "#5"},
+				"east": {"uv": [0, 0, 10, 0], "texture": "#5"},
+				"south": {"uv": [0, 0, 10, 0], "texture": "#5"},
+				"west": {"uv": [0, 0, 10, 0], "texture": "#5"},
+				"up": {"uv": [0, 0, 10, 10], "texture": "#5"},
+				"down": {"uv": [0, 0, 10, 10], "texture": "#5"}
+			}
+		}
+	]
+}
