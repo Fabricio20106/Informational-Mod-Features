@@ -44,7 +44,7 @@ This resource- and data pack fixes various small problems with blocks and items 
 > - Changed the custom spawn egg translation to "Mob Spawn Egg".
 
 ## Meka Jetpack
-> *"Changed the Armored Jetpack texture." - `pack.memta` description*
+> *"Changed the Armored Jetpack texture." - `pack.mcmeta` description*
 >
 > **Target Version**: 1.18.2 (*Modern City*)
 
@@ -62,3 +62,10 @@ Changes the texture of the armored jetpack to match the chest of my "Formal June
 Changes the default Efe skin for a variant of Formal June with long red hair in a black bikini. This was meant for use with **Female Gender Mod**.
 
 > <center> <img src="Screenshots/bikini_june.png" width=250> </center>
+
+## Sunny to Isa
+> *"Changes Sunny's texture for Empresary Isabella." - `pack.mcmeta` description*
+>
+> **Target Version**: 1.20.4 (*Pinecraft*)
+
+Changes the default Sunny skin for Empresary Isabella, because the *Pinecraft* server uses offline mode, and as such everyone has default skins.
