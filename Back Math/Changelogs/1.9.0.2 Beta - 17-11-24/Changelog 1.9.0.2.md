@@ -45,7 +45,6 @@
 - Added warmterm and coldterm particles.
   - These particles are a copy of end rod particles, but with different textures.
   - The fade colors for these are **#FFAE00** for warmterm and **#0097B4** for coldterm.
-- Added jantical particles.
 
 ### Sounds
 - Added 2 mid-term activation and deactivation sounds: `backmath:item.mid_term.activate.ender_eye|beacon`, and `backmath:item.mid_term.deactivate.ender_eye|beacon`.

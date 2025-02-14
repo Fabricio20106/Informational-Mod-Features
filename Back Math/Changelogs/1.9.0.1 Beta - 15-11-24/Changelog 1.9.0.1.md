@@ -89,7 +89,7 @@
 - Added *"/backmath-world_times"* command.
   - This command prints various world times in different formats.
 - Renamed the class *MidTermGreatswordItem* to *MidTermLongswordItem*.
-- Jantic railguns now save and load their ammo using Variants' stack management.
+- Jantic railguns now save and load their ammo using Variants' stack handling.
 - Added a recipe for red yellow wool sweaters for Variants.
 - All planks recipes are now in the "planks" group.
 - All wood recipes are now int the "bark" group.

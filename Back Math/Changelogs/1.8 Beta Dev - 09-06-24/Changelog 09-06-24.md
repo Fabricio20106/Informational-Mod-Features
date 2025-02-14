@@ -4,7 +4,7 @@
 ### <div style="text-align: center;">A Back Math Update Changelog made on *23/06/2024*</div>
 
 ## Additions
-- Added an `equipment` loot parameter set.
+- Added `equipment` loot parameter set.
   - This taken in *"origin"* as a required parameter and *"this entity"* as an optional one.
 
 ## Changes
