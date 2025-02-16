@@ -11,14 +11,15 @@ Version **1.16.5** - Forge **36.2.39**
 - Cloth Config
 - Configured
 - Controlling
-- Curio of Undying
+- Curio of Undying (Charm of Undying)
 - Curios
-- Curious Elytra
-- Curious Shulker Boxes
+- Curious Elytra (Elytra Slot)
+- Curious Shulker Boxes (Shulker Box Slot)
 - FTB Backups 2
 - FTB Library
 - FTB Quests
 - FTB Teams
+- Global Packs
 - Iceberg
 - Item Filters
 - Just Enough Effect Descriptions
@@ -27,7 +28,7 @@ Version **1.16.5** - Forge **36.2.39**
 - Kube JS
 - Legendary Tooltips
 - Lootr
-- Map Atlases
+- Map Atlases (or Antique Atlas)
 - Mouse Tweaks
 - Oculus
 - Patchouli
