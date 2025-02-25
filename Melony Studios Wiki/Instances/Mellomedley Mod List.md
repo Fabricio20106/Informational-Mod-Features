@@ -1,0 +1,82 @@
+# Mellomedley - Mod List
+
+- **Minecraft**: 1.16.5;
+- **Forge**: 36.2.39.
+
+## Melony Mods
+- Back Math (**1.9.0.5 Beta**)
+  - Back Math Music Pack
+- Creeper Edits (**1.3.1**)
+- Edits (**1.4.3.8**)
+- F10 Elements (**1.4.4**)
+- Fabricated F10 (**1.1**)
+- InRealLife - Sophie Clothes (**1.2**)
+- [**DISABLED**] Melony Lib (**1.4.1 Beta 2**)
+- Mob Taker (**1.4.2**)
+- [**DISABLED**] My Other Stuff (**1.5.9**)
+- Project Alcook (**1.4.2**)
+- [**DISABLED**] Random Stuff (**1.3.2**)
+- Rimcraft (**1.1.2**)
+- Sam's Workshop (**1.1.0**)
+- Stancements (**0.1**)
+- The Mato (**0.3.4 Beta**)
+  - The Mato Music Pack
+- Revaried (**1.8.0.8 Alpha**)
+
+## Other Mods
+- Antique Atlas (formerly Map Atlases)
+- Apple Skin
+- Architectury API
+- Bookshelf
+- Botany Pots
+- Caelus API
+- [**CurseForge**] Catalogue
+- Charm of Undying
+- Chat Heads
+- Cloth Config API
+- [**CurseForge**] Configured
+- [**CurseForge**] Controlling
+- Curios API
+- Drippy Loading Screen
+- [**CurseForge**] Target Dummy (Dummmmmmy)
+- Elytra Slot
+- Entity Culling
+- Fancy Menu
+- Female Gender Mod
+- Ferrite Core
+- [**CurseForge**] FTB Backups 2
+- [**CurseForge**] FTB Library
+- [**CurseForge**] FTB Quests
+- [**CurseForge**] FTB Teams
+- Global Packs
+- Iceberg
+- [**CurseForge**] Item Filters
+- Jade
+- Just Enough Effect Descriptions
+- Just Enough Items
+- [**CurseForge**] Just Enough Resources
+- Konkrete
+- [**CurseForge**] Lazy DFU
+- Lootr
+- Memory Leak Fix
+- Modern Fix
+- Mouse Tweaks
+- NBT Autocomplete
+- Not Enough Animations
+- Oculus
+- Patchouli
+- Polymorph
+- Prism
+- [**CurseForge**] Rhino
+- Rubidium
+- [**CurseForge**] Searchables
+- Shulker Box Slot
+- [**CurseForge**] Shut Up Experimental Settings!
+- [**CurseForge**] Panorama (`spanorama`)
+- TexTrue's Rubidium Options
+- Vein Mining
+- Xaero's Minimap
+- Xaero's World Map
+
+## Others
+- Complementary Reimagined

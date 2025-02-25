@@ -86,7 +86,7 @@ Clears all effects from the entity eating, like a milk bucket.
 ### Damage Entity (`DamageEntityBehavior`)
 <sup>**Registry Name**: `variants:damage_entity` | **Translation**: Damage Entity</sup>
 
-Damages the entity with a pre-existing or custom damage source. See [**damage source definition**](https://github.com/Fabricio20106/Variants/wiki/Damage-Source-Definition) for how to add new damage sources through data packs.
+Damages the entity with a pre-existing or custom damage source. See [**damage source definition**](/Variants/Docs/Damage%20Source.md) for how to add new damage sources through data packs.
 
 - <img src=Tags/compound_tag.png> The behavior tag.
   - <img src=Tags/float_tag.png> **amount**: How much damage should be applied to the entity. Defaults to `0`.

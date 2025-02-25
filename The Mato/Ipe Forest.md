@@ -86,9 +86,9 @@ These music tracks can play while the player is in an Ipe Forest.
 |[1.16.5 - 0.2](https://github.com/Fabricio20106/The-Mato/commit/c232290a51aab1fb2be58a5a2390eaa4ea99ff7b) | Added purple, pink and red ipe trees to the ipe forest |
 |[1.16.5 - 0.2.1](https://github.com/Fabricio20106/The-Mato/commit/ba01ed820e72f327875aa346fc1a4e2f60b0bc88) | Slightly changed the distribution of trees in the ipe forest. Now, yellow ipes are chosen if the roll for other trees fails |
 |[1.16.5 - 0.2.2](https://github.com/Fabricio20106/The-Mato/commit/3ff0d228e6f679e80712440a4c618e8f3193b09d) | Added roses, cyan roses and paeonias, which generate in ipe forests |
-|[1.16.5 - 0.3.0](https://github.com/Fabricio20106/The-Mato/commit/44881935164194957af1cbe74194d0a8c4c7a15a) | Water lakes can now generate in ipe forests. \|\| Increased the rarity of ipe forests from 15 to 20 |
+|[1.16.5 - 0.3.0](https://github.com/Fabricio20106/The-Mato/commit/44881935164194957af1cbe74194d0a8c4c7a15a) | <li>Water lakes can now generate in ipe forests.</li> <li>Increased the rarity of ipe forests from 15 to 20</li> |
 |[1.16.5 - 0.3.1](https://github.com/Fabricio20106/The-Mato/commit/97f32451547f2a1c93ed20adb3fda78d32be9257) | Increased the rarity of ipe forests from 20 to 35 |
-|[1.16.5 - 0.3.2](https://github.com/Fabricio20106/The-Mato/commit/8cfa864d72619941727c75260d06ee8e7ce15c38) | Decreased rarity to 25, from 35 \|\| Added ipe forests to "Lush" biome category |
+|[1.16.5 - 0.3.2](https://github.com/Fabricio20106/The-Mato/commit/8cfa864d72619941727c75260d06ee8e7ce15c38) | <li>Decreased rarity to 25, from 35</li> <li>Added ipe forests to "Lush" biome category</li> |
 
 ## Issues
 Issues relating to "Ipe Forest" are maintained on [The Mato's bug tracker](https://github.com/Fabricio20106/The-Mato/issues). Issues should be reported and viewed there. 
