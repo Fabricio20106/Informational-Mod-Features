@@ -24,7 +24,7 @@ Queen lucy pet variants are defined using the following format:
 | *June 12th, 2024* (1.8.0) | <li>The `textureLocation` field is now read as `texture_location`. <li> If the `display_name` field is omitted, it now defaults to "No translation." |
 | *June 28th, 2024* (1.8.0) | The `display_name` field is now a proper text component, and can no longer be omitted.<sup>*[verify]*</sup> |
 | *October 10th, 2024* (1.8.0) | <li> Queen lucy pet variants are now loaded from data packs. <li> Added the `asset_id` field. |
-| [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta/Changelog%201.9.0.5.md) | Added the `emissive_texture` field. |
+| [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md) | Added the `emissive_texture` field. |
 
 ## Issues
 Issues relating to "Queen lucy pet variant" are maintained on [Back Math's bug tracker](https://github.com/Fabricio20106/Back-Math/issues). Issues should be reported and viewed there.

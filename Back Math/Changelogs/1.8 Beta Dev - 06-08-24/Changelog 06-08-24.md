@@ -4,17 +4,19 @@
 ### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
 
 ## Additions
-- Added *"hanging"* states for Tito and Toti. This is currently only changeable using a Debug Stick.
+### Blocks
+- Added *"hanging"* states for tito and toti. This is currently only changeable using a debug stick.
 
 ## Changes
-- The rarity of the Milkllary fluid is now *uncommon*.
-- Charjan Mid-Term Torches and Molten Mid-Term Buckets are now fire resistant.
-- The bottom of the base of Queen Lucy Relics are now culled.
+### Blocks
+- The rarity of the milkllary fluid is now *uncommon*.
+- Charjan mid-term torches and molten mid-term buckets are now fire resistant.
+- The bottom of the base of queen lucy relics are now culled.
 - Removed the block textures for the mob heads, as now they "use" the entity textures.
-- The models of Alan Toys, Alice Toys, Amaracamel Batter Bags, Boot Packs, Hillary Cakes and Milkllary Cakes are now data generated.
-  - Added new model templates for the cakes: `template_cake` and `template_cake_slice<1-6>`.
-  - Renamed the `template_titoli` and `template_titoli_down` model templates to `template_emotional_squid` and `template_hanging_emotional_squid`.
-- The rarity of many items in Back Math have been updated.
+- The models of alan toys, alice toys, amaracamel batter bags, boot packs, hillary cakes and milkllary cakes are now data generated.
+
+### Items
+- The rarity of many items in *Back Math* have been updated.
   - The rarity of these items is now **uncommon**:
     - Aljan Portal Stand;
     - Crystalline Crystallizer;
@@ -39,9 +41,12 @@
     - Ender Omelet;
     - Queen Lucy Battle Pack and Battle Info;
     - All Queen Lucy shirts.
-
-### Translation Changes
 - The "When Applied:" on the effect jam tooltip is now "When drank:", and is now colored light gray.
-- The Crystalline Crystallizer and Book of Advanced Molds' tooltip is now colored yellow to match their new rarity.
-- All Back Math music discs are now just called "Music Disc".
-- The "Wellerman" music disc tooltip no longer has "sea shanty" on the end.
+- The crystalline crystallizer and book of advanced molds' tooltip is now colored yellow to match their new rarity.
+- All *Back Math* music discs are now just called "Music Disc".
+- The "Wellerman" music disc tooltip no longer has the "sea shanty" suffix.
+
+## Technical
+### Additions
+- Added new model templates for cakes: `template_cake` and `template_cake_slice<1-6>`.
+- Renamed the `template_titoli` and `template_titoli_down` model templates to `template_emotional_squid` and `template_hanging_emotional_squid`.

@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.5 (22-2-25)*
+> ***Last Updated**: 1.9.0.5 (28-2-25)*
 
 An **outfit definition** is a set of textures to use for an outfit item or `outfit` tag. Outfit definitions can be defined using JSON files in a data pack at the path `data/<namespace>/outfit_definition/`.
 
@@ -19,7 +19,7 @@ Outfit definitions are defined using the following format.
 ## History
 | Version | Changes |
 |---------|---------|
-| [BM 1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta/Changelog%201.9.0.5.md) | Added outfit definitions to data packs. |
+| [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md) | <li> Added outfit definitions to data packs. </li> <li> Currently, the `emissive_texture` field doesn't work because I didn't implement it. |
 
 ## Issues
 Issues relating to "Outfit definition" are maintained on [Back Math's bug tracker](https://github.com/Fabricio20106/Back-Math/issues). Issues should be reported and viewed there.

@@ -27,7 +27,7 @@ Queen lucy variants are defined using the following format:
 ## History
 | Version | Changes |
 |---------|---------|
-| [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta/Changelog%201.9.0.5.md) | Added queen lucy variants to data packs. |
+| [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md) | Added queen lucy variants to data packs. |
 
 ## Issues
 Issues relating to "Queen lucy variant" are maintained on [Back Math's bug tracker](https://github.com/Fabricio20106/Back-Math/issues). Issues should be reported and viewed there.
