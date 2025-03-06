@@ -1,0 +1,15 @@
+{
+  "date": "6-3-24",
+  "teacher": "anderson_eight",
+  "subject": "geography",
+  "side_notes": {
+    "side": "right",
+    "text": "Snapshot Day",
+    "formats": [
+      {
+        "action": "nblang:highlight",
+        "color": "purple_hlfc"
+      }
+    ]
+  }
+}
