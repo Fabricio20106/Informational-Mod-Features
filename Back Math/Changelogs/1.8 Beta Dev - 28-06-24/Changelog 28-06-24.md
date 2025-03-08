@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - June 28th, 2024 Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *01/03/2025*</div>
 
+The **June 28th** update is a version for *Back Math* 1.8.0, released on June 28, 2024.[^1]
+
 ## Additions
 ### Advancements
 - Added **3** new advancements:
@@ -63,3 +65,6 @@
 ## Tags
 ### Changes
 - Added `melony:bows` and aljameed shovels to the `#melony:allowed_in_mainhand` item tag.
+
+## References
+[^1]: ["Updated Most Advancements & Backported 'Over-Overkill'"](https://github.com/Fabricio20106/Back-Math/commit/4116c0b670de82418efc57fc3ae516d651c99ef3) (Commit `4116c0b`) – GitHub, June 28, 2024.

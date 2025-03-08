@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - October 6th Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *19/10/2024*</div>
 
+The **October 6th** update is a version for *Back Math* 1.8.0, released on October 6, 2024.[^1]
+
 ## Known Bugs
 - The Aljan nighttime fog also applies during daytime.
 
@@ -73,3 +75,6 @@
 ## Tags
 ### Changes
 - Removed non-wild aljamic onions and carameled wheat from `#backmath:fabricios_can_harvest` block tag.
+
+## References
+[^1]: ["Sky Updates, Texture Updates & Data-Driven Variants"](https://github.com/Fabricio20106/Back-Math/commit/fb2babd68f6a34ff606e991305357e918fed9a2b) (Commit `fb2babd`) – GitHub, October 6, 2024.

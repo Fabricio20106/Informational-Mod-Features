@@ -40,7 +40,7 @@ Conclusion[].ProblemComeback
 
 ```java
 this.notebook.
-this.notebook.getPageBySubject("history" 4).titles.get("Uma nova" + " sociedade").getContents();
+this.notebook.getPageBySubject("history", 4).titles.get("Uma nova" + " sociedade").getContents();
 this.school.getTeacher("history", 8).getName();
 this.school.getStudents(6, [includeOut] false);
 this.notebook.getPageBySubject("nblang:history").titles.get("Independência no México").getContents();

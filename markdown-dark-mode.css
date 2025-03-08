@@ -1,0 +1,40 @@
+code {
+  background-color: rgb(30, 27, 31);
+  color: rgb(194, 139, 216);
+}
+blockquote {
+  background-color: rgb(45, 38, 48);
+}
+body, li {
+  font-family: 'Kantumruy Pro';
+}
+a:link, a:active, code:link, code:active {
+  color: rgb(194, 139, 216);
+}
+
+/*Minecraft rarity colors*/
+mc-c {
+  font-family: 'Minecraft Seven';
+  color: rgb(255, 255, 255);
+}
+mc-u {
+  font-family: 'Minecraft Seven';
+  color: rgb(255, 255, 85);
+}
+mc-r {
+  font-family: 'Minecraft Seven';
+  color: rgb(85, 255, 255);
+}
+mc-e {
+  font-family: 'Minecraft Seven';
+  color: rgb(255, 85, 255);
+}
+mc-p {
+  font-family: 'Minecraft Seven';
+  color: rgb(85, 255, 85);
+}
+
+tooltip {
+  font-family: 'Minecraft Seven';
+  color: rgb(170, 170, 170);
+}

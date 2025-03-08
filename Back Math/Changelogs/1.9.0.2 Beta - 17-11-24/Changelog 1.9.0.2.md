@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - 1.9.0.2 -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *09 and 10/11/2024*</div>
 
+**1.9.0.2** is the second version for *Back Math* 1.9.0, released on December 5, 2024.[^1][^2][^3] 
+
 ## Additions
 ### Items
 - Added outfits.
@@ -158,3 +160,8 @@
 - Added all (obsidian infused) mid-term blocks to `#backmath:fully_lit_items` item tag.
 - Added plateforced mid-term boots to `#forge:armors/boots`.
 - Renamed the item tag `#backmath:pickup_disallowed_predicate/chicken_jockey` to `#backmath:chicken_jockey_cannot_pickup`.
+
+## References
+[^1]: ["Outfit Models & Mid-Term Supercharging"](https://github.com/Fabricio20106/Back-Math/commit/e6425ac799b1c9bb6fedb2630723ce835067e6a7) (Commit `e6425ac`) – GitHub, November 17, 2024.
+[^2]: ["1.9.0.2 (II): Built-In Outfits"](https://github.com/Fabricio20106/Back-Math/commit/d8a3c7f38bb4fce6195a421f9887cb45a2c84889) (Commit `d8a3c7f`) – GitHub, November 30, 2024.
+[^3]: ["1.9.0.2 (II): Head Rendering & Plateforced Armor"](https://github.com/Fabricio20106/Back-Math/commit/bf96adb8279ea9fcd3a89b45142d7eb2f71cc876) (Commit `bf96adb`) – GitHub, December 5, 2024.

@@ -3,8 +3,10 @@
 # <div style="text-align: center;">- Variants - 1.8.0.8 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *22/02/2025*</div>
 
+**1.8.0.8** is the eighth version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on January 15, 2024.[^1][^2]
+
 ## Hotfix
-- Fixed fish spawning in the "water creature" category instead of "water ambient".
+- Fixed fish spawning in the "water creature" category instead of "water ambient".[^2]
   - This caused thousands upon thousands of fish to spawn in oceans, eventually making the game unplayable.
 
 ## Additions
@@ -112,3 +114,7 @@
 - Added `#forge:ores/crystallized_magma_cream` to `#forge:ores` block and item tags.
 - Added `#forge:raw_materials/crystallized_magma_cream` to `#forge:raw_materials` item tag.
 - Added new trapdoor doors to `#minecraft:wooden_doors` block and item tags.
+
+### References
+[^1]: ["1.8.0.8: New Biomes & Re-added Old Blocks"](https://github.com/Fabricio20106/Variants/commit/4303fffc425dd2ccf3c7628959c1976edd0b8e62) (Commit `4303fff`) – GitHub, January 15, 2024.
+[^2]: ["Fix infinite fish spawning"](https://github.com/Fabricio20106/Variants/commit/c64641bd8cbb34ac4cbe8c576486a6c534c8c220) (Commit `c64641b`) – GitHub, January 26, 2024.

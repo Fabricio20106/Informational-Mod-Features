@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - June 12th, 2024 Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *01/03/2025*</div>
 
+The **June 12th** update is a version for *Back Math* 1.8.0, released on June 12, 2024.[^1]
+
 ## Additions
 ### Entities
 - The equipment of all mobs in *Back Math* that have it are now controlled by loot tables.
@@ -18,8 +20,8 @@
 ## Changes
 ### Blocks
 - The "no need to place another stand" log message is now only shown when the `logAljanTeleporterDebugging` config is enabled.
-- Updated the base texture of insomnia tulips.
-- The `insomnia_tulip_glow` texture is now called `insomnia_tulip_overlay`.
+- Updated the base texture of insomnian tulips.
+- The `insomnian_tulip_glow` texture is now called `insomnian_tulip_overlay`.
 - Updated the model of queen lucy relics.
   - The gold plate texture is now the block of gold texture.
   - The crown texture is now the golden crown item texture.
@@ -69,3 +71,6 @@
 - Added `#melony:allowed_in_offhand` item tag.
   - Contains `#backmath:squids`.
   - Items in this tag automatically go to the entity's offhand when populating items from an equipment loot table.
+
+## References
+[^1]: ["Data-Driven Mob Equipment & Variant Fixes"](https://github.com/Fabricio20106/Back-Math/commit/aba4ed0d01d06b1e182171ec7725aaadb834dbf9) (Commit `aba4ed0`) – GitHub, June 12, 2024.

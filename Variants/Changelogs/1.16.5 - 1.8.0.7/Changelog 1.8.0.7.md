@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.8.0.7 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *09/12/2024*</div>
 
+**1.8.0.7** is the seventh version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on Januay 6, 2025.[^1][^2][^3]
+
 ## Additions
 ### Blocks
 - Added crimson wheat, soul carrots, warped potatoes and melting beets.
@@ -137,3 +139,8 @@
 - Added quartz ladders to `#minecraft:climbable` block tag.
 - Added all new debug sticks to `#forge:rods/debug_wooden` item tag.
 - Added all new (wild) crops to `#minecraft:crops` item tag.
+
+### References
+[^1]: ["1.8.0.7 (Part I): Universal Consumables & Nether Crops"](https://github.com/Fabricio20106/Variants/commit/a2c3eb32f19d5f605663ef7308754ce7cd3437a1) (Commit `a2c3eb3`) – GitHub, November 30, 2024.
+[^2]: ["1.8.0.7 (Part II): Crops & Leashable Boats"](https://github.com/Fabricio20106/Variants/commit/a4ea67d4d0144173f84941f4f9455c4087abf336) (Commit `a4ea67d`) – GitHub, December 21, 2024.
+[^3]: ["1.8.0.7 (Part III): Recipe Advancements & Plant Generation"](https://github.com/Fabricio20106/Variants/commit/6969e8897f624d77ac5d0fd83a43026dff18c4d7) (Commit `6969e88`) – GitHub, January 6, 2024.

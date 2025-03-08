@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.5 (22-2-25)*
+> ***Last Updated**: 1.9.0.6 (4-3-25)*
 
 A **queen lucy pet variant** is an individual variant used for a queen lucy pet's textures. Queen lucy pet variants can be defined using JSON files in a data pack at the path `data/<namespace>/queen_lucy_pet_variant/`.
 
@@ -21,9 +21,9 @@ Queen lucy pet variants are defined using the following format:
 | Version | Changes |
 |---------|---------|
 | [*June 9th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md) (1.8.0) | <li> Added queen lucy pet variants as both a *Forge* and data-driven registry. <li> Currently, it includes the `texture_location` (read as `textureLocation`) and `display_name` fields. <li> The `display_name` field is not a text component. Instead, it is a hardcoded string/translatable text component. </li> |
-| *June 12th, 2024* (1.8.0) | <li>The `textureLocation` field is now read as `texture_location`. <li> If the `display_name` field is omitted, it now defaults to "No translation." |
-| *June 28th, 2024* (1.8.0) | The `display_name` field is now a proper text component, and can no longer be omitted.<sup>*[verify]*</sup> |
-| *October 10th, 2024* (1.8.0) | <li> Queen lucy pet variants are now loaded from data packs. <li> Added the `asset_id` field. |
+| [*June 12th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2012-06-24/Changelog%2012-06-24.md) (1.8.0) | <li>The `textureLocation` field is now read as `texture_location`. <li> If the `display_name` field is omitted, it now defaults to "No translation." |
+| [*June 28th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2028-06-24/Changelog%2028-06-24.md) (1.8.0) | The `display_name` field is now a proper text component, and can no longer be omitted.<sup>*[verify]*</sup> |
+| [*October 6th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md) (1.8.0) | <li> Queen lucy pet variants are now loaded from data packs. <li> Added the `asset_id` field. |
 | [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md) | Added the `emissive_texture` field. |
 
 ## Issues

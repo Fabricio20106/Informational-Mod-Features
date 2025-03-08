@@ -136,6 +136,23 @@ public ICapabilityProvider initCapabilities(ItemStack stack, @Nullable CompoundN
 }
 ```
 
+## `BreastLayer` (Back Math)
+```java
+@Nullable
+public ResourceLocation getEmissiveTexture(T entity) {
+    ResourceLocation location = null;
+    if (entity instanceof WandererSophieEntity) {
+        location = ((WandererSophieEntity) entity).getRegistryVariant().getEmissiveTexture();
+    } else if (entity instanceof QueenLucyEntity) {
+        location = ((QueenLucyEntity) entity).getRegistryVariant().getEmissiveTexture();
+    } else if (entity instanceof QueenLucyPetEntity) {
+        location = ((QueenLucyPetEntity) entity).getRegistryVariant().getEmissiveTexture();
+    }
+    if (location != null) return new ResourceLocation(location.getNamespace(), "textures/" + location.getPath() + ".png");
+    return null;
+}
+```
+
 ## Part of `data/backmath/loot_tables/blocks/jabuticaba_leaves.json` (Back Math)
 ```json
 {

@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - August 31st Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *07/09/2024*</div>
 
+The **August 31st** update is a version for *Back Math* 1.8.0, released on August 31, 2024.[^1]
+
 ## Changes
 ### Blocks
 - Cobbled Aljanstone (& related) no longer takes 5 years to mine (now have an assigned tool).
@@ -39,3 +41,6 @@
 
 ### Translation Changes (Brazilian Portuguese)
 - Updated *a lot* of things. [Here](https://github.com/Fabricio20106/Back-Math/commit/90799b0428fa513444e276d4cd38587b38bcebf7#diff-8da791256691df0f616dc5d55eb1a04c28654f43ba997683b13fea9dca8c16e7)'s the diff.
+
+## References
+[^1]: ["Fixed Aljan Crashes & Updated Crystalline Crystallizer Model"](https://github.com/Fabricio20106/Back-Math/commit/90799b0428fa513444e276d4cd38587b38bcebf7) (Commit `90799b0`) – GitHub, August 31, 2024.

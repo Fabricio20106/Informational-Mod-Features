@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 1 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *02/03/2024*</div>
 
+**1.7.0 Pre-Release 1** (known as **1.7.0pre1** in the jar file) is the first pre-release for [*Revaried* 1.7.0](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), released on March 2, 2024.[^1]
+
 ## Additions
 - Added Azure Bluet Leaves.
 - Added Mossy End Stone Bricks (with Stairs, Slabs, Walls & Infested).
@@ -19,7 +21,7 @@
 - Added a new sound event for throwing Dragon Breath bottles (`variants:entity.dragon_breath_bottle.throw`).
 
 ## Changes
-- Fixed the *"Feature"* crash with Chorus Plants from 1.6.20.3.
+- Fixed the *"Feature"* crash with Chorus Plants from [1.6.20.3](/Variants/Changelogs/1.16.5%20-%201.6.20.3/Changelog%201.6.20.3.md).
 - Splash and Lingering Dragon Breath bottles are now throwable (by Dispensers).
   - They do not render, but when they hit the ground they make an Area Effect cloud, like with the Dragon Fireballs.
 - Soul o' Charges can now be dispensed by Dispensers.
@@ -54,3 +56,6 @@
 - Added Mossy End Stone Brick Stairs, Mossy Purpur Block Stairs and Mossy Nether Brick Stairs to `#minecraft:stairs` block and item tags.
 - Added Mossy End Stone Brick Slab, Mossy Purpur Block Slab, Smooth Purpur Slab and Mossy Nether Brick Slab to `#minecraft:slabs` block and item tags.
 - Added Mossy End Stone Brick Wall, Mossy Purpur Block Wall and Mossy Nether Brick Wall to `#minecraft:walls` block and item tags.
+
+## References
+[^1]: ["1.7.0 Pre-Release 1: New Blocks & Dispenser Functionalities"](https://github.com/Fabricio20106/Variants/commit/bf980956fcba3c68ca415d6343664efae393cf7e) (Commit `bf98095`) – GitHub, March 2, 2024.

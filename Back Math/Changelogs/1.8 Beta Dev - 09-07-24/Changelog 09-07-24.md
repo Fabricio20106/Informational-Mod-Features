@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - July 9th, 2024 Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *01/03/2025*</div>
 
+The **July 9th** update is a version for *Back Math* 1.8.0, released on July 9, 2024.[^1]
+
 ## Changes
 ### Items
 - When *Revaried* is loaded, crowns can now be right-clicked to swap them with the item on your head.
@@ -27,3 +29,6 @@
 - Added `#backmath:applicable_to/queen_lucy_summoner_staff` enchantment tag.
   - Contains sharpness, smite, bane of arthropods, looting, fire aspect, sweeping edge and knockback.
   - Enchantments in this tag can be applied to queen lucy summoner staves.
+
+## References
+[^1]: ["Item Classes Reorganization & Slight Bugfixes"](https://github.com/Fabricio20106/Back-Math/commit/6e6856cf4beef3a949642120e7492e8daba0562e) (Commit `6e6856c`) – GitHub, July 9, 2024.

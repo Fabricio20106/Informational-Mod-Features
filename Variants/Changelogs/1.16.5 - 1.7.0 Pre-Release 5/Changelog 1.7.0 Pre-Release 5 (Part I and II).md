@@ -3,13 +3,15 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 5 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *08/06/2024*</div>
 
-*This changelog only covers the changes made in parts I and II of this update. For the part III, see [Changelog 1.7.0 Pre-Release 5 (Part III)](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20III).md)*
+**1.7.0 Pre-Release 5** (known as **1.7.0pre5** in the jar file) is the fifth pre-release for [*Revaried 1.7.0*](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), with parts I and II being released on June 1 and June 17, 2024, respectively.[^1][^2]
+
+This changelog only covers the changes made in parts I and II of this update. For the part III, see [Changelog 1.7.0 Pre-Release 5 (Part III)](/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20III).md).
 
 ## Additions
 - Added a `/setbehavior` command to set the behavior and properties of an exponential stew.
   - Its syntax is `/setbehavior <targets/player> <stew behavior>{<properties>}`.
   - **Example**: `/setbehavior JuneTheWoods variants:clear_mob_effects{curative_item:{id:"minecraft:milk_bucket",Count:1b}}`
-  - It can be executed from a permission level of 2.<sup>[[1]](https://minecraft.wiki/w/Permission_level#Java_Edition)</sup>
+  - It can be executed from a permission level of 2.[^3]
   - When executed, the behavior name is highlighted in purple, and when hovering it shows the behavior name and description.
 - Added a Sugar Pot Speed alias effect.
   - Only purpose is to give you speed for 10 seconds, and gets imediately removed after.
@@ -45,3 +47,8 @@
 ## Tags
 - Tags can now be made for stew behaviors. These are stored under the folder `tags/stew_behavior`.
 - Added Bells to `#minecraft:guarded_by_piglins` block tag.
+
+## References
+[^1]: ["1.7.0 Pre-Release 5 (Part I): Descripted & NBT-Based Pots & Stews"](https://github.com/Fabricio20106/Variants/commit/31aad4257c5ecb42293365c8cb044258af6fdfea) (Commit `31aad42`) – GitHub, June 1, 2024.
+[^2]: ["1.7.0 Pre-Release 5 (Part II): More Behaviors & /setbehavior Command"](https://github.com/Fabricio20106/Variants/commit/8437c5a048fab5dfffd6cfb85dc8b76f425de6c6) (Commit `8437c5a`) – GitHub, June 17, 2024.
+[^3]: [Permission level - Minecraft Wiki](https://minecraft.wiki/w/Permission_level).

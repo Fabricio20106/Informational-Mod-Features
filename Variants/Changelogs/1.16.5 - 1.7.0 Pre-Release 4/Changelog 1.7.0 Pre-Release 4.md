@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 4 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *30/05/2024*</div>
 
+**1.7.0 Pre-Release 4** (known as **1.7.0pre4** in the jar file) is the fourth pre-release of [*Revaried 1.7.0*](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), released on May 30, 2024.[^1][^2].
+
 ## Additions
 - Added Debug Arrows
   - These arrows, when shot, change the state of a block.
@@ -43,3 +45,7 @@
   - Fluids in this tag can be used to hydrate lava-based farmland, like Crimson and Warped Farmland.
 - Added Debug Arrows to `#minecraft:arrows` item and entity type tags.
 - Added Crimson and Warped Farmland to `#variants:nether_wart_plantable_on` block tag.
+
+## References
+[^1]: ["1.7.0 Pre-Release 4: Stew Behavior & Poisoning Type Registries & Debug Arrows"](https://github.com/Fabricio20106/Variants/commit/519679226afe325dfb1dcb8eb16e4709ba870496) (Commit `5196792`) – GitHub, May 30, 2024.
+[^2]: ["[For Real] 1.7.0 Pre-Release 4: Stew Behavior & Poisoning Type Registries & Debug Arrows"](https://github.com/Fabricio20106/Variants/commit/d917934c31e3deffa14ebbc8313702ba6361fd8c) (Commit `d917934`) – GitHub, May 30, 2024.

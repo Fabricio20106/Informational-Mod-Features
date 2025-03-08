@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - 1.9.0.3 -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *17/01/2025*</div>
 
+**1.9.0.3** is the third version for *Back Math* 1.9.0, released on January 5, 2025.[^1][^2] 
+
 ## Additions
 ### Blocks
 - Added aljanwood, aljancap, insomnian and avondalic willow barrels.
@@ -95,3 +97,7 @@
 - Renamed the `#backmath:aljan_teleporter_replaceables` block tag to `#backmath:aljan_teleporter_passthrough`.
   - Added `#minecraft:leaves` block tag to this tag.
 - The item tags `#create:upright_on_belt`, `#create:crushed_ores` and `#tconstruct:anvil_metal` are now data-generated.
+
+## References
+[^1]: ["1.9.0.3: Added Barrels & Data-Driven Outfits"](https://github.com/Fabricio20106/Back-Math/commit/4e4eefd031144f32f308db2e16aa74f0155bd27e) (Commit `4e4eefd`) – GitHub, January 5, 2025.
+[^2]: ["Added all barrels to `bm_barrel` block entity"](https://github.com/Fabricio20106/Back-Math/commit/d7da513cb88040c903acb1fff8011dda9016e0d1) (Commit `d7da513`) – GitHub, January 5, 2025.

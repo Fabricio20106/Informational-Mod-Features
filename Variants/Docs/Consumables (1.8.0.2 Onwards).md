@@ -23,7 +23,7 @@
 ## Behavior Format
 The behavior tag is where a consume behavior gets its properties from. It usually defaults to `consumable.behavior`, but it can be in `consumable.behavior.behaviors[]` if ran from a multi-behavior.
 
-Some behaviors, however, have some of their properties gotten straight from the default location, resulting in some parts of behaviors not working properly when ran from a multi-behavior.<sup>[[1]](https://github.com/Fabricio20106/Variants/issues/7)[[2]](https://github.com/Fabricio20106/Variants/issues/9)</sup>
+Some behaviors, however, have some of their properties gotten straight from the default location, resulting in some parts of behaviors not working properly when ran from a multi-behavior.[^1][^2]
 
 In code, any compound tag can be a property tag if needed.
 
@@ -49,7 +49,7 @@ Adds a certain amount of experience points or levels.
 
 Applies various effects to the entity eating.
 
-This behavior shows what effects it will apply on the item's tooltip. However, this only shows up when running in the default location.<sup>[[2]](https://github.com/Fabricio20106/Variants/issues/9)</sup>
+This behavior shows what effects it will apply on the item's tooltip. However, this only shows up when running in the default location.[^2]
 
 - <img src=Tags/compound_tag.png> The root tag for this item.
   - <img src=Tags/float_tag.png> **duration_factor**: Changes *only* the displayed duration of the effects. This value is shown on the item's tooltip.
@@ -142,7 +142,7 @@ Creates an explosion when the entity finishes eating. The explosion has the enti
   - <img src=Tags/float_tag.png> **radius**: The radius of the explosion. Ranges from `0` to `128`. Maximum is defined by the config `explosionRadiusUpperLimit`.
   - <img src=Tags/boolean_tag.png> **create_fire**: *(optional)* Whether this explosion creates fire. Defaults to `false`.
   - <img src=Tags/boolean_tag.png> **spawn_effect_cloud**: *(optional)* Whether to create an area effect cloud with the explosion. Defaults to `true`.
-    - Effects are always read from `consumable.behavior.effects[]`, even when executed from a multi-behavior.<sup>[[1]](https://github.com/Fabricio20106/Variants/issues/7)</sup>
+    - Effects are always read from `consumable.behavior.effects[]`, even when executed from a multi-behavior.[^1]
   - <img src=Tags/string_tag.png><img src=Tags/compound_tag.png> **source**: The damage source to use in this explosion. Uses the same format as the *damage entity* behavior.
   - <img src=Tags/string_tag.png> **mode**: How this explosion should behave. Can be one of:
     - `none`: No blocks are broken.
@@ -206,5 +206,5 @@ This behavior shows its teleport diameter or position on the item's tooltip.
   - <img src=Tags/integer_array_tag.png> **teleport_pos**: An array of three integers indicating where to teleport. Only use if `random_teleport` is false. Defaults to the entity's current position.
 
 ## References
-1. [VS-7](https://github.com/Fabricio20106/Variants/issues/7): Explode behavior effect clouds always get effects from `behavior.effects[]`, even when in multi-behaviors
-2. [VS-9](https://github.com/Fabricio20106/Variants/issues/9): Apply Effects behavior tooltip always gets effects from `behavior.effects[]`, even when in multi-behaviors
+[^1]: [VS-7](https://github.com/Fabricio20106/Variants/issues/7): Explode behavior effect clouds always get effects from `behavior.effects[]`, even when in multi-behaviors
+[^2]: [VS-9](https://github.com/Fabricio20106/Variants/issues/9): Apply Effects behavior tooltip always gets effects from `behavior.effects[]`, even when in multi-behaviors

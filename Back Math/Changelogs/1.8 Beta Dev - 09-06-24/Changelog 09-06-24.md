@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - June 9th Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *23/06/2024*</div>
 
+The **June 9th** update is a version for *Back Math* 1.8.0, released on June 9, 2024.[^1]
+
 ## Additions
 - Added `equipment` loot parameter set.
   - This taken in *"origin"* as a required parameter and *"this entity"* as an optional one.
@@ -54,3 +56,6 @@
 - Added `#backmath:immune_to_summoner_staff_smashes` entity type tag.
   - Contains nothing.
   - Entities in this tag are not knocked back by Queen Lucy Summoner Staff smash attacks.
+
+## References
+[^1]: ["Added Registry QLP Variants & Variant Conversion"](https://github.com/Fabricio20106/Back-Math/commit/3c4c36d8e4151a93a885d32943f330c359de8161) (Commit `3c4c36d`) – GitHub, June 9, 2024.

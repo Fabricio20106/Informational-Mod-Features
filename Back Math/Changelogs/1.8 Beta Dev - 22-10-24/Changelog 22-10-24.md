@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - October 22nd Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *03/11/2024*</div>
 
+The **October 22nd** update is a version for *Back Math* 1.8.0, released on October 22, 2024.[^1]
+
 ## Additions
 ### Items
 - Added archer lucia boots.
@@ -118,3 +120,6 @@ NoSuchMethodError: melonystudios.variants.util.VSUtils.minecraft(Ljava/lang/Stri
 > <div style="text-align: center;">
 >
 > The updated textures for queen lucy, queen lucy relics, and warrior sophies. </div>
+
+## References
+[^1]: ["Texture Updates & Small Bugfixes"](https://github.com/Fabricio20106/Back-Math/commit/41402cb1db097f3c6417949b41dc608cdd1dfea4) (Commit `41402cb`) – GitHub, October 22, 2024.

@@ -1,7 +1,9 @@
 <div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
 # <div style="text-align: center;">- Back Math - August 6th Update -</div>
-### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *17/08/2024*</div>
+
+The **August 6th** update is a version for *Back Math* 1.8.0, released on August 6, 2024.[^1]
 
 ## Additions
 ### Blocks
@@ -50,3 +52,6 @@
 ### Additions
 - Added new model templates for cakes: `template_cake` and `template_cake_slice<1-6>`.
 - Renamed the `template_titoli` and `template_titoli_down` model templates to `template_emotional_squid` and `template_hanging_emotional_squid`.
+
+## References
+[^1]: ["Rarity Updates & More Data Gen. Models"](https://github.com/Fabricio20106/Back-Math/commit/962b0836b74cc8534c09f32b92b8da5f506d028b) (Commit `962b083`) – GitHub, August 6, 2024.

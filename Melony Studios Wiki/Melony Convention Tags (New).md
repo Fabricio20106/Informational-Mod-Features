@@ -1,4 +1,5 @@
 # List of Tags
+<link rel="stylesheet" href="markdown-style.css">
 
 List and contents of all tags on the `melony` namespace across all my mods.
 - **BM** -> Back Math;
@@ -39,11 +40,11 @@ List and contents of all tags on the `melony` namespace across all my mods.
 | `shields` | shield, devil_shield, angelic_shield, mid_term_shield, aljameed_shield, moonering_shield, empty_armor_slot_shield | <li>**[RV]** Items go automatically to the offhand;</li> <li>Used to determine whether a Back Math or Revaried shield is a shield.</li> | **[BM]** *February 12th, 2024* (1.8.0) **[RV]** 1.6.8 |
 | `villager_plantable_seeds` | `variants:golden_carrots`, wheat_seeds, beetroot_seeds, carrot, potato, carameled_wheat_seeds, aljamic_onion | Can (maybe) be planted by villagers. | **[BM]** *May 18th, 2024* (1.8.0) **[MC]** [23w16a](https://minecraft.wiki/w/Java_Edition_23w16a) |
 | `villager_wanted_items` | `#melony:villager_plantable_seeds`, wheat, bread, golden_carrot, beetroot | Can be picked up by villagers. | **[RV]** 1.7.0 Pre-Release 2 |
-| `with_rarity/common` | end_crystal, golden_apple | Turns the item's rarity into "<a style= 'font-family: "Minecraft Seven"; color: rgb(255, 255, 255)'>Common</a>". | **[ST]** 0.1 |
-| `with_rarity/uncommon` | piglin_banner_pattern, chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots, nautilus_shell, counduit, music_disc_<13 cat blocks chirp far mall mellohi stal strad ward 11 wait> | Turns the item's rarity into "<a style= 'font-family: "Minecraft Seven"; color: rgb(255, 255, 85)'>Uncommon</a>". | **[ST]** 0.1 |
-| `with_rarity/rare` | enchanted_golden_apple, trident, nether_star, wither_skeleton_skull, skull_banner_pattern, mojang_banner_pattern | Turns the item's rarity into "<a style= 'font-family: "Minecraft Seven"; color: rgb(85, 255, 255)'>Rare</a>". | **[ST]** 0.1 |
-| `with_rarity/epic` | elytra, dragon_head, barrier, structure_void, command_block_minecart, debug_stick, knowledge_book, enchanted_knowledge_book, debug_bow, debug_arrow | Turns the item's rarity into "<a style= 'font-family: "Minecraft Seven"; color: rgb(255, 85, 255)'>Epic</a>". | **[ST]** 0.1 |
-| `with_rarity/potato` | Empty. | Turns the item's rarity into "<a style= 'font-family: "Minecraft Seven"; color: rgb(85, 255, 85)'>Potato</a>" (from [24w14potato](https://minecraft.wiki/w/Java_Edition_24w14potato)). | **[ST]** 0.1 |
+| `with_rarity/common` | end_crystal, golden_apple | Turns the item's rarity into "<mc-c>Common</mc-c>". | **[ST]** 0.1 |
+| `with_rarity/uncommon` | piglin_banner_pattern, chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots, nautilus_shell, counduit, music_disc_<13 cat blocks chirp far mall mellohi stal strad ward 11 wait> | Turns the item's rarity into "<mc-u>Uncommon</mc-u>". | **[ST]** 0.1 |
+| `with_rarity/rare` | enchanted_golden_apple, trident, nether_star, wither_skeleton_skull, skull_banner_pattern, mojang_banner_pattern | Turns the item's rarity into "<mc-r>Rare</mc-r>". | **[ST]** 0.1 |
+| `with_rarity/epic` | elytra, dragon_head, barrier, structure_void, command_block_minecart, debug_stick, knowledge_book, enchanted_knowledge_book, debug_bow, debug_arrow | Turns the item's rarity into "<mc-e>Epic</mc-e>". | **[ST]** 0.1 |
+| `with_rarity/potato` | Empty. | Turns the item's rarity into "<mc-p>Potato</mc-p>" (from [24w14potato](https://minecraft.wiki/w/Java_Edition_24w14potato)). | **[ST]** 0.1 |
 
 
 ## Blocks

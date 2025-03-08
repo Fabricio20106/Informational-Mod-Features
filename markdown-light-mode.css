@@ -1,0 +1,25 @@
+code {
+  background-color: rgb(222, 203, 230);
+  color: rgb(30, 27, 31);
+}
+blockquote {
+  background-color: rgb(222, 203, 230);
+}
+body {
+  font-family: 'Kantumruy Pro';
+  background-color: white;
+  color: black;
+}
+a:link, a:active {
+  color: rgb(194, 139, 216);
+}
+
+table, th, td, tbody {
+  color: black;
+}
+
+h1 {color: black;}
+h2 {color: black;}
+h3 {color: black;}
+h4 {color: black;}
+h5 {color: black;}

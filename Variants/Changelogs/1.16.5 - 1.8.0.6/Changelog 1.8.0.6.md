@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.8.0.6 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *04/11/2024*</div>
 
+**1.8.0.6** is the sixth version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on November 3, 2024.[^1][^2]
+
 ## Additions
 ### Sounds
 - Added **3** new sound events:
@@ -105,3 +107,7 @@
 ### Removals
 - Removed aljamic farmland from `#melony:natural_farmland`, as it's now added by Back Math.
 - Removed devil, angelic, mid-term, aljameed and moonering shields from `#melony:shields`, as it was already adde by Back Math.
+
+### References
+[^1]: ["1.8.0.6: uhhhhh"](https://github.com/Fabricio20106/Variants/commit/c0412fa903a33161b612052d75002e1ee6d80549) (Commit `c0412fa`) – GitHub, November 1, 2024.
+[^2]: ["1.8.0.6 (Part II): New Config Menu"](https://github.com/Fabricio20106/Variants/commit/7fe11c0c32535964ac95771c7ec7c7e2f1f16b99) (Commit `7fe11c0`) – GitHub, November 3, 2024.

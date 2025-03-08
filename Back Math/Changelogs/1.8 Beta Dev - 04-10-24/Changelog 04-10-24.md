@@ -3,8 +3,10 @@
 # <div style="text-align: center;">- Back Math - October 4th Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *05/10/2024*</div>
 
+The **October 4th** update is a version for *Back Math* 1.8.0, released on October 4, 2024.[^1][^2]
+
 ## Known Bugs
-- Archer Lucias have no texture. This is fixed in the next commit, which was released in the next day.
+- Archer Lucias have no texture. This is fixed in the next commit, which was released in the next day.[^2]
 
 ## Additions
 ### Entities
@@ -141,3 +143,7 @@
 > <div style="text-align: center;">
 >
 > The *Aljan Texture Update* pack on the resource pack selection screen. </div>
+
+## References
+[^1]: ["Added Collector Fabricios & Updated the Aljan Sky (& Textures)"](https://github.com/Fabricio20106/Back-Math/commit/c91d366c98cef5f4061835cc3251992d1dc8027a) (Commit `c91d366`) – GitHub, October 4, 2024.
+[^2]: ["Fix Archer Lucias Having No Texture"](https://github.com/Fabricio20106/Back-Math/commit/392e99c1e74412aa2091afb76fe8b52d9c535464) (Commit `392e99c`) – GitHub, October 5, 2024.

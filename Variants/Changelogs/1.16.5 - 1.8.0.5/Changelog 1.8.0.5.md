@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.8.0.5 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *04/11/2024*</div>
 
+**1.8.0.5** is the fifth version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on October 22, 2024.[^1]
+
 ## Additions
 ### Items
 - Added splash and lingering bottles for honey, dragon's breath, lava, soul lava, milk, powder snow.
@@ -108,3 +110,6 @@
   - It now contains `#melony:natural_farmland` and crimson and warped farmland.
   - Blocks in this tag can be used to place unnatural crops, such as crimson wheat<sup>*[upcoming]*</sup>.
 - Added all new splash and lingering bottles to `#variants:throwable_bottles` item tag.
+
+### References
+[^1]: ["1.8.0.5: Bottle Updates & JSON Configs"](https://github.com/Fabricio20106/Variants/commit/e7231934a4b0159d44952f3063259d3266b00eaa) (Commit `e723193`) – GitHub, October 22, 2024.

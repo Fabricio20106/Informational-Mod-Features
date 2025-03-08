@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Release Candidate 3 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *22/07/2024*</div>
 
+**1.7.0 Release Candidate 3** (known as **1.7.0-rc3** in the jar file) is the second release candidate for [*Revaried 1.7.0*](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), released on July 18, 2024.[^1]
+
 ## Additions
 - Backported the `/damage` command.
   - Its syntax in my version is `/damage <target> <amount> <source> [by] [killer]` (`<>` means required, `[]` means optional).
@@ -85,3 +87,6 @@
 - Added `#melony:bows` item tag.
   - Items in this tag are only used by my other mods.
   - Contains Debug Bows.
+
+## References
+[^1]: ["1.7.0 RC3: Backported /damage Command & Fixed"](https://github.com/Fabricio20106/Variants/commit/b343e968c179490493cccc7e33b426cba037cc02) (Commit `b343e96`) – GitHub, July 18, 2024.

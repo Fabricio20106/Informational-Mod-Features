@@ -43,17 +43,17 @@ This pack replaces the menu panorama with the panorama from the Nether Update, a
 >
 > **Target Version**: 1.16.5 
 
-This pack is mainly focused on fixing things in mods for *J10S Mod Experience*, but it does also update the game's UI.
+This pack is mainly focused on fixing things in mods for *Mellomedley*, but it does also update the game's UI.
 
 It makes buttons a bright (melony) green, and some of the text in said buttons is in small caps.
 > <center> <img src="Screenshots/j10sme_example.png" width=600> </center>
 
-## Melony Dark UI
-> *"Makes all UIs and HUDs dark. For J10SME." - `pack.mcmeta` description*
+## Mellow UI (Dark)
+> *"Makes all UIs and HUDs dark. For Mellomedley." - `pack.mcmeta` description*
 >
 > **Target Version**: 1.16.5
 
 Makes most interfaces and buttons in the game use a dark gray and melony lime color palette.
 
-This pack is the intended successor for the current UI pack being used in *J10S Mod Experience*.
-> <center> <img src="Screenshots/melony_dark_ui_example.png" width=600> </center>
+This pack is the intended successor for the current UI pack being used in *Mellomedley*.
+> <center> <img src="Screenshots/mellow_ui_dark_example.png" width=600> </center>

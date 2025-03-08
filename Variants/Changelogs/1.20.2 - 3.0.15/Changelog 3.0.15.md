@@ -3,7 +3,7 @@
 # <div style="text-align: center;">- Variants - 3.0.15 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *08/12/2023*</div>
 
-This release of Variants is almost identical to release 1.6.15, but updated to 1.20.2 and to NeoForge 20.2.
+**3.0.15** is the first and only version for *Revaried* 3.0.0, released on December 7, 2024.[^1][^2] This release of *Revaried* is almost identical to release [1.6.15](/Variants/Changelogs/1.16.5%20-%201.6.15/Changelog%201.6.15.md), but updated to 1.20.2 and to *NeoForge* 20.2.
 
 ## Additions
 - Added Chest Boats, but they currently do not have textures or items to spawn them.
@@ -48,3 +48,7 @@ This release of Variants is almost identical to release 1.6.15, but updated to 1
 - Golden Cauldrons transmute into regular Cauldrons when any fluid is put inside.
 - Glow Black Beds and Diamond Bells render as a Light Blue Bed and a regular Bell respectively.
 - Glow Black Stained Glass Panes appear opaque in the inventory.
+
+### References
+[^1]: ["Updated to NeoForge 20.2.86 for 1.20.2"](https://github.com/Fabricio20106/Variants/commit/33aecb0758fb7f7cd3384d7a21ce900ec8905daf) (Commit `33aecb0`) – GitHub, December 7, 2024.
+[^2]: ["Update ALL OF VARIANTS to NeoForge (Can now run)"](https://github.com/Fabricio20106/Variants/commit/4643be83b0e3bc8875ec8be6d33cf8e796b692e2) (Commit `4643be8`) – GitHub, December 7, 2024.

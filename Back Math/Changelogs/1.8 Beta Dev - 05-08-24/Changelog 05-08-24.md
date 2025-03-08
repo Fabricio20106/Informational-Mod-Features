@@ -1,7 +1,9 @@
 <div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
 # <div style="text-align: center;">- Back Math - August 5th Update -</div>
-### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *17/08/2024*</div>
+
+The **August 5th** update is a version for *Back Math* 1.8.0, released on August 5, 2024.[^1]
 
 ## Additions
 - Added the MCC cape as a cape for Back Math's mobs.
@@ -55,3 +57,6 @@
 ## Technical Changes
 - Renamed all damage sources to snakecase (lowercase, using underscores as spaces).
   - The JSON files for these damage sources have also been added for Variants.
+
+## References
+[^1]: ["Reoganized BMBlockStateModels"](https://github.com/Fabricio20106/Back-Math/commit/b8abdd5487325a43c7dea1ddc564f128ea42a814) (Commit `b8abdd5`) – GitHub, August 5, 2024.

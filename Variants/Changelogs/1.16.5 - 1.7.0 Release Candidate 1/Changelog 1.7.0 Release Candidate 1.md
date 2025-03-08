@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Release Candidate 1 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *01/07/2024*</div>
 
+**1.7.0 Release Candidate 1** (known as **1.7.0-rc1** in the jar file) is the first release candidate for [*Revaried 1.7.0*](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), released on July 1, 2024.[^1]
+
 ## Additions
 - All armors and Elytra can now be swapped by right-clicking (same as in recent versions).
 - Shift-right-clicking a Spawner with an empty Minecart now places the spawner into it.
@@ -48,3 +50,6 @@
 - Added `#variants:spawner_minecart_cannot_replace` block tag.
   - Contains Bedrock, all Command Blocks, Structure Blocks, Jigsaws, Barriers, Moving Pistons, End Portal (Frames), Gateways, Nether Portals and Spawners.
   - Blocks in this tag cannot be destroyed by Spawner Minecarts when they are broken. Instead, they drop as an item.
+
+## References
+[^1]: ["1.7.0 Release Candidate 1: Working Spyglasses & Spawner Pickup with Minecarts"](https://github.com/Fabricio20106/Variants/commit/6b1c390ec5366555a5a551fd54343d514e4eca22) (Commit `6b1c390`) – GitHub, July 1, 2024.

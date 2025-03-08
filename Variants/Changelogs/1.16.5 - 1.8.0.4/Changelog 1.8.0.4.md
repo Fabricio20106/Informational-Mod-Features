@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.8.0.4 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *19/10/2024* and *04/11/2024*</div>
 
+**1.8.0.4** is the fourth version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on September 19, 2024.[^1][^2]
+
 ## Additions
 ### Items
 - Added glass bottles for all stained glass types (and quartz glass).
@@ -70,3 +72,7 @@
 
 ### Technical
 - Removed *VSUtils*`.woolArmorColor(String, int)`.
+
+### References
+[^1]: ["1.8.0.4: Way Too Many Stained Glass Bottles"](https://github.com/Fabricio20106/Variants/commit/a2cb145db5e8a2b12be9cee02973fef60822f4de) (Commit `a2cb145`) – GitHub, September 15, 2024.
+[^2]: ["1.8.0.4 (Part II): Few Too Many Stained Bottles (+ Recipes)"](https://github.com/Fabricio20106/Variants/commit/255640e5407156272c2d920c0ce70700ef84bceb) (Commit `255640e`) – GitHub, September 19, 2024.

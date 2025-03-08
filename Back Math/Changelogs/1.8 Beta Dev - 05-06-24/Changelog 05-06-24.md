@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - June 5th Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *22/06/2024*</div>
 
+The **June 5th** update is a version for *Back Math* 1.8.0, released on June 5, 2024.[^1]
+
 ## Additions
 - Added Queen Lucy Pet variants as a registry.
   - Currently does nothing, but the files are still generated with only the `asset_id` present.
@@ -55,3 +57,6 @@
   - Contains Wanderer, Warrior and (Archer) Insomnia Sophies, Queen Lucy and Archer and Karate Lucias.
   - Entities in this tag can have capes. This means the cape renders and the elytra takes the cape texture.
   - If not, the `cape` tag is not even loaded into the entity's NBT.
+
+## References
+[^1]: ["Data-Driven* QLP Variants & Reorganized BMItemModelProvider"](https://github.com/Fabricio20106/Back-Math/commit/51149708f7cedbe09b0ba7cf04cb5fd174cea019) (Commit `5114970`) – GitHub, June 5, 2024.

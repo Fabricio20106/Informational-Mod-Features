@@ -1,7 +1,7 @@
-<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
-
 # <div style="text-align: center;">- Back Math - December 27th, 2022 Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *01/03/2025*</div>
+
+The **December 27th** update is a version for *Back Math* 1.8.0, released on December 27, 2022.[^1]
 
 ## Removals
 - Removed the compatibility with *Mystical Agriculture*.
@@ -47,3 +47,6 @@
   - (*BMFeatures*) `DISK_ALJAMIC_SAND` --> `ALJAMIC_SAND_DISK`;
   - (*BMFeatures*) `IMMUTABLE_LIST_ALJAN_WOODS_WCW` --> `ALJAN_WOODS_WAO_PATCH_IL`;
   - (*BMFeatures*) `WILD_ALJAMIC_ONIONS_PATCH` --> `ALJAN_WOODS_WAO_PATCH`;
+
+## References
+[^1]: ["some big code cleanup"](https://github.com/Fabricio20106/Back-Math/commit/86ddad51997086f4bc9e448c3ba66a758502d770) (Commit `86ddad5`) – GitHub, December 27, 2022.

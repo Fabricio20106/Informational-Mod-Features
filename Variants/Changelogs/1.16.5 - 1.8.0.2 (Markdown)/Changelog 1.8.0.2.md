@@ -3,6 +3,8 @@
 # <div style="text-align: center;"><p style="font-family:'Minecraft Five'">- Variants - 1.8.0.2 -</p></div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *August 14th and 17th, 2024*</div>
 
+**1.8.0.2** is the second version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on August 16, 2024.[^1][^2]
+
 ## <p style="font-family:'Minecraft Five'">Additions</p>
 - Added an `explosionRadiusUpperLimit` config.
   - This controls what the maximum explosion radius for an *Explode* stew behavior is.
@@ -140,3 +142,7 @@
 | Item           | `light_magenta_shears`        | `magentic_shears`           |
 | Entity Type    | `old_cod`                     | `fish`                      |
 | Biome          | `ender_forest`                | `enderwood_forest`          |
+
+### <p style="font-family:'Minecraft Five'">References</p>
+[^1]: ["1.8.0.2 (Part I): Data-Driven Bowl Types & Data-Generated sounds.json"](https://github.com/Fabricio20106/Variants/commit/779aa6327a28c81c13ecf7ebaafd0dc2192e007f) (Commit `779aa63`) – GitHub, August 9, 2024.
+[^2]: ["1.8.0.2 (Part 2): Semi-Working Data-Driven Bowls & Renames"](https://github.com/Fabricio20106/Variants/commit/82e99f7961e709e636dc95ffcb5fb23c89794058) (Commit `82e99f7`) – GitHub, August 16, 2024.

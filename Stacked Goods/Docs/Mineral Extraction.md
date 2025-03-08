@@ -2,16 +2,15 @@
 > [!NOTE]
 > This feature is exclusive to *Stacked Goods*.
 >
-> ***Last Updated**: February 24th, 2025*
+> ***Last Updated**: March 7th, 2025*
 
 **Mineral extractions** define which blocks use which loot table when right-clicking a mineral extractor with a hammer. Mineral extractions can be defined using JSON files in a data pack at the path `data/<namespace>/mineral_extraction/`.
 
 ## JSON Format
 Mineral extractions are defined using the following format:
-> [!WARNING]
-> **This section of this file is empty.**
->
-> You can help by expanding it.
+- ![](/Variants/Docs/Tags/compound_tag.png) The root object.
+  - ![](/Variants/Docs/Tags/string_tag.png) **block**: A non-hashtagged block tag defining which blocks can be used to get the specified resources.
+  - ![](/Variants/Docs/Tags/string_tag.png) **loot_table**: The loot table to use when extracting minerals from the blocks in the tag.
 
 ## History
 | Version | Changes                                  |

@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Variants - 1.8.0.3 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *01/09/2024*</div>
 
+**1.8.0.3** is the third version for [*Revaried 1.8.0*](/Variants/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on September 14, 2024.[^1][^2][^3][^4]
+
 ## Additions
 - Added a new Magic Protection enchantment.
   - Works the same as other protection enchantments, but protects against magic damage sources.
@@ -181,3 +183,9 @@ All consume tags can be configured using the `/consumable` and `/consumebehavior
     - *(Integer)* `count`: The count of remainder items. Can be set to above 127, but it may not work correctly.<sup>*[needs testing]*</sup>
     - *(Compound/String)*: `components`: The item tags to apply to the remainder item. If defined as a string, it will be parsed and converted to a compound. This is used by JSON parsers in Variants (like bowl types).
 - *(Integer)* `texture_id`: The id used by the model overrides. Only used by exponential stews.
+
+### References
+[^1]: ["1.8.0.3 (Part I): Updated Bowl Types"](https://github.com/Fabricio20106/Variants/commit/20f5c667ccf721cf5175bffca62216adfeb096b8) (Commit `20f5c66`) – GitHub, August 27, 2024.
+[^2]: ["1.8.0.3 (Part II): Added Magic Protection & Effect Tag Updates"](https://github.com/Fabricio20106/Variants/commit/b2084388fc5cfe8c84347374635f7966cc10c356) (Commit `b208438`) – GitHub, August 27, 2024.
+[^3]: ["1.8.0.3 (Part III): Consumables Update & More"](https://github.com/Fabricio20106/Variants/commit/20589f84cdcde9ce049dd8cab1bd013f24ace070) (Commit `20589f8`) – GitHub, September 7, 2024.
+[^4]: ["1.8.0.3 (Part IV): Consumables Update & More"](https://github.com/Fabricio20106/Variants/commit/7652c3e4563fbb04d7089263cd777f418b9a2d54) (Commit `7652c3e`) – GitHub, September 14, 2024.

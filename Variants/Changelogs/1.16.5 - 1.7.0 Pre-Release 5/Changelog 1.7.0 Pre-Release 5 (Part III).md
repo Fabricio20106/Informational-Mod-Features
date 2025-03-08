@@ -3,10 +3,12 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 5 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *02/07/2024*</div>
 
-*This changelog only covers the changes made in part III of this update. For the parts I and II, see [Changelog 1.7.0 Pre-Release 5 (Part I and II)](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20I%20and%20II).md)*
+**1.7.0 Pre-Release 5** (known as **1.7.0pre5** in the jar file) is the fifth pre-release for [*Revaried 1.7.0*](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), with part III being released on June 28, 2024.[^1]
+
+This changelog only covers the changes made in part III of this update. For the parts I and II, see [Changelog 1.7.0 Pre-Release 5 (Part I and II)](/Variants/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20I%20and%20II).md).
 
 ### Known Issues
-- Items in the player's hand don't render. This was fixed in [1.7.0 Release Candidate 1](https://github.com/Fabricio20106/Informational-Mod-Features/blob/main/Variants/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%201/Changelog%201.7.0%20Release%20Candidate%201.md).
+- Items in the player's hand don't render. This was fixed in [1.7.0 Release Candidate 1](/Variants/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%201/Changelog%201.7.0%20Release%20Candidate%201.md).
 
 ## Additions
 - Exponential Water, Lava, Soul Lava, Milk and Powder Snow Bowls are now craftable using 4 bottles of the respective fluid.
@@ -15,7 +17,7 @@
   - Can use any bowl inside `#melony:bowls/wooden`.
     - If an item inside the tag is not a valid bowl, the default will be an Oak Bowl.
   - Includes a new custonm recipe type for it (`variants:exponential_suspicious_stew_special_recipe`).
-- Mushroom Stew Buckets can now place Mushroom Stew again. <sup>*[fixed [VS-5](https://github.com/Fabricio20106/Variants/issues/5)]*</sup>
+- Mushroom Stew Buckets can now place Mushroom Stew again.[^2]
 - Added a new empty sound event (`variants:stew_behavior.play_sound.default`) for the *Play Sound* behavior.
 - The Sugar Pot Speed effect now has the effect icon of the Speed effect.
 
@@ -77,3 +79,7 @@
   - Now it also makes the `id` of the stew *Apply Mob Effects*.
 - The `no_counter` parameter of effect instances is now used by Exponential Stews and *BucketFoodItem*s.
 - *StewBehavior* and *PoisoningType* can now have tags, and now have the *is(ITag\<StewBehavior/PoisoningType>)* method.
+
+## References
+[^1]: ["1.7.0 Pre-Release 5 (Part III): Craftable Stews & Working Spyglasses (#5)"](https://github.com/Fabricio20106/Variants/commit/d1735d5ceb24d37ef7ee9824563f75b9e6d1542f) (Commit `d1735d5`) – GitHub, June 28, 2024.
+[^2]: [VS-5](https://github.com/Fabricio20106/Variants/issues/5): Mushroom Stew can be duplicated with the stew bucket.

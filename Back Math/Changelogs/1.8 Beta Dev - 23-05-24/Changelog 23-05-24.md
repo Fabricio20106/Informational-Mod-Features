@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - May 23rd Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *05/06/2024*</div>
 
+The **March 23rd** update is a version of *Back Math* 1.8.0, released on March 23, 2024.[^1]
+
 ## Additions
 - Capes are no longer exclusive to Wanderer Sophies.
   - Now, Wanderer, Warrior and (Archer) Insomnia Sophies, Queen Lucy, Archer and Karate Lucias can have capes.
@@ -58,3 +60,6 @@
 - Added `#melony:makes_grass_blocks_snowy` block tag.
   - Contains Snow Blocks and Snow (layers).
   - Blocks in this tag make Aljamic Grass Blocks and Avondalic Nylium snowy.
+
+## References
+[^1]: ["Updated Models & More Data-Driven Loot"](https://github.com/Fabricio20106/Back-Math/commit/c308a4926320bd6db9aa671d3ced08581aa58bd0) (Commit `c308a49`) – GitHub, March 23, 2024.

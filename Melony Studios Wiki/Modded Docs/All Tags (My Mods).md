@@ -2,7 +2,13 @@
 
 ## Back Math
 ### Barrel (`bm_barrel`)
-- Items (`items`): Stored *ItemStack*s (27 total). This is saved using Revaried's (Variants) stack handling.
+- Items (`items`): Stored *ItemStack*s (27 total). This is saved using *Revaried*'s (Variants) stack handling.
+
+### Crate (`crate`)
+- Items (`items`): Stored *ItemStack*s (18 total). This is saved using *Revaried*'s (Variants) stack handling.
+
+### Queen Lucy Head (`queen_lucy_head`)
+- Variant (`variant`): The entity variant used to render this head. This is validated by both the item and the block entity.
 
 ### Wanderer Sophie Head (`wanderer_sophie_head`)
 - Variant (`variant`): The entity variant used to render this head. This is validated by both the item and the block entity.

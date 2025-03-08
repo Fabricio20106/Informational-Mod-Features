@@ -1,7 +1,9 @@
 <div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
 
 # <div style="text-align: center;">- Back Math - August 14th Update -</div>
-### <div style="text-align: center;">A Variants Release Changelog made on *17/08/2024*</div>
+### <div style="text-align: center;">A Back Math Update Changelog made on *17/08/2024*</div>
+
+The **August 14th** update is a version for *Back Math* 1.8.0, released on August 14, 2024.[^1][^2]
 
 ## Additions
 - Added the Jantic Railgun.
@@ -55,3 +57,7 @@ Tool behaviors is a class that contains NBT-related methods for Back Math's item
 - Added `#backmath:applicable_to/backmath_bows` enchantment tag.
   - Contains Power, Punch, Flame and Infinity.
   - Enchantments in this tag can be applied to Back Math's bows.
+
+## References
+[^1]: ["Added the Jantic Railgun & Reorganized Item & Entity Classes"](https://github.com/Fabricio20106/Back-Math/commit/b848967940e0267b3f34c234109adc3524ec62da) (Commit `b848967`) – GitHub, August 14, 2024.
+[^2]: ["Fixed Mixin Reference Map Crash"](https://github.com/Fabricio20106/Back-Math/commit/85010f727f7e3e582eaf4d0846bed199ab0fb408) (Commit `85010f7`) – GitHub, August 19, 2024.

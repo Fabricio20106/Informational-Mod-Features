@@ -3,6 +3,8 @@
 # <div style="text-align: center;">- Back Math - May 25th Update -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *05/06/2024*</div>
 
+The **March 25th** update is a version of *Back Math* 1.8.0, released on March 25, 2024.[^1]
+
 ## Additions
 - Wanderer Sophie variants are now data-driven. See **Wanderer Sophie Variants** category below.
 - Insomnia Zombies can now be/spawn as babies.
@@ -50,3 +52,6 @@ Wanderer Sophie Variants is a new registry added in this update. It controls wha
 - Moved and renamed `#backmath:hydrates_farmland` fluid tag to `#melony:hydrates_farmland/water`.
   - Contains `#minecraft:water`.
   - Fluids in this tag can be used to hydrate water-based farmland, like Aljamic and Ender Farmland.
+
+## References
+[^1]: ["Data-Driven* Wanderer Sophie Variants"](https://github.com/Fabricio20106/Back-Math/commit/b2749f6ea5a35acce388d8124dc510041b8bf59c) (Commit `b2749f6`) – GitHub, March 25, 2024.

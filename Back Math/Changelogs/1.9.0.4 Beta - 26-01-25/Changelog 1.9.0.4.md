@@ -3,7 +3,9 @@
 # <div style="text-align: center;">- Back Math - 1.9.0.4 -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *27/01/2025*</div>
 
-**Note**: This changelog doesn't have the full list of changes made to items because I'm too lazy to do that.
+**1.9.0.4** is the fourth version for *Back Math* 1.9.0, released on January 26, 2025.[^1][^2][^3]
+
+This changelog doesn't have the full list of changes made to items because I'm too lazy to do that.
 
 ## Hotfix
 - Removed the duplicate tooltip on Back Math's shields when Variants is loaded.
@@ -137,3 +139,8 @@
 ### Removals
 - Removed jabuticabadas from the `#backmath:jams` item tag.
 - Removed queen lucy pets from the `#backmath:qlp_targets/disallowed` entity type tag.
+
+## References
+[^1]: ["1.9.0.4 (I): Updated Heads & Bugfixing"](https://github.com/Fabricio20106/Back-Math/commit/b926a9d5496dfc68bc3d8833c971f559f0389fea) (Commit `b926a9d`) – GitHub, January 23, 2025.
+[^2]: ["1.9.0.4 (II): Item Behaviors & New Tags"](https://github.com/Fabricio20106/Back-Math/commit/8e7f740f9f96616d8e06c7dc7fb35cafeca62058) (Commit `8e7f740`) – GitHub, January 26, 2025.
+[^3]: ["Fix shield having duplicate tooltips with Variants"](https://github.com/Fabricio20106/Back-Math/commit/b50091db31ee43827c77d9399e4aac4a5846a96a) (Commit: `b50091d`) – GitHub, January 26, 2025.

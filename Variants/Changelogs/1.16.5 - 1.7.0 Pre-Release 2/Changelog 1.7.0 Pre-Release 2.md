@@ -3,8 +3,10 @@
 # <div style="text-align: center;">- Variants - 1.7.0 Pre-Release 2 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *19/03/2024*</div>
 
+**1.7.0 Pre-Release 2** (known as **1.7.0pre2** in the jar file) is the second pre-release for [*Revaried* 1.7.0](/Variants/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md), released on March 19, 2024.[^1]
+
 ## Additions
-- Added Wool Armor Designs (currently only one exists, the Glitch design)[^1].
+- Added Wool Armor Designs (currently only one exists, the Glitch design)[^2].
 - Wool armor designs can now appear on the Weaponry tab.
 - Added `populateWoolArmorDesignsInTabs` and `maxInTabWoolArmorDesigns` configs.
   - These control whether to add all wool armor designs to the creative menu, and how many should be added.
@@ -21,7 +23,7 @@ If you're adding your own designs, you will need to add the translation (`"toolt
 - Exponential Water and Lava Bowls now only grants 1 nutrition and 1 saturation.
 - Exponential Milk Bowls now grants 4 nutrition and 5 saturation.
 - Villagers can now pick up Golden Carrots (crop).
-- Villagers can now plant[^2] crops in `#melony:villager_plantable_seeds` item tag.
+- Villagers can now plant[^3] crops in `#melony:villager_plantable_seeds` item tag.
 - Updates textures for:
   - Dog Music Disc;
   - Soul Charges;
@@ -58,8 +60,7 @@ If you're adding your own designs, you will need to add the translation (`"toolt
   - Contains `#melony:villager_plantable_seeds`, Wheat, Bread and Beetroots.
   - Items on this tag are used by villagers to determine what items they should pick up.
 
-## Footnotes
-
-[^1]: Wool armor designs were already in development before this release, but this is when I finalized it.
-
-[^2]: This didn't seem like it worked when I tested.
+## References
+[^1]: ["1.7.0 Pre-Release 2: Renames & Villager Mixins"](https://github.com/Fabricio20106/Variants/commit/b8cbfe04882e4899a204a9dd7ef316bbf8aeb65d) (Commit `b8cbfe0`) – GitHub, March 19, 2024.
+[^2]: Wool armor designs were already in development before this release, but this is when I finalized it.
+[^3]: This didn't seem like it worked when I tested.
