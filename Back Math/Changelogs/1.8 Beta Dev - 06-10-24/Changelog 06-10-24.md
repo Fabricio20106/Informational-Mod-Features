@@ -77,4 +77,4 @@ The **October 6th** update is a version for *Back Math* 1.8.0, released on Octob
 - Removed non-wild aljamic onions and carameled wheat from `#backmath:fabricios_can_harvest` block tag.
 
 ## References
-[^1]: ["Sky Updates, Texture Updates & Data-Driven Variants"](https://github.com/Fabricio20106/Back-Math/commit/fb2babd68f6a34ff606e991305357e918fed9a2b) (Commit `fb2babd`) – GitHub, October 6, 2024.
+[^1]: ["Sky Updates, Texture Updates & Data-Driven Variants"](https://github.com/isabellawoods/Back-Math/commit/fb2babd68f6a34ff606e991305357e918fed9a2b) (Commit `fb2babd`) – GitHub, October 6, 2024.

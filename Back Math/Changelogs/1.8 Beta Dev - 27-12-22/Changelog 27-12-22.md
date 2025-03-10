@@ -49,4 +49,4 @@ The **December 27th** update is a version for *Back Math* 1.8.0, released on Dec
   - (*BMFeatures*) `WILD_ALJAMIC_ONIONS_PATCH` --> `ALJAN_WOODS_WAO_PATCH`;
 
 ## References
-[^1]: ["some big code cleanup"](https://github.com/Fabricio20106/Back-Math/commit/86ddad51997086f4bc9e448c3ba66a758502d770) (Commit `86ddad5`) – GitHub, December 27, 2022.
+[^1]: ["some big code cleanup"](https://github.com/isabellawoods/Back-Math/commit/86ddad51997086f4bc9e448c3ba66a758502d770) (Commit `86ddad5`) – GitHub, December 27, 2022.

@@ -54,4 +54,4 @@ The **August 6th** update is a version for *Back Math* 1.8.0, released on August
 - Renamed the `template_titoli` and `template_titoli_down` model templates to `template_emotional_squid` and `template_hanging_emotional_squid`.
 
 ## References
-[^1]: ["Rarity Updates & More Data Gen. Models"](https://github.com/Fabricio20106/Back-Math/commit/962b0836b74cc8534c09f32b92b8da5f506d028b) (Commit `962b083`) – GitHub, August 6, 2024.
+[^1]: ["Rarity Updates & More Data Gen. Models"](https://github.com/isabellawoods/Back-Math/commit/962b0836b74cc8534c09f32b92b8da5f506d028b) (Commit `962b083`) – GitHub, August 6, 2024.

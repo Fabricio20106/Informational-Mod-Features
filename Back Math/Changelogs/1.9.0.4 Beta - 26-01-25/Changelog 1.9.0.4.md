@@ -141,6 +141,6 @@ This changelog doesn't have the full list of changes made to items because I'm t
 - Removed queen lucy pets from the `#backmath:qlp_targets/disallowed` entity type tag.
 
 ## References
-[^1]: ["1.9.0.4 (I): Updated Heads & Bugfixing"](https://github.com/Fabricio20106/Back-Math/commit/b926a9d5496dfc68bc3d8833c971f559f0389fea) (Commit `b926a9d`) – GitHub, January 23, 2025.
-[^2]: ["1.9.0.4 (II): Item Behaviors & New Tags"](https://github.com/Fabricio20106/Back-Math/commit/8e7f740f9f96616d8e06c7dc7fb35cafeca62058) (Commit `8e7f740`) – GitHub, January 26, 2025.
-[^3]: ["Fix shield having duplicate tooltips with Variants"](https://github.com/Fabricio20106/Back-Math/commit/b50091db31ee43827c77d9399e4aac4a5846a96a) (Commit: `b50091d`) – GitHub, January 26, 2025.
+[^1]: ["1.9.0.4 (I): Updated Heads & Bugfixing"](https://github.com/isabellawoods/Back-Math/commit/b926a9d5496dfc68bc3d8833c971f559f0389fea) (Commit `b926a9d`) – GitHub, January 23, 2025.
+[^2]: ["1.9.0.4 (II): Item Behaviors & New Tags"](https://github.com/isabellawoods/Back-Math/commit/8e7f740f9f96616d8e06c7dc7fb35cafeca62058) (Commit `8e7f740`) – GitHub, January 26, 2025.
+[^3]: ["Fix shield having duplicate tooltips with Variants"](https://github.com/isabellawoods/Back-Math/commit/b50091db31ee43827c77d9399e4aac4a5846a96a) (Commit: `b50091d`) – GitHub, January 26, 2025.

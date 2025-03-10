@@ -1,13 +1,15 @@
 # Damage Source
 
-**Damage sources** are the way Minecraft defines different kinds of damage that entities can take. They control which attributes the damage has as well as which death message is used when an entity dies due to that damage source.
+**Damage sources** are the way *Minecraft* defines different kinds of damage that entities can take. They control which attributes the damage has as well as which death message is used when an entity dies due to that damage source.
 
 On the vanilla game, the aspects of how damage is applied are dealt by various methods.
 
-Damage sources added by the vanilla game and my own mods can be applied using the `/damage` command, backported by Variants, as long as it is included as a data-driven source.
+Damage sources added by the vanilla game and my own mods can be applied using the `/damage` command, backported by *Revaried*, as long as it is included as a data-driven source.
 
 ## NBT Format (Exponential Stews)
-> This feature is exclusive to the 1.16 version of *Variants*.
+> This feature is exclusive to the 1.16 version of *Revaried*.
+>
+> ***Behavior damage source format**: [Damage Source](/Revaried/Docs/Damage%20Source.md)*
 
 Damage sources are stored either as a compound or a string inside the `properties` tag, which itself is inside the `behavior` tag of exponential stews.
 
@@ -65,7 +67,7 @@ And this is an example implementation of the same damage source, but as a JSON f
 |`bad_respawn_point` |- Explosion caused by using a bed or respawn anchor in the wrong dimension |
 |`cactus`            |- Touching a cactus |
 |`cramming`          |- When too many mobs are in one place (24 by default) |
-| `dragon_breath`    |- Unused<sup>[[1]](https://bugs.mojang.com/browse/MC-84595)</sup> |
+| `dragon_breath`    |- Unused[^1] |
 |`drown`             |- Ticking damage while drowning |
 |`drown`             |- Snow golems, blazes, endermen, and striders in water/rain |
 |`drown`             |- Bees underwater |
@@ -107,7 +109,7 @@ And this is an example implementation of the same damage source, but as a JSON f
 
 </details>
 
-### Variants:
+### Revaried:
 | Damage source      | Sources                               |
 |--------------------|---------------------------------------|
 |`bluestone_poisoning` |- Ticking damage from a Bluestone Poisoning effect |
@@ -151,22 +153,24 @@ On exponential stews, this is defined in `behavior.properties.source.death_messa
 - When `intentional_game_design`, the message will be *"Player was killed by [[Intentional Game Design](https://bugs.mojang.com/browse/MCPE-28723)]"*.
 
 ## History
-### Variants
+### Revaried
 | Version | Changes |
 |---------|---------|
 |1.6.2    |Added `poisoning.redstone`, `poisoning.bluestone`, `poisoning.glowstone`, `poisoning.gunpowder` and `poisoning.creeper_powder` |
-|1.6.15.1 |Renamed `poisoning.creeper_powder` to `poisoning.explosive_blend` |
-|1.7.0 Pre-Release 5 |Renamed all damage sources from `poisoning.<x>` to `<x>_poisoning`|
-|1.7.0 Release Candidate 3 |Damage can now be dealt from the newly added `/damage` command |
+|[1.6.15.1](/Revaried/Changelogs/1.16.5%20-%201.6.15.1/Changelog%201.6.15.1.md) |Renamed `poisoning.creeper_powder` to `poisoning.explosive_blend` |
+|[1.7.0 Pre-Release 5](/Revaried/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20I%20and%20II).md) |Renamed all damage sources from `poisoning.<x>` to `<x>_poisoning`|
+|[1.7.0 Release Candidate 3](/Revaried/Changelogs/1.16.5%20-%201.7.0%20Release%20Candidate%203/Changelog%201.7.0%20Release%20Candidate%203.md) |Damage can now be dealt from the newly added `/damage` command |
 
 ### Back Math
 | Release Date       | Changes |
 |--------------------|---------|
 |December 20th, 2022 |Added `hotAndColdMeal`, `waterTalcPowder`, `midTermArmorInstability` and `poisonRose` |
 |April 4th, 2023     |Added `patienceTea` and `chocoglued` |
-|August 5th, 2024    |Renamed all sources to snakecase, and added `went_americanas` and `went_food_and_drinks` |
+|[August 5th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2005-08-24/Changelog%2005-08-24.md)    |Renamed all sources to snakecase, and added `went_americanas` and `went_food_and_drinks` |
 
 ### The Mato
 | Version | Changes       |
 |---------|---------------|
 |0.3.3    |Added `freeze` |
+
+[^1]: [MC-84595](https://bugs.mojang.com/browse/MC-84595)

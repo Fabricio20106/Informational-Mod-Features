@@ -122,4 +122,4 @@ NoSuchMethodError: melonystudios.variants.util.VSUtils.minecraft(Ljava/lang/Stri
 > The updated textures for queen lucy, queen lucy relics, and warrior sophies. </div>
 
 ## References
-[^1]: ["Texture Updates & Small Bugfixes"](https://github.com/Fabricio20106/Back-Math/commit/41402cb1db097f3c6417949b41dc608cdd1dfea4) (Commit `41402cb`) – GitHub, October 22, 2024.
+[^1]: ["Texture Updates & Small Bugfixes"](https://github.com/isabellawoods/Back-Math/commit/41402cb1db097f3c6417949b41dc608cdd1dfea4) (Commit `41402cb`) – GitHub, October 22, 2024.

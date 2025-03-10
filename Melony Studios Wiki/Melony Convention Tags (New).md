@@ -1,5 +1,4 @@
 # List of Tags
-<link rel="stylesheet" href="markdown-style.css">
 
 List and contents of all tags on the `melony` namespace across all my mods.
 - **BM** -> Back Math;

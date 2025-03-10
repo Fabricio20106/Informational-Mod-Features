@@ -59,4 +59,4 @@ The **August 5th** update is a version for *Back Math* 1.8.0, released on August
   - The JSON files for these damage sources have also been added for Variants.
 
 ## References
-[^1]: ["Reoganized BMBlockStateModels"](https://github.com/Fabricio20106/Back-Math/commit/b8abdd5487325a43c7dea1ddc564f128ea42a814) (Commit `b8abdd5`) – GitHub, August 5, 2024.
+[^1]: ["Reoganized BMBlockStateModels"](https://github.com/isabellawoods/Back-Math/commit/b8abdd5487325a43c7dea1ddc564f128ea42a814) (Commit `b8abdd5`) – GitHub, August 5, 2024.

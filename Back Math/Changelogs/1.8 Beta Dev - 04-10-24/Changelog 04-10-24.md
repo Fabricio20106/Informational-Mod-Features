@@ -34,7 +34,7 @@ The **October 4th** update is a version for *Back Math* 1.8.0, released on Octob
 
 ### Miscellaneous
 - Added a work-in-progress Aljan texture update resource pack.
-  > <div style="text-align: center;"> <img src=https://raw.githubusercontent.com/Fabricio20106/Back-Math/refs/heads/main/src/main/resources/assets/backmath/resourcepacks/aljan_texture_update/pack.png width="128"> </div>
+  > <div style="text-align: center;"> <img src=https://raw.githubusercontent.com/isabellawoods/Back-Math/refs/heads/main/src/main/resources/assets/backmath/resourcepacks/aljan_texture_update/pack.png width="128"> </div>
   >
   > *"Texture update for the Aljan. [Made on 29-9-24]"*
   >
@@ -145,5 +145,5 @@ The **October 4th** update is a version for *Back Math* 1.8.0, released on Octob
 > The *Aljan Texture Update* pack on the resource pack selection screen. </div>
 
 ## References
-[^1]: ["Added Collector Fabricios & Updated the Aljan Sky (& Textures)"](https://github.com/Fabricio20106/Back-Math/commit/c91d366c98cef5f4061835cc3251992d1dc8027a) (Commit `c91d366`) – GitHub, October 4, 2024.
-[^2]: ["Fix Archer Lucias Having No Texture"](https://github.com/Fabricio20106/Back-Math/commit/392e99c1e74412aa2091afb76fe8b52d9c535464) (Commit `392e99c`) – GitHub, October 5, 2024.
+[^1]: ["Added Collector Fabricios & Updated the Aljan Sky (& Textures)"](https://github.com/isabellawoods/Back-Math/commit/c91d366c98cef5f4061835cc3251992d1dc8027a) (Commit `c91d366`) – GitHub, October 4, 2024.
+[^2]: ["Fix Archer Lucias Having No Texture"](https://github.com/isabellawoods/Back-Math/commit/392e99c1e74412aa2091afb76fe8b52d9c535464) (Commit `392e99c`) – GitHub, October 5, 2024.

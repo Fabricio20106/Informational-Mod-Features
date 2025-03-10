@@ -144,6 +144,6 @@
 - Removed the `#backmath:extended_entity_reach` item tag.
 
 ## References
-[^1]: ["1.9.0.5 (I): Updates Fruit Leaves & Guava Wood Palette"](https://github.com/Fabricio20106/Back-Math/commit/d8bad8ad8ff352b88805e1ae752f1c56315239ba) (Commit `d8bad8a`) – GitHub, February 14, 2025.
-[^2]: ["1.9.0.5 (II): Queen Lucy Variants & Data-Driven Outfits"](https://github.com/Fabricio20106/Back-Math/commit/25f825b2937c8b41c1c9630844001f428bae703b) (Commit `25f825b`) – GitHub, February 28, 2025.
-[^3]: ["Queen Lucy Variant Fixes"](https://github.com/Fabricio20106/Back-Math/commit/8d41774360f2199ec25c9adf9b71dc4d09e21c5b) (Commit `8d41774`) – GitHub, February 28, 2025.
+[^1]: ["1.9.0.5 (I): Updates Fruit Leaves & Guava Wood Palette"](https://github.com/isabellawoods/Back-Math/commit/d8bad8ad8ff352b88805e1ae752f1c56315239ba) (Commit `d8bad8a`) – GitHub, February 14, 2025.
+[^2]: ["1.9.0.5 (II): Queen Lucy Variants & Data-Driven Outfits"](https://github.com/isabellawoods/Back-Math/commit/25f825b2937c8b41c1c9630844001f428bae703b) (Commit `25f825b`) – GitHub, February 28, 2025.
+[^3]: ["Queen Lucy Variant Fixes"](https://github.com/isabellawoods/Back-Math/commit/8d41774360f2199ec25c9adf9b71dc4d09e21c5b) (Commit `8d41774`) – GitHub, February 28, 2025.

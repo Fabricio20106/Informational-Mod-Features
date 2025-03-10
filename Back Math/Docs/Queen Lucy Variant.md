@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.5 (22-2-25)*
+> ***Last Updated**: 1.9.0.5 (10-3-25)*
 
 A **queen lucy variant** is an individual variant used for queen lucy's textures. Queen lucy variants can be defined using JSON files in a data pack at the path `data/<namespace>/queen_lucy_variant/`.
 
@@ -30,12 +30,12 @@ Queen lucy variants are defined using the following format:
 | [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md) | Added queen lucy variants to data packs. |
 
 ## Issues
-Issues relating to "Queen lucy variant" are maintained on [Back Math's bug tracker](https://github.com/Fabricio20106/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Queen lucy variant" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions
 | | |
 |-|-|
 | **Back Math** | ![](/Textures/navbox/outfit_definition.png) [Outfit Definition](/Back%20Math/Docs/Outfit%20Definition.md) ▪ ![](/Textures/navbox/queen_lucy_variant.png) **Queen Lucy Variant** ▪ ![](/Textures/navbox/queen_lucy_pet_variant.png) [Queen Lucy Pet Variant](/Back%20Math/Docs/Queen%20Lucy%20Pet%20Variant.md) ▪ ![](/Textures/navbox/wanderer_sophie_variant.png) [Wanderer Sophie Variant](/Back%20Math/Docs/Wanderer%20Sophie%20Variant.md) |
-| **Revaried** | ![](/Textures/navbox/bowl_type.png) [Bowl Type](/Variants/Docs/Bowl%20Type.md) ▪ ![](/Textures/navbox/damage_source.png) [Damage Source](/Variants/Docs/Damage%20Source.md) ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Variants/Docs/Wool%20Armor%20Color.md) |
+| **Revaried** | ![](/Textures/navbox/bowl_type.png) [Bowl Type](/Revaried/Docs/Bowl%20Type.md) ▪ ![](/Textures/navbox/damage_source.png) [Damage Source](/Revaried/Docs/Damage%20Source.md) ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Revaried/Docs/Wool%20Armor%20Color.md) |
 | **Stacked Goods** | ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md) |

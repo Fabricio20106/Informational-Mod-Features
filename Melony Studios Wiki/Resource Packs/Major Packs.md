@@ -1,6 +1,6 @@
 # Major Packs
 ## Flat Blocks
-> <sup>*GitHub Page: [Fabricio20106/Flat-Blocks](https://github.com/Fabricio20106/Flat-Blocks)*</sup>
+> <sup>*GitHub Page: [isabellawoods/Flat-Blocks](https://github.com/isabellawoods/Flat-Blocks)*</sup>
 
 > *"Transforms inventory block models to item models!" - `pack.mcmeta` description*
 

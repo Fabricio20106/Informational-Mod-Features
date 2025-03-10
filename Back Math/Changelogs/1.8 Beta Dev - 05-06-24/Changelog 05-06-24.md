@@ -59,4 +59,4 @@ The **June 5th** update is a version for *Back Math* 1.8.0, released on June 5, 
   - If not, the `cape` tag is not even loaded into the entity's NBT.
 
 ## References
-[^1]: ["Data-Driven* QLP Variants & Reorganized BMItemModelProvider"](https://github.com/Fabricio20106/Back-Math/commit/51149708f7cedbe09b0ba7cf04cb5fd174cea019) (Commit `5114970`) – GitHub, June 5, 2024.
+[^1]: ["Data-Driven* QLP Variants & Reorganized BMItemModelProvider"](https://github.com/isabellawoods/Back-Math/commit/51149708f7cedbe09b0ba7cf04cb5fd174cea019) (Commit `5114970`) – GitHub, June 5, 2024.

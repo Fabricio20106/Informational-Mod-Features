@@ -99,5 +99,5 @@
 - The item tags `#create:upright_on_belt`, `#create:crushed_ores` and `#tconstruct:anvil_metal` are now data-generated.
 
 ## References
-[^1]: ["1.9.0.3: Added Barrels & Data-Driven Outfits"](https://github.com/Fabricio20106/Back-Math/commit/4e4eefd031144f32f308db2e16aa74f0155bd27e) (Commit `4e4eefd`) – GitHub, January 5, 2025.
-[^2]: ["Added all barrels to `bm_barrel` block entity"](https://github.com/Fabricio20106/Back-Math/commit/d7da513cb88040c903acb1fff8011dda9016e0d1) (Commit `d7da513`) – GitHub, January 5, 2025.
+[^1]: ["1.9.0.3: Added Barrels & Data-Driven Outfits"](https://github.com/isabellawoods/Back-Math/commit/4e4eefd031144f32f308db2e16aa74f0155bd27e) (Commit `4e4eefd`) – GitHub, January 5, 2025.
+[^2]: ["Added all barrels to `bm_barrel` block entity"](https://github.com/isabellawoods/Back-Math/commit/d7da513cb88040c903acb1fff8011dda9016e0d1) (Commit `d7da513`) – GitHub, January 5, 2025.

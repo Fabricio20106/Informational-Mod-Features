@@ -6,7 +6,7 @@
 
 **Banner patterns** are the different drawings that a banner can have. These are registered in an extensible enum called *BannerPattern*. Patterns can have any dye color in the game.
 
-New banner patterns will be able to be registered in the `data/<namespace>/banner_pattern` folder when using Melony Lib. However, this functionality is currently not yet working and/or out yet.
+New banner patterns will be able to be registered in the `data/<namespace>/banner_pattern/` folder when using *Melony Lib*. However, this functionality is currently not yet working and/or out yet.
 
 ## Making a new pattern
 To make a new pattern, what you need to do is to make a new field for your pattern, using the `BannerPattern.create()` method:
@@ -18,7 +18,7 @@ To make a new pattern, what you need to do is to make a new field for your patte
   - This field can be omitted, defaulting to `false`.
 
 ```java
-  public static final BannerPattern EXAMPLE = BannerPattern.create("EXAMPLE", "example", "exa", true);
+public static final BannerPattern EXAMPLE = BannerPattern.create("EXAMPLE", "example", "exa", true);
 ```
 
 ## Methods inside `BannerPattern`
@@ -66,10 +66,10 @@ These are all banner that are registered in the base game as of 1.16.5:
 | Per Pale Inverted           | `half_vertical_right`    | `vhr`      | No               |
 | Per Fess Inverted           | `half_horizontal_bottom` | `hhb`      | No               |
 | Bordure                     | `border`                 | `bo`       | No               |
-| Bordure Indented            | `curly_border`           | `cbo`      | No<sup>[1]</sup> |
+| Bordure Indented            | `curly_border`           | `cbo`      | No[^1] |
 | Gradient                    | `gradient`               | `gra`      | No               |
 | Base Gradient               | `gradient_up`            | `gru`      | No               |
-| Field Masoned               | `bricks`                 | `bri`      | No<sup>[1]</sup> |
+| Field Masoned               | `bricks`                 | `bri`      | No[^1] |
 | Globe                       | `globe`                  | `glb`      | Yes              |
 | Creeper Charge              | `creeper`                | `cre`      | Yes              |
 | Skull Charge                | `skull`                  | `sku`      | Yes              |
@@ -77,4 +77,4 @@ These are all banner that are registered in the base game as of 1.16.5:
 | Thing                       | `mojang`                 | `moj`      | Yes              |
 | Snout                       | `piglin`                 | `pig`      | Yes              |
 
-↑ [1]: Included as a banner pattern in snapshot [24w33a](https://minecraft.wiki/w/Java_Edition_24w33a).
+[^1]: ↑ Included as a banner pattern in snapshot [24w33a](https://minecraft.wiki/w/Java_Edition_24w33a).

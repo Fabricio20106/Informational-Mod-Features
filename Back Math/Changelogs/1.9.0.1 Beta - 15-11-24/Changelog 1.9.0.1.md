@@ -128,5 +128,5 @@
 - Changed the contents of the `#backmath:malaika_targets` entity type tag to `#minecraft:raiders`, `#backmath:player_like`, players, villagers and wandering traders.
 
 ## References
-[^1]: ["Texture Updates & Small Bugfixes"](https://github.com/Fabricio20106/Back-Math/commit/719f9a7efaeec7805c84d189aa3e44040612d50b) (Commit `719f9a7`) – GitHub, November 15, 2024.
-[^2]: ["Texture Updates & Small Bugfixes"](https://github.com/Fabricio20106/Back-Math/commit/af0bec99dd9f0bf397aaebb32382a1c4e0ef7554) (Commit `af0bec9`) – GitHub, November 15, 2024.
+[^1]: ["Texture Updates & Small Bugfixes"](https://github.com/isabellawoods/Back-Math/commit/719f9a7efaeec7805c84d189aa3e44040612d50b) (Commit `719f9a7`) – GitHub, November 15, 2024.
+[^2]: ["Texture Updates & Small Bugfixes"](https://github.com/isabellawoods/Back-Math/commit/af0bec99dd9f0bf397aaebb32382a1c4e0ef7554) (Commit `af0bec9`) – GitHub, November 15, 2024.

@@ -141,4 +141,4 @@
 - Added aljame birch leaves to the `#minecraft:leaves` block and item tags.
 
 ## References
-[^1]: ["1.9.0.6: Crates & Emissive/Dyeable Outfits"](https://github.com/Fabricio20106/Back-Math/commit/0daac53321ff6ad1490e687ed7c62be5230ee5b5) (Commit `0daac53`) – GitHub, March 6, 2024.
+[^1]: ["1.9.0.6: Crates & Emissive/Dyeable Outfits"](https://github.com/isabellawoods/Back-Math/commit/0daac53321ff6ad1490e687ed7c62be5230ee5b5) (Commit `0daac53`) – GitHub, March 6, 2024.

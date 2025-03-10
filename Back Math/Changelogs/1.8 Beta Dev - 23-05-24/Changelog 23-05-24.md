@@ -62,4 +62,4 @@ The **March 23rd** update is a version of *Back Math* 1.8.0, released on March 2
   - Blocks in this tag make Aljamic Grass Blocks and Avondalic Nylium snowy.
 
 ## References
-[^1]: ["Updated Models & More Data-Driven Loot"](https://github.com/Fabricio20106/Back-Math/commit/c308a4926320bd6db9aa671d3ced08581aa58bd0) (Commit `c308a49`) – GitHub, March 23, 2024.
+[^1]: ["Updated Models & More Data-Driven Loot"](https://github.com/isabellawoods/Back-Math/commit/c308a4926320bd6db9aa671d3ced08581aa58bd0) (Commit `c308a49`) – GitHub, March 23, 2024.

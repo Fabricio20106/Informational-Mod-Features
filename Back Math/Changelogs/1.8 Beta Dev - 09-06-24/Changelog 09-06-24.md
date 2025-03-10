@@ -58,4 +58,4 @@ The **June 9th** update is a version for *Back Math* 1.8.0, released on June 9, 
   - Entities in this tag are not knocked back by Queen Lucy Summoner Staff smash attacks.
 
 ## References
-[^1]: ["Added Registry QLP Variants & Variant Conversion"](https://github.com/Fabricio20106/Back-Math/commit/3c4c36d8e4151a93a885d32943f330c359de8161) (Commit `3c4c36d`) – GitHub, June 9, 2024.
+[^1]: ["Added Registry QLP Variants & Variant Conversion"](https://github.com/isabellawoods/Back-Math/commit/3c4c36d8e4151a93a885d32943f330c359de8161) (Commit `3c4c36d`) – GitHub, June 9, 2024.

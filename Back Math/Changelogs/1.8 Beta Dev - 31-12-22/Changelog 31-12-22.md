@@ -44,5 +44,5 @@ The **December 31st** update is a version of *Back Math* 1.8.0, released on Dece
 - Added molten mid-term buckets to the `#backmath:buckets` item tag.
 
 ## References
-[^1]: ["pushing things"](https://github.com/Fabricio20106/Back-Math/commit/1e9d7a3c645f483209ce7961849772b157b45c9d) (Commit `1e9d7a3`) – GitHub, December 31, 2022.
-[^2]: ["pushing things (universioned)"](https://github.com/Fabricio20106/Back-Math/commit/4fa0f4f9122445d39362354775b8185985930182) (Commit `4fa0f4f`) – GitHub, December 31, 2022.
+[^1]: ["pushing things"](https://github.com/isabellawoods/Back-Math/commit/1e9d7a3c645f483209ce7961849772b157b45c9d) (Commit `1e9d7a3`) – GitHub, December 31, 2022.
+[^2]: ["pushing things (universioned)"](https://github.com/isabellawoods/Back-Math/commit/4fa0f4f9122445d39362354775b8185985930182) (Commit `4fa0f4f`) – GitHub, December 31, 2022.

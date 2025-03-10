@@ -73,4 +73,4 @@ The **June 12th** update is a version for *Back Math* 1.8.0, released on June 12
   - Items in this tag automatically go to the entity's offhand when populating items from an equipment loot table.
 
 ## References
-[^1]: ["Data-Driven Mob Equipment & Variant Fixes"](https://github.com/Fabricio20106/Back-Math/commit/aba4ed0d01d06b1e182171ec7725aaadb834dbf9) (Commit `aba4ed0`) – GitHub, June 12, 2024.
+[^1]: ["Data-Driven Mob Equipment & Variant Fixes"](https://github.com/isabellawoods/Back-Math/commit/aba4ed0d01d06b1e182171ec7725aaadb834dbf9) (Commit `aba4ed0`) – GitHub, June 12, 2024.

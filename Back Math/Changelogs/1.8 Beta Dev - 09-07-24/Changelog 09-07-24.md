@@ -31,4 +31,4 @@ The **July 9th** update is a version for *Back Math* 1.8.0, released on July 9, 
   - Enchantments in this tag can be applied to queen lucy summoner staves.
 
 ## References
-[^1]: ["Item Classes Reorganization & Slight Bugfixes"](https://github.com/Fabricio20106/Back-Math/commit/6e6856cf4beef3a949642120e7492e8daba0562e) (Commit `6e6856c`) – GitHub, July 9, 2024.
+[^1]: ["Item Classes Reorganization & Slight Bugfixes"](https://github.com/isabellawoods/Back-Math/commit/6e6856cf4beef3a949642120e7492e8daba0562e) (Commit `6e6856c`) – GitHub, July 9, 2024.
