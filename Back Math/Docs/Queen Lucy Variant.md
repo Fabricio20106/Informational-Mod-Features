@@ -11,18 +11,18 @@ Queen lucy variants can have tags defined at the path `data/<namespace>/tags/que
 ## JSON Format
 Queen lucy variants are defined using the following format:
 
-- ![](/Variants/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Variants/Docs/Tags/string_tag.png) **asset_id**: The resource location of this queen lucy variant. Should match the location of this file inside the data pack.
-  - ![](/Variants/Docs/Tags/string_tag.png) **texture_location**: A resource location of where the texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
-  - ![](/Variants/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location of where the emissive texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
-  - ![](/Variants/Docs/Tags/compound_tag.png) **bossbar_information**: *(optional)* Properties to apply to queen lucy's bossbar when spawned. All properties inside this object are optional.
-    - ![](/Variants/Docs/Tags/boolean_tag.png) **visible**: Whether the bossbar is visible or not. Defaults to `true`.
-    - ![](/Variants/Docs/Tags/string_tag.png) **color**: The color to use for the bossbar. Can be one of `pink`, `blue`, `red`, `green`, `yellow`, `purple` or `white`. Defaults to `blue`.
-    - ![](/Variants/Docs/Tags/string_tag.png) **overlay**: What kind of overlay to use for the bossbar. Can be one of `progress`, `notched_6`, `notched_10`, `notched_12` or `notched_20`. Defaults to `notched_6`.
-    - ![](/Variants/Docs/Tags/boolean_tag.png) **darkens_screen**: Whether to apply a vignette to the player viewing the bossbar. Defaults to `false`.
-    - ![](/Variants/Docs/Tags/boolean_tag.png) **plays_boss_music**: Whether to play *"Boss"* during the time the bossbar is visible. Defaults to `false`.
-    - ![](/Variants/Docs/Tags/boolean_tag.png) **creates_fog**: Whether to apply fog to the player viewing the bossbar. Defaults to `false`.
-    - ![](/Variants/Docs/Tags/compound_tag.png) **name**: A text component for a custom name to apply to the bossbar. Defaults to a translatable component (`entity.backmath.queen_sophie` / "Queen Lucy").
+- ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **asset_id**: The resource location of this queen lucy variant. Should match the location of this file inside the data pack.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **texture_location**: A resource location of where the texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location of where the emissive texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
+  - ![](/Revaried/Docs/Tags/compound_tag.png) **bossbar_information**: *(optional)* Properties to apply to queen lucy's bossbar when spawned. All properties inside this object are optional.
+    - ![](/Revaried/Docs/Tags/boolean_tag.png) **visible**: Whether the bossbar is visible or not. Defaults to `true`.
+    - ![](/Revaried/Docs/Tags/string_tag.png) **color**: The color to use for the bossbar. Can be one of `pink`, `blue`, `red`, `green`, `yellow`, `purple` or `white`. Defaults to `blue`.
+    - ![](/Revaried/Docs/Tags/string_tag.png) **overlay**: What kind of overlay to use for the bossbar. Can be one of `progress`, `notched_6`, `notched_10`, `notched_12` or `notched_20`. Defaults to `notched_6`.
+    - ![](/Revaried/Docs/Tags/boolean_tag.png) **darkens_screen**: Whether to apply a vignette to the player viewing the bossbar. Defaults to `false`.
+    - ![](/Revaried/Docs/Tags/boolean_tag.png) **plays_boss_music**: Whether to play *"Boss"* during the time the bossbar is visible. Defaults to `false`.
+    - ![](/Revaried/Docs/Tags/boolean_tag.png) **creates_fog**: Whether to apply fog to the player viewing the bossbar. Defaults to `false`.
+    - ![](/Revaried/Docs/Tags/compound_tag.png) **name**: A text component for a custom name to apply to the bossbar. Defaults to a translatable component (`entity.backmath.queen_sophie` / "Queen Lucy").
 
 ## History
 | Version | Changes |

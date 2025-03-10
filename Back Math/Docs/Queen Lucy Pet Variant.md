@@ -11,11 +11,11 @@ Queen lucy pet variants can have tags defined at the path `data/<namespace>/tags
 ## JSON Format
 Queen lucy pet variants are defined using the following format:
 
-- ![](/Variants/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Variants/Docs/Tags/string_tag.png) **asset_id**: The resource location of this queen lucy pet variant. Should match the location of this file inside the data pack.
-  - ![](/Variants/Docs/Tags/string_tag.png) **texture_location**: A resource location of where the texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
-  - ![](/Variants/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location of where the emissive texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
-  - ![](/Variants/Docs/Tags/compound_tag.png) **display_name**: A text component for this queen lucy pet's name.
+- ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **asset_id**: The resource location of this queen lucy pet variant. Should match the location of this file inside the data pack.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **texture_location**: A resource location of where the texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location of where the emissive texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
+  - ![](/Revaried/Docs/Tags/compound_tag.png) **display_name**: A text component for this queen lucy pet's name.
 
 ## History
 | Version | Changes |

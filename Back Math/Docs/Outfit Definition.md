@@ -9,13 +9,13 @@ An **outfit definition** is a set of textures to use for an outfit item or `outf
 ## JSON Format
 Outfit definitions are defined using the following format.
 
-- ![](/Variants/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Variants/Docs/Tags/string_tag.png) **asset_id**: The resource location of this outfit definition. Should match the filename and namespace of this outfit.
-  - ![](/Variants/Docs/Tags/compound_tag.png) **head**: *(optional)* The head outfit slot. Used when getting a texture for the entity's head.
-    - ![](/Variants/Docs/Tags/string_tag.png) **texture**: A resource location for the texture used by this outfit slot. Omits the `textures/` prefix and `.png` suffix.
-    - ![](/Variants/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location for the emissive texture used by this outfit slot. Omits the `textures/` prefix and `.png` suffix.
-    - ![](/Variants/Docs/Tags/integer_tag.png) **color**: *(optional)* An integer defining a set color for this outfit slot. When defined, this field overrides the item's default color and the `display.color` tag.
-  - ![](/Variants/Docs/Tags/compound_tag.png) **chest**, **legs** and **feet**: *(all optional)* Same format as ![](/Variants/Docs/Tags/compound_tag.png) **head**.
+- ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **asset_id**: The resource location of this outfit definition. Should match the filename and namespace of this outfit.
+  - ![](/Revaried/Docs/Tags/compound_tag.png) **head**: *(optional)* The head outfit slot. Used when getting a texture for the entity's head.
+    - ![](/Revaried/Docs/Tags/string_tag.png) **texture**: A resource location for the texture used by this outfit slot. Omits the `textures/` prefix and `.png` suffix.
+    - ![](/Revaried/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location for the emissive texture used by this outfit slot. Omits the `textures/` prefix and `.png` suffix.
+    - ![](/Revaried/Docs/Tags/integer_tag.png) **color**: *(optional)* An integer defining a set color for this outfit slot. When defined, this field overrides the item's default color and the `display.color` tag.
+  - ![](/Revaried/Docs/Tags/compound_tag.png) **chest**, **legs** and **feet**: *(all optional)* Same format as ![](/Revaried/Docs/Tags/compound_tag.png) **head**.
 
 ## History
 | Version | Changes |

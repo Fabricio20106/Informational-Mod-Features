@@ -11,12 +11,12 @@ Wanderer sophie variants can have tags defined at the path `data/<namespace>/tag
 ## JSON Format
 Wanderer sophie variants are defined using the following format:
 
-- ![](/Variants/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Variants/Docs/Tags/string_tag.png) **asset_id**: The resource location of this wanderer sophie variant. Should match the location of this file inside the data pack.
-  - ![](/Variants/Docs/Tags/string_tag.png) **texture_location**: A resource location of where the texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
-  - ![](/Variants/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location of where the emissive texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
-  - ![](/Variants/Docs/Tags/boolean_tag.png) **slim_arms**: *(optional)* Unused. Meant to define whether this variant will have wide (classic) or slim arms. Defaults to `true`.
-  - ![](/Variants/Docs/Tags/boolean_tag.png) **spawns_naturally**: *(optional)* Whether this variant can spawn naturally (either by natural spawning or spawn eggs). Defaults to `true`.
+- ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **asset_id**: The resource location of this wanderer sophie variant. Should match the location of this file inside the data pack.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **texture_location**: A resource location of where the texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location of where the emissive texture for this variant is located. Omits the `textures/` prefix and `.png` suffix.
+  - ![](/Revaried/Docs/Tags/boolean_tag.png) **slim_arms**: *(optional)* Unused. Meant to define whether this variant will have wide (classic) or slim arms. Defaults to `true`.
+  - ![](/Revaried/Docs/Tags/boolean_tag.png) **spawns_naturally**: *(optional)* Whether this variant can spawn naturally (either by natural spawning or spawn eggs). Defaults to `true`.
 
 ## History
 | Version | Changes |
